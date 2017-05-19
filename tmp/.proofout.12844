@@ -1,0 +1,5136 @@
+
+ilf_include C:\Users\dahn\CloudStation\ILF\ilf16\tmp\.types.12844
+
+ilf_include C:\Users\dahn\CloudStation\ILF\ilf16\tmp\.theory.12844
+\expandafter\ifx\csname Theorem\endcsname\relax%
+\newtheorem{Theorem}{Theorem}[section]\fi
+\begin{Theorem}\label{[1, theorem]}
+$ \ilfUpCase{f}or really all $X_{1}$ $f(X_{1}) = X_{1} ^{\prime}  $.
+\end{Theorem}
+
+\begin{ilfproof}{$ otter $ and $ ilf $} We  show directly that 
+ilf_formula [1, 1]
+for really all $X_{1}$ $f(X_{1}) = X_{1} ^{\prime} .
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 3), 0]
+ and by 
+ilf_ref [ax(1, 4), 0]
+ 
+ilf_formula [sub(1, 1), 20]
+X_{1} \cdot  (X_{1} \cdot  X_{1} ^{\prime} ) = X_{1}.
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [ax(1, 4), 0]
+ 
+ilf_formula [sub(1, 1), 21]
+X_{1} ^{\prime}  \cdot  (X_{1} \cdot  X_{2}) = X_{1} \cdot  (X_{1} ^{\prime}  \cdot  X_{2}).
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [ax(1, 5), 0]
+ 
+ilf_formula [sub(1, 1), 22]
+f(X_{1}) \cdot  (f(X_{2}) \cdot  X_{3}) = f(X_{1} \cdot  X_{2}) \cdot  X_{3}.
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 5), 0]
+ and by 
+ilf_ref [ax(1, 6), 0]
+ 
+ilf_formula [sub(1, 1), 23]
+f(f(X_{1}) \cdot  X_{2}) = X_{1} \cdot  f(X_{2}).
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 5), 0]
+ and by 
+ilf_ref [ax(1, 6), 0]
+ 
+ilf_formula [sub(1, 1), 24]
+f(X_{1} \cdot  f(X_{2})) = f(X_{1}) \cdot  X_{2}.
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [ax(1, 7), 0]
+ 
+ilf_formula [sub(1, 1), 25]
+s(X_{1}) \cdot  (s(X_{1}) \cdot  X_{2}) = X_{1} \cdot  X_{2}.
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 5), 0]
+ and by 
+ilf_ref [ax(1, 8), 0]
+ 
+ilf_formula [sub(1, 1), 26]
+s(f(X_{1} \cdot  X_{1})) = f(X_{1}),
+ilf_formula_end
+ because of $ [hyper(15, a, 12, a)]. $
+Because of 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [ax(1, 8), 0]
+ 
+ilf_formula [sub(1, 1), 27]
+s(X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  X_{2}))) = X_{1} \cdot  X_{2},
+ilf_formula_end
+ because of $ [hyper(15, a, 5, a)]. $
+Because of 
+ilf_ref [ax(1, 7), 0]
+ and by 
+ilf_ref [ax(1, 8), 0]
+ 
+ilf_formula [sub(1, 1), 28]
+s(X_{1} \cdot  X_{1}) = X_{1},
+ilf_formula_end
+ because of $ [hyper(15, a, 14, a(flip)), rewrite([flapart(14, 5)])]. $
+Because of 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [ax(1, 8), 0]
+ 
+ilf_formula [sub(1, 1), 29]
+X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  X_{2})) \neq X_{3} $ or $ (s(X_{3}) = X_{1} \cdot  X_{2}).
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 5), 0]
+ and by 
+ilf_ref [ax(1, 8), 0]
+ 
+ilf_formula [sub(1, 1), 30]
+f(X_{1} \cdot  X_{1}) \neq X_{2} $ or $ (s(X_{2}) = f(X_{1})).
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 7), 0]
+ and by 
+ilf_ref [ax(1, 10), 0]
+ 
+ilf_formula [sub(1, 1), 35]
+s(X_{1}) \neq X_{1} $ or $ (f(s(X_{1})) = s(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 20]
+ 
+ilf_formula [sub(1, 1), 37]
+X_{1} \cdot  (X_{1} \cdot  (X_{1} ^{\prime}  \cdot  X_{2})) = X_{1} \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 20]
+ 
+ilf_formula [sub(1, 1), 38]
+X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  X_{2}) ^{\prime} ))) = X_{1} \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [ax(1, 4), 0]
+,  
+ilf_ref [sub(1, 1), 20]
+, and by 
+ilf_ref [sub(1, 1), 21]
+ 
+ilf_formula [sub(1, 1), 39]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  X_{1} ^{\prime} ) = X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 21]
+ 
+ilf_formula [sub(1, 1), 40]
+(X_{1} \cdot  X_{2}) ^{\prime}  \cdot  (X_{1} \cdot  (X_{2} \cdot  X_{3})) = X_{1} \cdot  (X_{2} \cdot  ((X_{1} \cdot  X_{2}) ^{\prime}  \cdot  X_{3})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [ax(1, 7), 0]
+,  
+ilf_ref [sub(1, 1), 20]
+, and by 
+ilf_ref [sub(1, 1), 21]
+ 
+ilf_formula [sub(1, 1), 42]
+s(X_{1}) ^{\prime}  \cdot  X_{1} = s(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 7), 0]
+ and by 
+ilf_ref [sub(1, 1), 26]
+ 
+ilf_formula [sub(1, 1), 44]
+s(f(X_{1})) = f(s(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 20]
+ and by 
+ilf_ref [sub(1, 1), 22]
+ 
+ilf_formula [sub(1, 1), 45]
+f(X_{1} \cdot  X_{1}) \cdot  f(X_{1}) ^{\prime}  = f(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 5), 0]
+,  
+ilf_ref [sub(1, 1), 20]
+, and by 
+ilf_ref [sub(1, 1), 22]
+ 
+ilf_formula [sub(1, 1), 46]
+f(X_{1} \cdot  (X_{2} \cdot  X_{2})) \cdot  f(X_{2}) ^{\prime}  = f(X_{1} \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 42]
+ 
+ilf_formula [sub(1, 1), 49]
+s(X_{1}) ^{\prime}  \cdot  (X_{1} \cdot  X_{2}) = s(X_{1}) \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 5), 0]
+ and by 
+ilf_ref [sub(1, 1), 23]
+ 
+ilf_formula [sub(1, 1), 51]
+f(X_{1} \cdot  (f(X_{2}) \cdot  X_{3})) = f(X_{1}) \cdot  (X_{2} \cdot  f(X_{3})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [ax(1, 9), 0]
+, and by 
+ilf_ref [sub(1, 1), 23]
+ 
+ilf_formula [sub(1, 1), 52]
+f(X_{1}) \cdot  X_{2} \neq X_{1} \cdot  f(X_{2}) $ or $ (f(X_{1}) \cdot  (X_{2} \cdot  (f(X_{1}) \cdot  X_{2})) = f(X_{1}) \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 6), 0]
+,  
+ilf_ref [sub(1, 1), 20]
+, and by 
+ilf_ref [sub(1, 1), 23]
+ 
+ilf_formula [sub(1, 1), 53]
+X_{1} \cdot  (X_{1} \cdot  f(f(X_{1}) ^{\prime} )) = X_{1}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 23]
+ and by 
+ilf_ref [sub(1, 1), 44]
+ 
+ilf_formula [sub(1, 1), 54]
+f(s(f(X_{1}) \cdot  X_{2})) = s(X_{1} \cdot  f(X_{2})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 24]
+ 
+ilf_formula [sub(1, 1), 55]
+f(X_{1} \cdot  (X_{2} \cdot  f(X_{3}))) = f(X_{1} \cdot  X_{2}) \cdot  X_{3}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 4), 0]
+,  
+ilf_ref [sub(1, 1), 23]
+, and by 
+ilf_ref [sub(1, 1), 24]
+ 
+ilf_formula [sub(1, 1), 56]
+f(f(X_{1}) ^{\prime} ) \cdot  X_{1} = X_{1} \cdot  f(f(X_{1}) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 24]
+ and by 
+ilf_ref [sub(1, 1), 44]
+ 
+ilf_formula [sub(1, 1), 58]
+f(s(X_{1} \cdot  f(X_{2}))) = s(f(X_{1}) \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [sub(1, 1), 24]
+,  
+ilf_ref [sub(1, 1), 42]
+, and by 
+ilf_ref [sub(1, 1), 44]
+ 
+ilf_formula [sub(1, 1), 59]
+f(f(s(X_{1})) ^{\prime} ) \cdot  X_{1} = s(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 7), 0]
+ and by 
+ilf_ref [sub(1, 1), 25]
+ 
+ilf_formula [sub(1, 1), 61]
+s(X_{1}) \cdot  X_{1} = X_{1} \cdot  s(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 20]
+ and by 
+ilf_ref [sub(1, 1), 25]
+ 
+ilf_formula [sub(1, 1), 63]
+X_{1} \cdot  s(X_{1}) ^{\prime}  = s(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 7), 0]
+,  
+ilf_ref [sub(1, 1), 20]
+, and by 
+ilf_ref [sub(1, 1), 25]
+ 
+ilf_formula [sub(1, 1), 64]
+X_{1} \cdot  (s(X_{1}) \cdot  s(X_{1}) ^{\prime} ) = X_{1}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 25]
+ 
+ilf_formula [sub(1, 1), 65]
+s(X_{1}) \cdot  (X_{1} \cdot  X_{2}) = X_{1} \cdot  (s(X_{1}) \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 63]
+ 
+ilf_formula [sub(1, 1), 66]
+X_{1} \cdot  (s(X_{1}) ^{\prime}  \cdot  X_{2}) = s(X_{1}) \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 63]
+ 
+ilf_formula [sub(1, 1), 67]
+X_{1} \cdot  (X_{2} \cdot  s(X_{1} \cdot  X_{2}) ^{\prime} ) = s(X_{1} \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 21]
+ and by 
+ilf_ref [sub(1, 1), 63]
+ 
+ilf_formula [sub(1, 1), 68]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  s(X_{1}) ^{\prime} ) = X_{1} ^{\prime}  \cdot  s(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 44]
+ and by 
+ilf_ref [sub(1, 1), 63]
+ 
+ilf_formula [sub(1, 1), 69]
+f(X_{1}) \cdot  f(s(X_{1})) ^{\prime}  = f(s(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 25]
+ and by 
+ilf_ref [sub(1, 1), 63]
+ 
+ilf_formula [sub(1, 1), 72]
+s(X_{1}) \cdot  s(s(X_{1})) = X_{1} \cdot  s(s(X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [sub(1, 1), 21]
+,  
+ilf_ref [sub(1, 1), 37]
+, and by 
+ilf_ref [sub(1, 1), 53]
+ 
+ilf_formula [sub(1, 1), 80]
+X_{1} \cdot  f(f(X_{1}) ^{\prime} ) = X_{1} \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 56]
+ 
+ilf_formula [sub(1, 1), 83]
+f(f(X_{1}) ^{\prime} ) \cdot  X_{1} = X_{1} \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 27]
+ 
+ilf_formula [sub(1, 1), 84]
+s(X_{1} \cdot  (X_{2} \cdot  (X_{3} \cdot  (X_{1} \cdot  (X_{2} \cdot  X_{3}))))) = X_{1} \cdot  (X_{2} \cdot  X_{3}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 4), 0]
+,  
+ilf_ref [sub(1, 1), 20]
+, and by 
+ilf_ref [sub(1, 1), 27]
+ 
+ilf_formula [sub(1, 1), 85]
+s(X_{1} \cdot  X_{1} ^{\prime} ) = X_{1} \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 7), 0]
+, 
+ilf_ref [sub(1, 1), 27]
+,  
+ilf_ref [sub(1, 1), 61]
+, and by 
+ilf_ref [sub(1, 1), 65]
+ 
+ilf_formula [sub(1, 1), 86]
+s(X_{1} \cdot  (X_{1} \cdot  X_{1})) = X_{1} \cdot  s(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 28]
+ and by 
+ilf_ref [sub(1, 1), 59]
+ 
+ilf_formula [sub(1, 1), 89]
+f(f(X_{1}) ^{\prime} ) \cdot  (X_{1} \cdot  X_{1}) = X_{1}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 4), 0]
+,  
+ilf_ref [sub(1, 1), 21]
+, and by 
+ilf_ref [sub(1, 1), 64]
+ 
+ilf_formula [sub(1, 1), 96]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  (s(X_{1}) \cdot  s(X_{1}) ^{\prime} )) = X_{1} \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 35]
+ and by 
+ilf_ref [sub(1, 1), 85]
+ 
+ilf_formula [sub(1, 1), 106]
+f(X_{1} \cdot  X_{1} ^{\prime} ) = X_{1} \cdot  X_{1} ^{\prime} ,
+ilf_formula_end
+ because of $ [hyper(35, a, 85, a), rewrite([flapart(85, 3), flapart(85, 6)])]. $
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 85]
+ 
+ilf_formula [sub(1, 1), 107]
+s(X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  X_{2}) ^{\prime} )) = X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  X_{2}) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 4), 0]
+,  
+ilf_ref [sub(1, 1), 42]
+, and by 
+ilf_ref [sub(1, 1), 85]
+ 
+ilf_formula [sub(1, 1), 108]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  (X_{1} \cdot  X_{1} ^{\prime} ) ^{\prime} ) = X_{1} \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [sub(1, 1), 22]
+,  
+ilf_ref [sub(1, 1), 89]
+, and by 
+ilf_ref [sub(1, 1), 106]
+ 
+ilf_formula [sub(1, 1), 122]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  f(X_{1})) = f(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 106]
+ 
+ilf_formula [sub(1, 1), 126]
+f(X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  X_{2}) ^{\prime} )) = X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  X_{2}) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 23]
+,  
+ilf_ref [sub(1, 1), 80]
+, and by 
+ilf_ref [sub(1, 1), 106]
+ 
+ilf_formula [sub(1, 1), 129]
+f(X_{1}) \cdot  f(X_{1}) ^{\prime}  = X_{1} \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 122]
+ 
+ilf_formula [sub(1, 1), 130]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  (f(X_{1}) \cdot  X_{2})) = f(X_{1}) \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+,  
+ilf_ref [sub(1, 1), 21]
+, and by 
+ilf_ref [sub(1, 1), 122]
+ 
+ilf_formula [sub(1, 1), 132]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  f(X_{1} ^{\prime} )) = f(X_{1} ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 23]
+, and by 
+ilf_ref [sub(1, 1), 122]
+ 
+ilf_formula [sub(1, 1), 136]
+f(X_{1}) \cdot  (X_{2} \cdot  ((f(X_{1}) \cdot  X_{2}) ^{\prime}  \cdot  (X_{1} \cdot  f(X_{2})))) = X_{1} \cdot  f(X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 7), 0]
+ and by 
+ilf_ref [sub(1, 1), 30]
+ 
+ilf_formula [sub(1, 1), 144]
+f(X_{1}) \neq X_{2} $ or $ (s(X_{2}) = f(s(X_{1}))).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 22]
+,  
+ilf_ref [sub(1, 1), 45]
+, and by 
+ilf_ref [sub(1, 1), 129]
+ 
+ilf_formula [sub(1, 1), 154]
+f(X_{1}) \cdot  (X_{1} \cdot  X_{1} ^{\prime} ) = f(X_{1}).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+ 
+ilf_formula [sub(1, 1), 162]
+f(X_{1}) \cdot  (X_{1} \cdot  (X_{1} ^{\prime}  \cdot  X_{2})) = f(X_{1}) \cdot  X_{2}.
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 2), 0]
+ and by 
+ilf_ref [ax(1, 4), 0]
+ 
+ilf_formula [sub(1, 1), 164]
+f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  X_{1} ^{\prime} ) = f(X_{1} ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 5), 0]
+,  
+ilf_ref [sub(1, 1), 22]
+, and by 
+ilf_ref [sub(1, 1), 154]
+ 
+ilf_formula [sub(1, 1), 165]
+f(X_{1} \cdot  X_{2}) \cdot  (X_{2} \cdot  X_{2} ^{\prime} ) = f(X_{1} \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 22]
+,  
+ilf_ref [sub(1, 1), 23]
+, and by 
+ilf_ref [sub(1, 1), 154]
+ 
+ilf_formula [sub(1, 1), 166]
+X_{1} \cdot  (f(X_{2} \cdot  X_{1}) \cdot  (X_{2} \cdot  (f(X_{1}) \cdot  X_{2}) ^{\prime} )) = X_{1} \cdot  f(X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 21]
+ and by 
+ilf_ref [sub(1, 1), 69]
+ 
+ilf_formula [sub(1, 1), 170]
+f(X_{1}) \cdot  (f(X_{1}) ^{\prime}  \cdot  f(s(X_{1})) ^{\prime} ) = f(X_{1}) ^{\prime}  \cdot  f(s(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [sub(1, 1), 22]
+,  
+ilf_ref [sub(1, 1), 80]
+, and by 
+ilf_ref [sub(1, 1), 106]
+ 
+ilf_formula [sub(1, 1), 176]
+f(X_{1}) \cdot  (f(X_{1}) ^{\prime}  \cdot  X_{2}) = X_{1} \cdot  (X_{1} ^{\prime}  \cdot  X_{2}).
+ilf_formula_end
+
+Therefore 
+ilf_formula [sub(1, 1), 179]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  f(s(X_{1})) ^{\prime} ) = f(X_{1}) ^{\prime}  \cdot  f(s(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 37]
+ 
+ilf_formula [sub(1, 1), 184]
+X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  (X_{2} \cdot  ((X_{1} \cdot  X_{2}) ^{\prime}  \cdot  X_{3})))) = X_{1} \cdot  (X_{2} \cdot  X_{3}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 37]
+,  
+ilf_ref [sub(1, 1), 63]
+, and by 
+ilf_ref [sub(1, 1), 68]
+ 
+ilf_formula [sub(1, 1), 188]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  s(X_{1})) = s(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 37]
+, 
+ilf_ref [sub(1, 1), 69]
+,  
+ilf_ref [sub(1, 1), 176]
+, and by 
+ilf_ref [sub(1, 1), 179]
+ 
+ilf_formula [sub(1, 1), 192]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  f(s(X_{1}))) = f(s(X_{1})).
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 1), 0]
+ 
+ilf_formula [sub(1, 1), 194]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  (s(X_{1}) \cdot  X_{2})) = s(X_{1}) \cdot  X_{2}.
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 96]
+ 
+ilf_formula [sub(1, 1), 200]
+s(X_{1}) \cdot  s(X_{1}) ^{\prime}  = X_{1} \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 7), 0]
+, 
+ilf_ref [sub(1, 1), 61]
+,  
+ilf_ref [sub(1, 1), 72]
+, and by 
+ilf_ref [sub(1, 1), 86]
+ 
+ilf_formula [sub(1, 1), 207]
+X_{1} \cdot  s(s(X_{1})) ^{\prime}  = s(X_{1} \cdot  s(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 27]
+, and by 
+ilf_ref [sub(1, 1), 86]
+ 
+ilf_formula [sub(1, 1), 210]
+s(X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  X_{2}))))))))))) = X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  X_{2})))).
+ilf_formula_end
+
+Now by 
+ilf_ref [sub(1, 1), 72]
+ 
+ilf_formula [sub(1, 1), 218]
+s(X_{1}) \cdot  s(s(X_{1})) = s(X_{1} \cdot  s(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 23]
+, and by 
+ilf_ref [sub(1, 1), 129]
+ 
+ilf_formula [sub(1, 1), 221]
+f(X_{1}) \cdot  (X_{2} \cdot  (f(X_{1}) \cdot  X_{2}) ^{\prime} ) = X_{1} \cdot  (f(X_{2}) \cdot  (X_{1} \cdot  f(X_{2})) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 25]
+ and by 
+ilf_ref [sub(1, 1), 38]
+ 
+ilf_formula [sub(1, 1), 229]
+X_{1} \cdot  (X_{2} \cdot  (s(X_{1}) \cdot  (X_{2} \cdot  (s(X_{1}) \cdot  X_{2}) ^{\prime} ))) = X_{1} \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 38]
+, 
+ilf_ref [sub(1, 1), 49]
+, 
+ilf_ref [sub(1, 1), 63]
+,  
+ilf_ref [sub(1, 1), 66]
+, and by 
+ilf_ref [sub(1, 1), 200]
+ 
+ilf_formula [sub(1, 1), 230]
+X_{1} \cdot  (s(X_{1}) \cdot  X_{1} ^{\prime} ) = s(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 37]
+ and by 
+ilf_ref [sub(1, 1), 38]
+ 
+ilf_formula [sub(1, 1), 232]
+X_{1} \cdot  (X_{2} \cdot  (X_{1} ^{\prime}  \cdot  (X_{2} \cdot  (X_{1} ^{\prime}  \cdot  X_{2}) ^{\prime} ))) = X_{1} \cdot  X_{2}.
+ilf_formula_end
+
+Now by 
+ilf_ref [sub(1, 1), 21]
+ and by 
+ilf_ref [sub(1, 1), 194]
+ 
+ilf_formula [sub(1, 1), 236]
+s(X_{1}) \cdot  X_{1} ^{\prime}  = X_{1} ^{\prime}  \cdot  s(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 7), 0]
+ and by 
+ilf_ref [sub(1, 1), 40]
+ 
+ilf_formula [sub(1, 1), 274]
+X_{1} \cdot  (s(X_{2}) \cdot  ((X_{1} \cdot  s(X_{2})) ^{\prime}  \cdot  s(X_{2}))) = (X_{1} \cdot  s(X_{2})) ^{\prime}  \cdot  (X_{1} \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 4), 0]
+,  
+ilf_ref [sub(1, 1), 20]
+, and by 
+ilf_ref [sub(1, 1), 40]
+ 
+ilf_formula [sub(1, 1), 275]
+X_{1} \cdot  (X_{2} \cdot  ((X_{1} \cdot  X_{2}) ^{\prime}  \cdot  (X_{2} \cdot  X_{2} ^{\prime} ))) = X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  X_{2}) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 40]
+ and by 
+ilf_ref [sub(1, 1), 154]
+ 
+ilf_formula [sub(1, 1), 296]
+f(X_{1}) \cdot  (X_{1} \cdot  ((f(X_{1}) \cdot  X_{1}) ^{\prime}  \cdot  X_{1} ^{\prime} )) = (f(X_{1}) \cdot  X_{1}) ^{\prime}  \cdot  f(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 38]
+ and by 
+ilf_ref [sub(1, 1), 40]
+ 
+ilf_formula [sub(1, 1), 308]
+X_{1} \cdot  (X_{2} \cdot  ((X_{1} \cdot  X_{2}) ^{\prime}  \cdot  (X_{3} \cdot  (X_{2} \cdot  (X_{3} \cdot  (X_{2} \cdot  X_{3}) ^{\prime} ))))) = X_{1} \cdot  (X_{2} \cdot  ((X_{1} \cdot  X_{2}) ^{\prime}  \cdot  X_{3})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 200]
+ 
+ilf_formula [sub(1, 1), 317]
+s(X_{1}) \cdot  (s(X_{1}) ^{\prime}  \cdot  X_{2}) = X_{1} \cdot  (X_{1} ^{\prime}  \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 39]
+, 
+ilf_ref [sub(1, 1), 49]
+,  
+ilf_ref [sub(1, 1), 200]
+, and by 
+ilf_ref [sub(1, 1), 236]
+ 
+ilf_formula [sub(1, 1), 318]
+X_{1} ^{\prime}  \cdot  s(X_{1}) = s(X_{1}) ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 236]
+ 
+ilf_formula [sub(1, 1), 323]
+s(X_{1}) \cdot  X_{1} ^{\prime}  = s(X_{1}) ^{\prime} .
+ilf_formula_end
+
+Now by 
+ilf_ref [sub(1, 1), 68]
+ 
+ilf_formula [sub(1, 1), 325]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  s(X_{1}) ^{\prime} ) = s(X_{1}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 318]
+ 
+ilf_formula [sub(1, 1), 326]
+X_{1} ^{\prime}  \cdot  (s(X_{1}) \cdot  X_{2}) = s(X_{1}) ^{\prime}  \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 28]
+ and by 
+ilf_ref [sub(1, 1), 318]
+ 
+ilf_formula [sub(1, 1), 328]
+(X_{1} \cdot  X_{1}) ^{\prime}  \cdot  X_{1} = X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 44]
+ and by 
+ilf_ref [sub(1, 1), 318]
+ 
+ilf_formula [sub(1, 1), 329]
+f(X_{1}) ^{\prime}  \cdot  f(s(X_{1})) = f(s(X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 27]
+, 
+ilf_ref [sub(1, 1), 39]
+,  
+ilf_ref [sub(1, 1), 200]
+, and by 
+ilf_ref [sub(1, 1), 318]
+ 
+ilf_formula [sub(1, 1), 330]
+s(X_{1} ^{\prime} ) = s(X_{1}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 27]
+ and by 
+ilf_ref [sub(1, 1), 318]
+ 
+ilf_formula [sub(1, 1), 331]
+(X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  X_{2}))) ^{\prime}  \cdot  (X_{1} \cdot  X_{2}) = (X_{1} \cdot  X_{2}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [sub(1, 1), 85]
+,  
+ilf_ref [sub(1, 1), 108]
+, and by 
+ilf_ref [sub(1, 1), 318]
+ 
+ilf_formula [sub(1, 1), 332]
+(X_{1} \cdot  X_{1} ^{\prime} ) ^{\prime}  = X_{1} \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 29]
+, 
+ilf_ref [sub(1, 1), 39]
+,  
+ilf_ref [sub(1, 1), 200]
+, and by 
+ilf_ref [sub(1, 1), 318]
+ 
+ilf_formula [sub(1, 1), 333]
+X_{1} ^{\prime}  \neq X_{2} $ or $ (s(X_{2}) = s(X_{1}) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 179]
+ and by 
+ilf_ref [sub(1, 1), 329]
+ 
+ilf_formula [sub(1, 1), 338]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  f(s(X_{1})) ^{\prime} ) = f(s(X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 7), 0]
+ and by 
+ilf_ref [sub(1, 1), 330]
+ 
+ilf_formula [sub(1, 1), 339]
+s(X_{1}) ^{\prime}  \cdot  s(X_{1}) ^{\prime}  = X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 61]
+ and by 
+ilf_ref [sub(1, 1), 330]
+ 
+ilf_formula [sub(1, 1), 341]
+s(X_{1}) ^{\prime}  \cdot  X_{1} ^{\prime}  = X_{1} ^{\prime}  \cdot  s(X_{1}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 323]
+ 
+ilf_formula [sub(1, 1), 346]
+s(X_{1}) \cdot  (X_{1} ^{\prime}  \cdot  X_{2}) = s(X_{1}) ^{\prime}  \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 28]
+ and by 
+ilf_ref [sub(1, 1), 323]
+ 
+ilf_formula [sub(1, 1), 347]
+X_{1} \cdot  (X_{1} \cdot  X_{1}) ^{\prime}  = X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 27]
+, and by 
+ilf_ref [sub(1, 1), 323]
+ 
+ilf_formula [sub(1, 1), 349]
+X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  X_{2}))) ^{\prime} ) = (X_{1} \cdot  X_{2}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 86]
+, and by 
+ilf_ref [sub(1, 1), 323]
+ 
+ilf_formula [sub(1, 1), 350]
+X_{1} \cdot  (s(X_{1}) \cdot  (X_{1} \cdot  (X_{1} \cdot  X_{1})) ^{\prime} ) = (X_{1} \cdot  s(X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 40]
+ and by 
+ilf_ref [sub(1, 1), 323]
+ 
+ilf_formula [sub(1, 1), 351]
+X_{1} \cdot  (s(X_{2}) \cdot  ((X_{1} \cdot  s(X_{2})) ^{\prime}  \cdot  X_{2} ^{\prime} )) = (X_{1} \cdot  s(X_{2})) ^{\prime}  \cdot  (X_{1} \cdot  s(X_{2}) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [sub(1, 1), 46]
+, 
+ilf_ref [sub(1, 1), 106]
+,  
+ilf_ref [sub(1, 1), 328]
+, and by 
+ilf_ref [sub(1, 1), 347]
+ 
+ilf_formula [sub(1, 1), 355]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  f(X_{1}) ^{\prime} ) = f(X_{1} ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 21]
+,  
+ilf_ref [sub(1, 1), 46]
+, and by 
+ilf_ref [sub(1, 1), 176]
+ 
+ilf_formula [sub(1, 1), 356]
+X_{1} \cdot  (X_{2} \cdot  (X_{2} \cdot  ((X_{1} \cdot  (X_{2} \cdot  X_{2})) ^{\prime}  \cdot  f(X_{2}) ^{\prime} ))) = f(X_{1} \cdot  (X_{2} \cdot  X_{2})) ^{\prime}  \cdot  f(X_{1} \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [sub(1, 1), 23]
+, 
+ilf_ref [sub(1, 1), 24]
+, 
+ilf_ref [sub(1, 1), 46]
+, 
+ilf_ref [sub(1, 1), 55]
+, 
+ilf_ref [sub(1, 1), 122]
+,  
+ilf_ref [sub(1, 1), 130]
+, and by 
+ilf_ref [sub(1, 1), 221]
+ 
+ilf_formula [sub(1, 1), 361]
+f(X_{1}) \cdot  (X_{1} ^{\prime}  \cdot  f(X_{1})) ^{\prime}  = X_{1}.
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 37]
+,  
+ilf_ref [sub(1, 1), 46]
+, and by 
+ilf_ref [sub(1, 1), 176]
+ 
+ilf_formula [sub(1, 1), 363]
+X_{1} \cdot  (X_{2} \cdot  (X_{2} \cdot  ((X_{1} \cdot  (X_{2} \cdot  X_{2})) ^{\prime}  \cdot  f(X_{1} \cdot  X_{2})))) = f(X_{1} \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 23]
+, 
+ilf_ref [sub(1, 1), 46]
+, 
+ilf_ref [sub(1, 1), 83]
+, 
+ilf_ref [sub(1, 1), 106]
+,  
+ilf_ref [sub(1, 1), 347]
+, and by 
+ilf_ref [sub(1, 1), 355]
+ 
+ilf_formula [sub(1, 1), 365]
+f(X_{1} \cdot  X_{1}) ^{\prime}  \cdot  f(X_{1}) = f(X_{1} ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [ax(1, 7), 0]
+, 
+ilf_ref [sub(1, 1), 46]
+, 
+ilf_ref [sub(1, 1), 106]
+,  
+ilf_ref [sub(1, 1), 318]
+, and by 
+ilf_ref [sub(1, 1), 338]
+ 
+ilf_formula [sub(1, 1), 372]
+f(s(X_{1})) ^{\prime}  = f(s(X_{1}) ^{\prime} ).
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 338]
+ 
+ilf_formula [sub(1, 1), 377]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  f(s(X_{1}) ^{\prime} )) = f(s(X_{1}) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 328]
+ 
+ilf_formula [sub(1, 1), 379]
+(X_{1} \cdot  X_{1}) ^{\prime}  \cdot  (X_{1} \cdot  X_{2}) = X_{1} ^{\prime}  \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 5), 0]
+,  
+ilf_ref [sub(1, 1), 328]
+, and by 
+ilf_ref [sub(1, 1), 365]
+ 
+ilf_formula [sub(1, 1), 380]
+f(X_{1}) ^{\prime}  = f(X_{1} ^{\prime} ).
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 23]
+ 
+ilf_formula [sub(1, 1), 391]
+f((f(X_{1}) \cdot  X_{2}) ^{\prime} ) = (X_{1} \cdot  f(X_{2})) ^{\prime} .
+ilf_formula_end
+
+Now by 
+ilf_ref [sub(1, 1), 24]
+ 
+ilf_formula [sub(1, 1), 392]
+f((X_{1} \cdot  f(X_{2})) ^{\prime} ) = (f(X_{1}) \cdot  X_{2}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 347]
+ 
+ilf_formula [sub(1, 1), 393]
+X_{1} \cdot  ((X_{1} \cdot  X_{1}) ^{\prime}  \cdot  X_{2}) = X_{1} ^{\prime}  \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 332]
+ 
+ilf_formula [sub(1, 1), 397]
+(X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  X_{2}) ^{\prime} )) ^{\prime}  = X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  X_{2}) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 49]
+ 
+ilf_formula [sub(1, 1), 398]
+s(X_{1} \cdot  X_{2}) ^{\prime}  \cdot  (X_{1} \cdot  (X_{2} \cdot  X_{3})) = s(X_{1} \cdot  X_{2}) \cdot  X_{3}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 7), 0]
+, 
+ilf_ref [sub(1, 1), 49]
+,  
+ilf_ref [sub(1, 1), 61]
+, and by 
+ilf_ref [sub(1, 1), 218]
+ 
+ilf_formula [sub(1, 1), 399]
+s(s(X_{1})) ^{\prime}  \cdot  X_{1} = s(X_{1} \cdot  s(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 25]
+,  
+ilf_ref [sub(1, 1), 49]
+, and by 
+ilf_ref [sub(1, 1), 65]
+ 
+ilf_formula [sub(1, 1), 400]
+s(s(X_{1})) ^{\prime}  \cdot  (X_{1} \cdot  X_{2}) = s(X_{1}) \cdot  (s(s(X_{1})) \cdot  X_{2}).
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 49]
+,  
+ilf_ref [sub(1, 1), 61]
+, and by 
+ilf_ref [sub(1, 1), 218]
+ 
+ilf_formula [sub(1, 1), 402]
+s(X_{1}) \cdot  s(X_{1} \cdot  s(X_{1})) = s(s(X_{1})) \cdot  X_{1}.
+ilf_formula_end
+
+Now by 
+ilf_ref [sub(1, 1), 49]
+,  
+ilf_ref [sub(1, 1), 200]
+, and by 
+ilf_ref [sub(1, 1), 323]
+ 
+ilf_formula [sub(1, 1), 407]
+s(X_{1}) \cdot  (s(s(X_{1})) \cdot  X_{1} ^{\prime} ) = s(s(X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 49]
+,  
+ilf_ref [sub(1, 1), 323]
+, and by 
+ilf_ref [sub(1, 1), 341]
+ 
+ilf_formula [sub(1, 1), 408]
+s(X_{1}) ^{\prime}  \cdot  s(s(X_{1})) ^{\prime}  = s(s(X_{1})) \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 28]
+ and by 
+ilf_ref [sub(1, 1), 339]
+ 
+ilf_formula [sub(1, 1), 411]
+X_{1} ^{\prime}  \cdot  X_{1} ^{\prime}  = (X_{1} \cdot  X_{1}) ^{\prime} .
+ilf_formula_end
+
+Now by 
+ilf_ref [sub(1, 1), 86]
+, 
+ilf_ref [sub(1, 1), 330]
+,  
+ilf_ref [sub(1, 1), 339]
+, and by 
+ilf_ref [sub(1, 1), 341]
+ 
+ilf_formula [sub(1, 1), 416]
+s(X_{1} ^{\prime}  \cdot  s(X_{1}) ^{\prime} ) = s(s(X_{1})) \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 1), 0]
+ 
+ilf_formula [sub(1, 1), 419]
+X_{1} ^{\prime}  \cdot  (X_{1} ^{\prime}  \cdot  X_{2}) = (X_{1} \cdot  X_{1}) ^{\prime}  \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 40]
+ and by 
+ilf_ref [sub(1, 1), 411]
+ 
+ilf_formula [sub(1, 1), 428]
+X_{1} \cdot  (X_{2} ^{\prime}  \cdot  ((X_{1} \cdot  X_{2} ^{\prime} ) ^{\prime}  \cdot  X_{2} ^{\prime} )) = (X_{1} \cdot  X_{2} ^{\prime} ) ^{\prime}  \cdot  (X_{1} \cdot  (X_{2} \cdot  X_{2}) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [sub(1, 1), 22]
+,  
+ilf_ref [sub(1, 1), 361]
+, and by 
+ilf_ref [sub(1, 1), 392]
+ 
+ilf_formula [sub(1, 1), 437]
+X_{1} \cdot  ((f(X_{1} ^{\prime} ) \cdot  X_{1}) ^{\prime}  \cdot  X_{2}) = f(X_{1}) \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 51]
+ and by 
+ilf_ref [sub(1, 1), 380]
+ 
+ilf_formula [sub(1, 1), 454]
+(f(X_{1}) \cdot  (X_{2} \cdot  f(X_{3}))) ^{\prime}  = f((X_{1} \cdot  (f(X_{2}) \cdot  X_{3})) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 54]
+ and by 
+ilf_ref [sub(1, 1), 144]
+ 
+ilf_formula [sub(1, 1), 467]
+f(s(s(f(X_{1}) \cdot  X_{2}))) = s(s(X_{1} \cdot  f(X_{2}))),
+ilf_formula_end
+ because of $ [hyper(144, a, 54, a), flip(a)]. $
+By 
+ilf_ref [ax(1, 5), 0]
+ and by 
+ilf_ref [sub(1, 1), 54]
+ 
+ilf_formula [sub(1, 1), 469]
+f(X_{1} \cdot  s(f(X_{2}) \cdot  X_{3})) = f(X_{1}) \cdot  s(X_{2} \cdot  f(X_{3})).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 58]
+ and by 
+ilf_ref [sub(1, 1), 144]
+ 
+ilf_formula [sub(1, 1), 484]
+f(s(s(X_{1} \cdot  f(X_{2})))) = s(s(f(X_{1}) \cdot  X_{2})),
+ilf_formula_end
+ because of $ [hyper(144, a, 58, a), flip(a)]. $
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 58]
+ 
+ilf_formula [sub(1, 1), 485]
+f(s(X_{1} \cdot  (X_{2} \cdot  f(X_{3})))) = s(f(X_{1} \cdot  X_{2}) \cdot  X_{3}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 51]
+ and by 
+ilf_ref [sub(1, 1), 58]
+ 
+ilf_formula [sub(1, 1), 492]
+f(X_{1}) \cdot  (s(X_{2} \cdot  f(X_{3})) \cdot  f(X_{4})) = f(X_{1} \cdot  (s(f(X_{2}) \cdot  X_{3}) \cdot  X_{4})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 66]
+ 
+ilf_formula [sub(1, 1), 518]
+X_{1} \cdot  (X_{2} \cdot  (s(X_{1} \cdot  X_{2}) ^{\prime}  \cdot  X_{3})) = s(X_{1} \cdot  X_{2}) \cdot  X_{3}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 25]
+ and by 
+ilf_ref [sub(1, 1), 66]
+ 
+ilf_formula [sub(1, 1), 520]
+s(X_{1}) \cdot  (s(s(X_{1})) \cdot  X_{2}) = X_{1} \cdot  (s(s(X_{1})) ^{\prime}  \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 63]
+,  
+ilf_ref [sub(1, 1), 66]
+, and by 
+ilf_ref [sub(1, 1), 408]
+ 
+ilf_formula [sub(1, 1), 521]
+X_{1} \cdot  (s(s(X_{1})) \cdot  X_{1} ^{\prime} ) = s(s(X_{1})).
+ilf_formula_end
+
+Now by 
+ilf_ref [sub(1, 1), 407]
+ 
+ilf_formula [sub(1, 1), 524]
+X_{1} \cdot  (s(s(X_{1})) ^{\prime}  \cdot  X_{1} ^{\prime} ) = s(s(X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 400]
+ and by 
+ilf_ref [sub(1, 1), 520]
+ 
+ilf_formula [sub(1, 1), 525]
+s(s(X_{1})) ^{\prime}  \cdot  (X_{1} \cdot  X_{2}) = X_{1} \cdot  (s(s(X_{1})) ^{\prime}  \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [sub(1, 1), 22]
+, 
+ilf_ref [sub(1, 1), 40]
+, 
+ilf_ref [sub(1, 1), 106]
+, 
+ilf_ref [sub(1, 1), 164]
+, 
+ilf_ref [sub(1, 1), 347]
+,  
+ilf_ref [sub(1, 1), 411]
+, and by 
+ilf_ref [sub(1, 1), 437]
+ 
+ilf_formula [sub(1, 1), 550]
+(f(X_{1} ^{\prime} ) \cdot  X_{1}) ^{\prime}  \cdot  f(X_{1} ^{\prime} ) = X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 192]
+ 
+ilf_formula [sub(1, 1), 552]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  (f(s(X_{1})) \cdot  X_{2})) = f(s(X_{1})) \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 7), 0]
+, 
+ilf_ref [sub(1, 1), 66]
+,  
+ilf_ref [sub(1, 1), 192]
+, and by 
+ilf_ref [sub(1, 1), 419]
+ 
+ilf_formula [sub(1, 1), 557]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  f(s(s(X_{1})))) = f(s(s(X_{1}))).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 207]
+ 
+ilf_formula [sub(1, 1), 558]
+X_{1} \cdot  (s(s(X_{1})) ^{\prime}  \cdot  X_{2}) = s(X_{1} \cdot  s(X_{1})) \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 21]
+ and by 
+ilf_ref [sub(1, 1), 207]
+ 
+ilf_formula [sub(1, 1), 560]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  s(s(X_{1})) ^{\prime} ) = X_{1} ^{\prime}  \cdot  s(X_{1} \cdot  s(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 207]
+, 
+ilf_ref [sub(1, 1), 330]
+,  
+ilf_ref [sub(1, 1), 416]
+, and by 
+ilf_ref [sub(1, 1), 521]
+ 
+ilf_formula [sub(1, 1), 561]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  s(s(X_{1}))) = s(s(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 25]
+,  
+ilf_ref [sub(1, 1), 207]
+, and by 
+ilf_ref [sub(1, 1), 218]
+ 
+ilf_formula [sub(1, 1), 562]
+s(X_{1}) \cdot  s(s(X_{1} \cdot  s(X_{1}))) = X_{1} \cdot  s(s(s(X_{1}))) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [sub(1, 1), 207]
+,  
+ilf_ref [sub(1, 1), 330]
+, and by 
+ilf_ref [sub(1, 1), 416]
+ 
+ilf_formula [sub(1, 1), 569]
+s(s(X_{1})) \cdot  X_{1} ^{\prime}  = X_{1} ^{\prime}  \cdot  s(s(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 525]
+ and by 
+ilf_ref [sub(1, 1), 558]
+ 
+ilf_formula [sub(1, 1), 571]
+s(s(X_{1})) ^{\prime}  \cdot  (X_{1} \cdot  X_{2}) = s(X_{1} \cdot  s(X_{1})) \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 524]
+ and by 
+ilf_ref [sub(1, 1), 558]
+ 
+ilf_formula [sub(1, 1), 572]
+s(X_{1} \cdot  s(X_{1})) \cdot  X_{1} ^{\prime}  = s(s(X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 520]
+ and by 
+ilf_ref [sub(1, 1), 558]
+ 
+ilf_formula [sub(1, 1), 573]
+s(X_{1}) \cdot  (s(s(X_{1})) \cdot  X_{2}) = s(X_{1} \cdot  s(X_{1})) \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 408]
+ and by 
+ilf_ref [sub(1, 1), 569]
+ 
+ilf_formula [sub(1, 1), 575]
+s(X_{1}) ^{\prime}  \cdot  s(s(X_{1})) ^{\prime}  = X_{1} ^{\prime}  \cdot  s(s(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 25]
+,  
+ilf_ref [sub(1, 1), 218]
+, and by 
+ilf_ref [sub(1, 1), 402]
+ 
+ilf_formula [sub(1, 1), 576]
+s(s(X_{1})) \cdot  X_{1} = X_{1} \cdot  s(s(X_{1})).
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 402]
+ 
+ilf_formula [sub(1, 1), 581]
+s(X_{1}) \cdot  s(X_{1} \cdot  s(X_{1})) = X_{1} \cdot  s(s(X_{1})).
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 1), 0]
+ 
+ilf_formula [sub(1, 1), 596]
+s(s(X_{1})) \cdot  (X_{1} \cdot  X_{2}) = X_{1} \cdot  (s(s(X_{1})) \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 399]
+,  
+ilf_ref [sub(1, 1), 571]
+, and by 
+ilf_ref [sub(1, 1), 576]
+ 
+ilf_formula [sub(1, 1), 597]
+s(X_{1} \cdot  s(X_{1})) \cdot  s(s(X_{1})) = s(s(X_{1})) \cdot  s(X_{1} \cdot  s(X_{1})).
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 7), 0]
+,  
+ilf_ref [sub(1, 1), 27]
+, and by 
+ilf_ref [sub(1, 1), 576]
+ 
+ilf_formula [sub(1, 1), 598]
+s(X_{1} \cdot  (X_{1} \cdot  s(X_{1}))) = X_{1} \cdot  s(s(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 330]
+ and by 
+ilf_ref [sub(1, 1), 576]
+ 
+ilf_formula [sub(1, 1), 606]
+s(s(X_{1})) ^{\prime}  \cdot  X_{1} ^{\prime}  = X_{1} ^{\prime}  \cdot  s(s(X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 5), 0]
+ and by 
+ilf_ref [sub(1, 1), 391]
+ 
+ilf_formula [sub(1, 1), 625]
+f(X_{1} \cdot  (f(X_{2}) \cdot  X_{3}) ^{\prime} ) = f(X_{1}) \cdot  (X_{2} \cdot  f(X_{3})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 23]
+ and by 
+ilf_ref [sub(1, 1), 391]
+ 
+ilf_formula [sub(1, 1), 627]
+f((X_{1} \cdot  f(X_{2})) ^{\prime}  \cdot  X_{3}) = (f(X_{1}) \cdot  X_{2}) ^{\prime}  \cdot  f(X_{3}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 65]
+, 
+ilf_ref [sub(1, 1), 330]
+, 
+ilf_ref [sub(1, 1), 341]
+,  
+ilf_ref [sub(1, 1), 411]
+, and by 
+ilf_ref [sub(1, 1), 419]
+ 
+ilf_formula [sub(1, 1), 654]
+(X_{1} \cdot  X_{1}) ^{\prime}  \cdot  s(X_{1}) ^{\prime}  = s(X_{1}) ^{\prime}  \cdot  (X_{1} \cdot  X_{1}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 7), 0]
+,  
+ilf_ref [sub(1, 1), 65]
+, and by 
+ilf_ref [sub(1, 1), 218]
+ 
+ilf_formula [sub(1, 1), 655]
+s(s(X_{1})) \cdot  s(X_{1} \cdot  s(X_{1})) = X_{1}.
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 597]
+ 
+ilf_formula [sub(1, 1), 657]
+s(X_{1} \cdot  s(X_{1})) \cdot  s(s(X_{1})) = X_{1}.
+ilf_formula_end
+
+Now by 
+ilf_ref [sub(1, 1), 49]
+ 
+ilf_formula [sub(1, 1), 665]
+s(s(s(X_{1}))) \cdot  s(X_{1} \cdot  s(X_{1})) = s(s(s(X_{1}))) ^{\prime}  \cdot  X_{1}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 218]
+ and by 
+ilf_ref [sub(1, 1), 655]
+ 
+ilf_formula [sub(1, 1), 666]
+s(s(s(X_{1}))) \cdot  s(s(X_{1} \cdot  s(X_{1}))) = s(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 657]
+ 
+ilf_formula [sub(1, 1), 668]
+s(X_{1} \cdot  s(X_{1})) \cdot  (s(s(X_{1})) \cdot  X_{2}) = X_{1} \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 51]
+ and by 
+ilf_ref [sub(1, 1), 392]
+ 
+ilf_formula [sub(1, 1), 686]
+f(X_{1}) \cdot  ((X_{2} \cdot  f(X_{3})) ^{\prime}  \cdot  f(X_{4})) = f(X_{1} \cdot  ((f(X_{2}) \cdot  X_{3}) ^{\prime}  \cdot  X_{4})).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 391]
+ and by 
+ilf_ref [sub(1, 1), 392]
+ 
+ilf_formula [sub(1, 1), 700]
+(f(X_{1}) \cdot  (f(X_{2}) \cdot  X_{3}) ^{\prime} ) ^{\prime}  = f((X_{1} \cdot  (X_{2} \cdot  f(X_{3})) ^{\prime} ) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 21]
+ and by 
+ilf_ref [sub(1, 1), 67]
+ 
+ilf_formula [sub(1, 1), 710]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  (X_{2} \cdot  s(X_{1} \cdot  X_{2}) ^{\prime} )) = X_{1} ^{\prime}  \cdot  s(X_{1} \cdot  X_{2}).
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 37]
+ and by 
+ilf_ref [sub(1, 1), 67]
+ 
+ilf_formula [sub(1, 1), 716]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  s(X_{1} \cdot  X_{2})) = s(X_{1} \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [sub(1, 1), 67]
+, 
+ilf_ref [sub(1, 1), 218]
+,  
+ilf_ref [sub(1, 1), 318]
+, and by 
+ilf_ref [sub(1, 1), 330]
+ 
+ilf_formula [sub(1, 1), 719]
+X_{1} ^{\prime}  \cdot  s(X_{1} \cdot  s(X_{1})) = s(s(X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 67]
+,  
+ilf_ref [sub(1, 1), 323]
+, and by 
+ilf_ref [sub(1, 1), 657]
+ 
+ilf_formula [sub(1, 1), 723]
+s(X_{1} \cdot  s(X_{1})) \cdot  s(s(X_{1})) ^{\prime}  = s(X_{1}).
+ilf_formula_end
+
+Now by 
+ilf_ref [sub(1, 1), 560]
+ 
+ilf_formula [sub(1, 1), 725]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  s(s(X_{1})) ^{\prime} ) = s(s(X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 561]
+ 
+ilf_formula [sub(1, 1), 726]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  (s(s(X_{1})) \cdot  X_{2})) = s(s(X_{1})) \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 40]
+,  
+ilf_ref [sub(1, 1), 84]
+, and by 
+ilf_ref [sub(1, 1), 419]
+ 
+ilf_formula [sub(1, 1), 740]
+s(X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  ((X_{2} \cdot  (X_{1} \cdot  (X_{2} \cdot  X_{1}))) ^{\prime}  \cdot  X_{2})))) = X_{1} \cdot  ((X_{2} \cdot  X_{1}) ^{\prime}  \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [sub(1, 1), 207]
+, 
+ilf_ref [sub(1, 1), 326]
+,  
+ilf_ref [sub(1, 1), 330]
+, and by 
+ilf_ref [sub(1, 1), 575]
+ 
+ilf_formula [sub(1, 1), 772]
+s(X_{1}) ^{\prime}  \cdot  s(s(s(X_{1}))) = s(X_{1} ^{\prime}  \cdot  s(s(X_{1}))).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 326]
+ and by 
+ilf_ref [sub(1, 1), 657]
+ 
+ilf_formula [sub(1, 1), 773]
+s(X_{1} \cdot  s(X_{1})) ^{\prime}  \cdot  s(s(X_{1})) = (X_{1} \cdot  s(X_{1})) ^{\prime}  \cdot  X_{1}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 28]
+ and by 
+ilf_ref [sub(1, 1), 341]
+ 
+ilf_formula [sub(1, 1), 781]
+(X_{1} \cdot  X_{1}) ^{\prime}  \cdot  X_{1} ^{\prime}  = X_{1} ^{\prime}  \cdot  (X_{1} \cdot  X_{1}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 27]
+, and by 
+ilf_ref [sub(1, 1), 346]
+ 
+ilf_formula [sub(1, 1), 814]
+X_{1} \cdot  (X_{2} \cdot  ((X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  X_{2}))) ^{\prime}  \cdot  X_{3})) = (X_{1} \cdot  X_{2}) ^{\prime}  \cdot  X_{3}.
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 740]
+ 
+ilf_formula [sub(1, 1), 824]
+s(X_{1} \cdot  ((X_{2} \cdot  X_{1}) ^{\prime}  \cdot  X_{2})) = X_{1} \cdot  ((X_{2} \cdot  X_{1}) ^{\prime}  \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 63]
+ and by 
+ilf_ref [sub(1, 1), 379]
+ 
+ilf_formula [sub(1, 1), 826]
+(X_{1} \cdot  X_{1}) ^{\prime}  \cdot  s(X_{1}) = X_{1} ^{\prime}  \cdot  s(X_{1}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+ and by 
+ilf_ref [sub(1, 1), 550]
+ 
+ilf_formula [sub(1, 1), 886]
+(f(X_{1}) \cdot  X_{1} ^{\prime} ) ^{\prime}  \cdot  f(X_{1}) = X_{1}.
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 5), 0]
+,  
+ilf_ref [ax(1, 6), 0]
+, and by 
+ilf_ref [sub(1, 1), 391]
+ 
+ilf_formula [sub(1, 1), 896]
+(X_{1} \cdot  f(X_{1} ^{\prime} )) ^{\prime}  \cdot  X_{1} = f(X_{1}).
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 6), 0]
+,  
+ilf_ref [sub(1, 1), 22]
+, and by 
+ilf_ref [sub(1, 1), 391]
+ 
+ilf_formula [sub(1, 1), 897]
+(X_{1} \cdot  f(X_{1} ^{\prime} )) ^{\prime}  \cdot  (X_{1} \cdot  X_{2}) = f(X_{1}) \cdot  X_{2}.
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 2), 0]
+,  
+ilf_ref [sub(1, 1), 49]
+, and by 
+ilf_ref [sub(1, 1), 330]
+ 
+ilf_formula [sub(1, 1), 909]
+s(X_{1} \cdot  f(X_{1} ^{\prime} )) ^{\prime}  \cdot  X_{1} = s(X_{1} \cdot  f(X_{1} ^{\prime} )) \cdot  f(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 63]
+, 
+ilf_ref [sub(1, 1), 317]
+,  
+ilf_ref [sub(1, 1), 351]
+, and by 
+ilf_ref [sub(1, 1), 572]
+ 
+ilf_formula [sub(1, 1), 938]
+s(X_{1} \cdot  s(X_{1})) ^{\prime}  \cdot  s(s(X_{1})) ^{\prime}  = (X_{1} \cdot  s(X_{1})) ^{\prime}  \cdot  s(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 25]
+ and by 
+ilf_ref [sub(1, 1), 598]
+ 
+ilf_formula [sub(1, 1), 960]
+s(X_{1}) \cdot  s(s(s(X_{1}))) = s(X_{1} \cdot  s(s(X_{1}))).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 323]
+, and by 
+ilf_ref [sub(1, 1), 598]
+ 
+ilf_formula [sub(1, 1), 966]
+X_{1} \cdot  (s(s(X_{1})) \cdot  (X_{1} \cdot  (X_{1} \cdot  s(X_{1}))) ^{\prime} ) = (X_{1} \cdot  s(s(X_{1}))) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 66]
+, 
+ilf_ref [sub(1, 1), 274]
+,  
+ilf_ref [sub(1, 1), 723]
+, and by 
+ilf_ref [sub(1, 1), 938]
+ 
+ilf_formula [sub(1, 1), 1003]
+(X_{1} \cdot  s(X_{1})) ^{\prime}  \cdot  (X_{1} \cdot  X_{1}) = s(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 7), 0]
+, 
+ilf_ref [sub(1, 1), 67]
+,  
+ilf_ref [sub(1, 1), 411]
+, and by 
+ilf_ref [sub(1, 1), 723]
+ 
+ilf_formula [sub(1, 1), 1006]
+s(X_{1} \cdot  s(X_{1})) \cdot  s(X_{1}) ^{\prime}  = s(s(X_{1})).
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 1), 0]
+ 
+ilf_formula [sub(1, 1), 1009]
+(X_{1} \cdot  s(X_{1})) ^{\prime}  \cdot  (X_{1} \cdot  (X_{1} \cdot  X_{2})) = s(X_{1}) \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 7), 0]
+,  
+ilf_ref [sub(1, 1), 218]
+, and by 
+ilf_ref [sub(1, 1), 1003]
+ 
+ilf_formula [sub(1, 1), 1011]
+s(X_{1} \cdot  s(X_{1})) ^{\prime}  \cdot  X_{1} = s(s(X_{1})).
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [sub(1, 1), 25]
+, 
+ilf_ref [sub(1, 1), 38]
+, 
+ilf_ref [sub(1, 1), 63]
+,  
+ilf_ref [sub(1, 1), 65]
+, and by 
+ilf_ref [sub(1, 1), 1003]
+ 
+ilf_formula [sub(1, 1), 1015]
+X_{1} \cdot  (X_{1} \cdot  (X_{1} \cdot  s(X_{1})) ^{\prime} ) = s(X_{1}).
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 1), 0]
+ 
+ilf_formula [sub(1, 1), 1026]
+s(X_{1} \cdot  s(X_{1})) ^{\prime}  \cdot  (X_{1} \cdot  X_{2}) = s(s(X_{1})) \cdot  X_{2}.
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [sub(1, 1), 38]
+, 
+ilf_ref [sub(1, 1), 65]
+, 
+ilf_ref [sub(1, 1), 200]
+, 
+ilf_ref [sub(1, 1), 207]
+, 
+ilf_ref [sub(1, 1), 323]
+, 
+ilf_ref [sub(1, 1), 573]
+,  
+ilf_ref [sub(1, 1), 596]
+, and by 
+ilf_ref [sub(1, 1), 1011]
+ 
+ilf_formula [sub(1, 1), 1029]
+X_{1} \cdot  s(X_{1} \cdot  s(X_{1})) ^{\prime}  = s(s(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 5), 0]
+ and by 
+ilf_ref [sub(1, 1), 126]
+ 
+ilf_formula [sub(1, 1), 1044]
+f(X_{1} \cdot  (X_{2} \cdot  (X_{3} \cdot  (X_{2} \cdot  X_{3}) ^{\prime} ))) = f(X_{1}) \cdot  (X_{2} \cdot  (X_{3} \cdot  (X_{2} \cdot  X_{3}) ^{\prime} )).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 37]
+,  
+ilf_ref [sub(1, 1), 318]
+, and by 
+ilf_ref [sub(1, 1), 1015]
+ 
+ilf_formula [sub(1, 1), 1062]
+X_{1} \cdot  (X_{1} \cdot  s(X_{1})) ^{\prime}  = s(X_{1}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 40]
+, 
+ilf_ref [sub(1, 1), 393]
+,  
+ilf_ref [sub(1, 1), 826]
+, and by 
+ilf_ref [sub(1, 1), 1015]
+ 
+ilf_formula [sub(1, 1), 1067]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  (X_{1} \cdot  s(X_{1})) ^{\prime} ) = X_{1} ^{\prime}  \cdot  s(X_{1}) ^{\prime} .
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 7), 0]
+,  
+ilf_ref [sub(1, 1), 49]
+, and by 
+ilf_ref [sub(1, 1), 411]
+ 
+ilf_formula [sub(1, 1), 1080]
+s(X_{1}) \cdot  (X_{1} \cdot  s(X_{1})) ^{\prime}  = X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 379]
+,  
+ilf_ref [sub(1, 1), 654]
+, and by 
+ilf_ref [sub(1, 1), 1062]
+ 
+ilf_formula [sub(1, 1), 1088]
+s(X_{1}) ^{\prime}  \cdot  (X_{1} \cdot  X_{1}) ^{\prime}  = X_{1} ^{\prime}  \cdot  (X_{1} \cdot  s(X_{1})) ^{\prime} .
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 1), 0]
+ 
+ilf_formula [sub(1, 1), 1094]
+s(X_{1}) \cdot  ((X_{1} \cdot  s(X_{1})) ^{\prime}  \cdot  X_{2}) = X_{1} ^{\prime}  \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 28]
+, and by 
+ilf_ref [sub(1, 1), 1080]
+ 
+ilf_formula [sub(1, 1), 1096]
+X_{1} \cdot  (X_{1} \cdot  (X_{1} \cdot  X_{1})) ^{\prime}  = (X_{1} \cdot  X_{1}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 49]
+,  
+ilf_ref [sub(1, 1), 606]
+, and by 
+ilf_ref [sub(1, 1), 1080]
+ 
+ilf_formula [sub(1, 1), 1100]
+s(s(X_{1})) \cdot  (X_{1} \cdot  s(X_{1})) ^{\prime}  = X_{1} ^{\prime}  \cdot  s(s(X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 25]
+, 
+ilf_ref [sub(1, 1), 218]
+,  
+ilf_ref [sub(1, 1), 960]
+, and by 
+ilf_ref [sub(1, 1), 1029]
+ 
+ilf_formula [sub(1, 1), 1107]
+X_{1} \cdot  s(s(X_{1} \cdot  s(X_{1}))) ^{\prime}  = s(X_{1} \cdot  s(s(X_{1}))).
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 65]
+,  
+ilf_ref [sub(1, 1), 218]
+, and by 
+ilf_ref [sub(1, 1), 1029]
+ 
+ilf_formula [sub(1, 1), 1116]
+s(X_{1}) \cdot  s(X_{1} \cdot  s(s(X_{1}))) = X_{1} \cdot  s(s(s(X_{1}))).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 317]
+, 
+ilf_ref [sub(1, 1), 325]
+, 
+ilf_ref [sub(1, 1), 773]
+,  
+ilf_ref [sub(1, 1), 1006]
+, and by 
+ilf_ref [sub(1, 1), 1094]
+ 
+ilf_formula [sub(1, 1), 1166]
+(X_{1} \cdot  s(X_{1})) ^{\prime}  \cdot  X_{1} = s(X_{1}) ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+ 
+ilf_formula [sub(1, 1), 1174]
+(X_{1} \cdot  s(X_{1})) ^{\prime}  \cdot  (X_{1} \cdot  X_{2}) = s(X_{1}) ^{\prime}  \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 1096]
+ 
+ilf_formula [sub(1, 1), 1231]
+X_{1} \cdot  ((X_{1} \cdot  (X_{1} \cdot  X_{1})) ^{\prime}  \cdot  X_{2}) = (X_{1} \cdot  X_{1}) ^{\prime}  \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 49]
+,  
+ilf_ref [sub(1, 1), 1088]
+, and by 
+ilf_ref [sub(1, 1), 1096]
+ 
+ilf_formula [sub(1, 1), 1235]
+s(X_{1}) \cdot  (X_{1} \cdot  (X_{1} \cdot  X_{1})) ^{\prime}  = X_{1} ^{\prime}  \cdot  (X_{1} \cdot  s(X_{1})) ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 350]
+ and by 
+ilf_ref [sub(1, 1), 1067]
+ 
+ilf_formula [sub(1, 1), 1242]
+X_{1} ^{\prime}  \cdot  s(X_{1}) ^{\prime}  = (X_{1} \cdot  s(X_{1})) ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 218]
+ and by 
+ilf_ref [sub(1, 1), 575]
+ 
+ilf_formula [sub(1, 1), 1252]
+s(X_{1} \cdot  s(X_{1})) ^{\prime}  = X_{1} ^{\prime}  \cdot  s(s(X_{1})).
+ilf_formula_end
+
+Now by 
+ilf_ref [sub(1, 1), 341]
+ 
+ilf_formula [sub(1, 1), 1255]
+s(X_{1}) ^{\prime}  \cdot  X_{1} ^{\prime}  = (X_{1} \cdot  s(X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 28]
+,  
+ilf_ref [sub(1, 1), 781]
+, and by 
+ilf_ref [sub(1, 1), 1242]
+ 
+ilf_formula [sub(1, 1), 1276]
+X_{1} ^{\prime}  \cdot  (X_{1} \cdot  X_{1}) ^{\prime}  = (X_{1} \cdot  (X_{1} \cdot  X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 23]
+, and by 
+ilf_ref [sub(1, 1), 130]
+ 
+ilf_formula [sub(1, 1), 1299]
+f(X_{1}) \cdot  (X_{2} \cdot  ((f(X_{1}) \cdot  X_{2}) ^{\prime}  \cdot  (X_{1} \cdot  (f(X_{2}) \cdot  X_{3})))) = X_{1} \cdot  (f(X_{2}) \cdot  X_{3}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 63]
+,  
+ilf_ref [sub(1, 1), 67]
+, and by 
+ilf_ref [sub(1, 1), 130]
+ 
+ilf_formula [sub(1, 1), 1308]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  s(f(X_{1}) \cdot  X_{2})) = s(f(X_{1}) \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 67]
+ and by 
+ilf_ref [sub(1, 1), 130]
+ 
+ilf_formula [sub(1, 1), 1309]
+f(X_{1}) \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1})) ^{\prime}  = X_{1} \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 130]
+,  
+ilf_ref [sub(1, 1), 380]
+, and by 
+ilf_ref [sub(1, 1), 1096]
+ 
+ilf_formula [sub(1, 1), 1315]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  f((X_{1} \cdot  X_{1}) ^{\prime} )) = f((X_{1} \cdot  X_{1}) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 333]
+ and by 
+ilf_ref [sub(1, 1), 1252]
+ 
+ilf_formula [sub(1, 1), 1327]
+s(X_{1} ^{\prime}  \cdot  s(s(X_{1}))) = s(s(X_{1} \cdot  s(X_{1}))) ^{\prime} ,
+ilf_formula_end
+ because of $ [hyper(333, a, 1252, a)]. $
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 1252]
+ 
+ilf_formula [sub(1, 1), 1328]
+s(X_{1} \cdot  (X_{2} \cdot  s(X_{1} \cdot  X_{2}))) ^{\prime}  = (X_{1} \cdot  X_{2}) ^{\prime}  \cdot  s(s(X_{1} \cdot  X_{2})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+ and by 
+ilf_ref [sub(1, 1), 1252]
+ 
+ilf_formula [sub(1, 1), 1329]
+(X_{1} ^{\prime}  \cdot  s(s(X_{1}))) ^{\prime}  = s(X_{1} \cdot  s(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 318]
+, and by 
+ilf_ref [sub(1, 1), 1252]
+ 
+ilf_formula [sub(1, 1), 1334]
+X_{1} ^{\prime}  \cdot  (s(s(X_{1})) \cdot  s(s(X_{1} \cdot  s(X_{1})))) = s(s(X_{1} \cdot  s(X_{1}))) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 419]
+, 
+ilf_ref [sub(1, 1), 581]
+, 
+ilf_ref [sub(1, 1), 1100]
+,  
+ilf_ref [sub(1, 1), 1252]
+, and by 
+ilf_ref [sub(1, 1), 1255]
+ 
+ilf_formula [sub(1, 1), 1369]
+(X_{1} \cdot  X_{1}) ^{\prime}  \cdot  s(s(X_{1})) ^{\prime}  = (X_{1} \cdot  (X_{1} \cdot  s(s(X_{1})))) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 218]
+, 
+ilf_ref [sub(1, 1), 581]
+,  
+ilf_ref [sub(1, 1), 1252]
+, and by 
+ilf_ref [sub(1, 1), 1255]
+ 
+ilf_formula [sub(1, 1), 1370]
+s(s(X_{1} \cdot  s(X_{1}))) ^{\prime}  \cdot  (X_{1} ^{\prime}  \cdot  s(s(X_{1}))) = s(X_{1} \cdot  (X_{1} \cdot  s(s(X_{1})))) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 772]
+ and by 
+ilf_ref [sub(1, 1), 1327]
+ 
+ilf_formula [sub(1, 1), 1372]
+s(X_{1}) ^{\prime}  \cdot  s(s(s(X_{1}))) = s(s(X_{1} \cdot  s(X_{1}))) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 40]
+ and by 
+ilf_ref [sub(1, 1), 162]
+ 
+ilf_formula [sub(1, 1), 1434]
+f(X_{1}) \cdot  (X_{1} \cdot  ((f(X_{1}) \cdot  X_{1}) ^{\prime}  \cdot  (X_{1} ^{\prime}  \cdot  X_{2}))) = (f(X_{1}) \cdot  X_{1}) ^{\prime}  \cdot  (f(X_{1}) \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [sub(1, 1), 40]
+,  
+ilf_ref [sub(1, 1), 162]
+, and by 
+ilf_ref [sub(1, 1), 392]
+ 
+ilf_formula [sub(1, 1), 1441]
+(f(X_{1}) \cdot  X_{2}) ^{\prime}  \cdot  (X_{1} \cdot  (f(X_{2}) \cdot  ((X_{1} \cdot  f(X_{2})) ^{\prime}  \cdot  X_{3}))) = (f(X_{1}) \cdot  X_{2}) ^{\prime}  \cdot  X_{3}.
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 40]
+,  
+ilf_ref [sub(1, 1), 136]
+, and by 
+ilf_ref [sub(1, 1), 1299]
+ 
+ilf_formula [sub(1, 1), 1452]
+f(X_{1}) \cdot  (X_{2} \cdot  ((f(X_{1}) \cdot  X_{2}) ^{\prime}  \cdot  X_{3})) = X_{1} \cdot  (f(X_{2}) \cdot  ((X_{1} \cdot  f(X_{2})) ^{\prime}  \cdot  X_{3})).
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 1434]
+ 
+ilf_formula [sub(1, 1), 1472]
+X_{1} \cdot  (f(X_{1}) \cdot  ((X_{1} \cdot  f(X_{1})) ^{\prime}  \cdot  (X_{1} ^{\prime}  \cdot  X_{2}))) = (f(X_{1}) \cdot  X_{1}) ^{\prime}  \cdot  (f(X_{1}) \cdot  X_{2}).
+ilf_formula_end
+
+Now by 
+ilf_ref [sub(1, 1), 296]
+ 
+ilf_formula [sub(1, 1), 1475]
+X_{1} \cdot  (f(X_{1}) \cdot  ((X_{1} \cdot  f(X_{1})) ^{\prime}  \cdot  X_{1} ^{\prime} )) = (f(X_{1}) \cdot  X_{1}) ^{\prime}  \cdot  f(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 165]
+, 
+ilf_ref [sub(1, 1), 331]
+,  
+ilf_ref [sub(1, 1), 379]
+, and by 
+ilf_ref [sub(1, 1), 380]
+ 
+ilf_formula [sub(1, 1), 1496]
+f((X_{1} \cdot  X_{2}) ^{\prime} ) \cdot  (X_{2} \cdot  X_{2} ^{\prime} ) = f((X_{1} \cdot  X_{2}) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 144]
+ and by 
+ilf_ref [sub(1, 1), 484]
+ 
+ilf_formula [sub(1, 1), 1594]
+f(s(s(s(X_{1} \cdot  f(X_{2}))))) = s(s(s(f(X_{1}) \cdot  X_{2}))),
+ilf_formula_end
+ because of $ [hyper(144, a, 484, a), flip(a)]. $
+By 
+ilf_ref [sub(1, 1), 218]
+,  
+ilf_ref [sub(1, 1), 581]
+, and by 
+ilf_ref [sub(1, 1), 960]
+ 
+ilf_formula [sub(1, 1), 1675]
+s(s(X_{1})) \cdot  s(s(X_{1} \cdot  s(X_{1}))) = s(X_{1} \cdot  s(s(X_{1}))).
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 1334]
+ 
+ilf_formula [sub(1, 1), 1677]
+X_{1} ^{\prime}  \cdot  s(X_{1} \cdot  s(s(X_{1}))) = s(s(X_{1} \cdot  s(X_{1}))) ^{\prime} .
+ilf_formula_end
+
+Now by 
+ilf_ref [sub(1, 1), 49]
+ and by 
+ilf_ref [sub(1, 1), 666]
+ 
+ilf_formula [sub(1, 1), 1725]
+s(s(s(X_{1}))) ^{\prime}  \cdot  s(X_{1} \cdot  s(s(X_{1}))) = s(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+,  
+ilf_ref [sub(1, 1), 21]
+, and by 
+ilf_ref [sub(1, 1), 716]
+ 
+ilf_formula [sub(1, 1), 1768]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  s(X_{1} ^{\prime}  \cdot  X_{2})) = s(X_{1} ^{\prime}  \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 419]
+,  
+ilf_ref [sub(1, 1), 725]
+, and by 
+ilf_ref [sub(1, 1), 1369]
+ 
+ilf_formula [sub(1, 1), 1781]
+X_{1} \cdot  (X_{1} \cdot  (X_{1} \cdot  s(s(X_{1})))) ^{\prime}  = X_{1} ^{\prime}  \cdot  s(s(X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 960]
+ 
+ilf_formula [sub(1, 1), 1801]
+s(X_{1}) \cdot  (s(s(s(X_{1}))) \cdot  X_{2}) = s(X_{1} \cdot  s(s(X_{1}))) \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 1276]
+ 
+ilf_formula [sub(1, 1), 1835]
+X_{1} ^{\prime}  \cdot  ((X_{1} \cdot  X_{1}) ^{\prime}  \cdot  X_{2}) = (X_{1} \cdot  (X_{1} \cdot  X_{1})) ^{\prime}  \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [sub(1, 1), 63]
+,  
+ilf_ref [sub(1, 1), 330]
+, and by 
+ilf_ref [sub(1, 1), 437]
+ 
+ilf_formula [sub(1, 1), 1965]
+f(X_{1}) \cdot  s(f(X_{1} ^{\prime} ) \cdot  X_{1}) = X_{1} \cdot  s(f(X_{1} ^{\prime} ) \cdot  X_{1}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 7), 0]
+, 
+ilf_ref [sub(1, 1), 576]
+, 
+ilf_ref [sub(1, 1), 596]
+,  
+ilf_ref [sub(1, 1), 960]
+, and by 
+ilf_ref [sub(1, 1), 1116]
+ 
+ilf_formula [sub(1, 1), 2007]
+s(s(s(X_{1}))) \cdot  X_{1} = X_{1} \cdot  s(s(s(X_{1}))).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 323]
+, 
+ilf_ref [sub(1, 1), 569]
+, 
+ilf_ref [sub(1, 1), 596]
+,  
+ilf_ref [sub(1, 1), 1372]
+, and by 
+ilf_ref [sub(1, 1), 1801]
+ 
+ilf_formula [sub(1, 1), 2016]
+s(X_{1} \cdot  s(s(X_{1}))) \cdot  X_{1} ^{\prime}  = s(s(X_{1} \cdot  s(X_{1}))) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 330]
+, 
+ilf_ref [sub(1, 1), 411]
+, 
+ilf_ref [sub(1, 1), 419]
+, 
+ilf_ref [sub(1, 1), 596]
+,  
+ilf_ref [sub(1, 1), 606]
+, and by 
+ilf_ref [sub(1, 1), 1369]
+ 
+ilf_formula [sub(1, 1), 2019]
+s(s(X_{1})) ^{\prime}  \cdot  (X_{1} \cdot  X_{1}) ^{\prime}  = (X_{1} \cdot  (X_{1} \cdot  s(s(X_{1})))) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 61]
+, 
+ilf_ref [sub(1, 1), 218]
+, 
+ilf_ref [sub(1, 1), 562]
+,  
+ilf_ref [sub(1, 1), 596]
+, and by 
+ilf_ref [sub(1, 1), 665]
+ 
+ilf_formula [sub(1, 1), 2022]
+s(s(s(X_{1}))) ^{\prime}  \cdot  X_{1} = X_{1} \cdot  s(s(s(X_{1}))) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 2007]
+ 
+ilf_formula [sub(1, 1), 2087]
+s(s(s(X_{1}))) \cdot  (X_{1} \cdot  X_{2}) = X_{1} \cdot  (s(s(s(X_{1}))) \cdot  X_{2}).
+ilf_formula_end
+
+Therefore by 
+ilf_ref [sub(1, 1), 20]
+, 
+ilf_ref [sub(1, 1), 21]
+,  
+ilf_ref [sub(1, 1), 200]
+, and by 
+ilf_ref [sub(1, 1), 2007]
+ 
+ilf_formula [sub(1, 1), 2088]
+s(s(s(X_{1}))) ^{\prime}  \cdot  (X_{1} \cdot  s(s(s(X_{1})))) = X_{1}.
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 7), 0]
+,  
+ilf_ref [sub(1, 1), 27]
+, and by 
+ilf_ref [sub(1, 1), 2007]
+ 
+ilf_formula [sub(1, 1), 2089]
+s(X_{1} \cdot  (X_{1} \cdot  s(s(X_{1})))) = X_{1} \cdot  s(s(s(X_{1}))).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 330]
+ and by 
+ilf_ref [sub(1, 1), 2007]
+ 
+ilf_formula [sub(1, 1), 2096]
+s(s(s(X_{1}))) ^{\prime}  \cdot  X_{1} ^{\prime}  = X_{1} ^{\prime}  \cdot  s(s(s(X_{1}))) ^{\prime} .
+ilf_formula_end
+
+Now by 
+ilf_ref [sub(1, 1), 1370]
+ 
+ilf_formula [sub(1, 1), 2129]
+s(s(X_{1} \cdot  s(X_{1}))) ^{\prime}  \cdot  (X_{1} ^{\prime}  \cdot  s(s(X_{1}))) = (X_{1} \cdot  s(s(s(X_{1})))) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+,  
+ilf_ref [sub(1, 1), 330]
+, and by 
+ilf_ref [sub(1, 1), 2088]
+ 
+ilf_formula [sub(1, 1), 2160]
+s(s(s(X_{1}))) \cdot  (X_{1} ^{\prime}  \cdot  s(s(s(X_{1}))) ^{\prime} ) = X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 7), 0]
+, 
+ilf_ref [sub(1, 1), 218]
+, 
+ilf_ref [sub(1, 1), 576]
+,  
+ilf_ref [sub(1, 1), 668]
+, and by 
+ilf_ref [sub(1, 1), 960]
+ 
+ilf_formula [sub(1, 1), 2371]
+s(s(X_{1} \cdot  s(X_{1}))) \cdot  s(X_{1} \cdot  s(s(X_{1}))) = X_{1}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+,  
+ilf_ref [ax(1, 4), 0]
+, and by 
+ilf_ref [sub(1, 1), 897]
+ 
+ilf_formula [sub(1, 1), 2575]
+(X_{1} ^{\prime}  \cdot  f(X_{1})) ^{\prime}  \cdot  (X_{1} \cdot  X_{1} ^{\prime} ) = f(X_{1} ^{\prime} ) \cdot  X_{1}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [sub(1, 1), 49]
+,  
+ilf_ref [sub(1, 1), 330]
+, and by 
+ilf_ref [sub(1, 1), 897]
+ 
+ilf_formula [sub(1, 1), 2593]
+s(X_{1} \cdot  f(X_{1} ^{\prime} )) ^{\prime}  \cdot  (X_{1} \cdot  X_{2}) = s(X_{1} \cdot  f(X_{1} ^{\prime} )) \cdot  (f(X_{1}) \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 154]
+, 
+ilf_ref [sub(1, 1), 184]
+, 
+ilf_ref [sub(1, 1), 686]
+,  
+ilf_ref [sub(1, 1), 1452]
+, and by 
+ilf_ref [sub(1, 1), 1475]
+ 
+ilf_formula [sub(1, 1), 2737]
+X_{1} \cdot  f(X_{1} \cdot  ((f(X_{1}) \cdot  X_{1}) ^{\prime}  \cdot  X_{1})) = f(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [sub(1, 1), 330]
+, 
+ilf_ref [sub(1, 1), 492]
+, 
+ilf_ref [sub(1, 1), 896]
+,  
+ilf_ref [sub(1, 1), 1174]
+, and by 
+ilf_ref [sub(1, 1), 1242]
+ 
+ilf_formula [sub(1, 1), 2934]
+X_{1} \cdot  f(X_{1} ^{\prime}  \cdot  (s(f(X_{1}) \cdot  X_{1} ^{\prime} ) \cdot  X_{1})) = s(X_{1} \cdot  f(X_{1} ^{\prime} )) \cdot  X_{1}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 218]
+, 
+ilf_ref [sub(1, 1), 569]
+, 
+ilf_ref [sub(1, 1), 1174]
+,  
+ilf_ref [sub(1, 1), 2096]
+, and by 
+ilf_ref [sub(1, 1), 2129]
+ 
+ilf_formula [sub(1, 1), 2935]
+X_{1} ^{\prime}  \cdot  s(s(s(X_{1}))) ^{\prime}  = (X_{1} \cdot  s(s(s(X_{1})))) ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 2160]
+ 
+ilf_formula [sub(1, 1), 2981]
+s(s(s(X_{1}))) \cdot  (X_{1} \cdot  s(s(s(X_{1})))) ^{\prime}  = X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 25]
+ and by 
+ilf_ref [sub(1, 1), 2089]
+ 
+ilf_formula [sub(1, 1), 3230]
+s(X_{1}) \cdot  s(s(s(s(X_{1})))) = s(X_{1} \cdot  s(s(s(X_{1})))).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [ax(1, 6), 0]
+,  
+ilf_ref [sub(1, 1), 1452]
+, and by 
+ilf_ref [sub(1, 1), 2737]
+ 
+ilf_formula [sub(1, 1), 3487]
+X_{1} \cdot  (f(X_{1}) \cdot  ((X_{1} \cdot  f(X_{1})) ^{\prime}  \cdot  X_{1})) = X_{1}.
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+ 
+ilf_formula [sub(1, 1), 3515]
+X_{1} \cdot  (f(X_{1}) \cdot  ((X_{1} \cdot  f(X_{1})) ^{\prime}  \cdot  (X_{1} \cdot  X_{2}))) = X_{1} \cdot  X_{2}.
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 4), 0]
+,  
+ilf_ref [sub(1, 1), 21]
+, and by 
+ilf_ref [sub(1, 1), 130]
+ 
+ilf_formula [sub(1, 1), 3518]
+f(X_{1}) \cdot  ((X_{1} \cdot  f(X_{1})) ^{\prime}  \cdot  X_{1}) = X_{1} \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+Therefore by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [sub(1, 1), 20]
+, 
+ilf_ref [sub(1, 1), 55]
+, 
+ilf_ref [sub(1, 1), 106]
+, 
+ilf_ref [sub(1, 1), 166]
+, 
+ilf_ref [sub(1, 1), 221]
+, 
+ilf_ref [sub(1, 1), 275]
+, 
+ilf_ref [sub(1, 1), 380]
+, 
+ilf_ref [sub(1, 1), 625]
+,  
+ilf_ref [sub(1, 1), 1044]
+, and by 
+ilf_ref [sub(1, 1), 3487]
+ 
+ilf_formula [sub(1, 1), 3540]
+X_{1} \cdot  (X_{1} \cdot  (f(X_{1}) \cdot  (X_{1} \cdot  f(X_{1})) ^{\prime} )) = X_{1}.
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 40]
+, 
+ilf_ref [sub(1, 1), 130]
+,  
+ilf_ref [sub(1, 1), 328]
+, and by 
+ilf_ref [sub(1, 1), 393]
+ 
+ilf_formula [sub(1, 1), 3557]
+f(X_{1}) \cdot  (X_{1} \cdot  f(X_{1})) ^{\prime}  = X_{1} ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+ 
+ilf_formula [sub(1, 1), 3629]
+f(X_{1}) \cdot  ((X_{1} \cdot  f(X_{1})) ^{\prime}  \cdot  X_{2}) = X_{1} ^{\prime}  \cdot  X_{2}.
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 5), 0]
+,  
+ilf_ref [ax(1, 6), 0]
+, and by 
+ilf_ref [sub(1, 1), 392]
+ 
+ilf_formula [sub(1, 1), 3631]
+X_{1} \cdot  (f(X_{1}) \cdot  X_{1}) ^{\prime}  = f(X_{1} ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 22]
+ and by 
+ilf_ref [sub(1, 1), 3557]
+ 
+ilf_formula [sub(1, 1), 3633]
+f(X_{1} \cdot  X_{2}) \cdot  (X_{2} \cdot  f(X_{2})) ^{\prime}  = f(X_{1}) \cdot  X_{2} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [sub(1, 1), 22]
+,  
+ilf_ref [sub(1, 1), 392]
+, and by 
+ilf_ref [sub(1, 1), 3557]
+ 
+ilf_formula [sub(1, 1), 3634]
+X_{1} \cdot  ((f(X_{1}) \cdot  X_{1}) ^{\prime}  \cdot  X_{2}) = f(X_{1} ^{\prime} ) \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 49]
+,  
+ilf_ref [sub(1, 1), 380]
+, and by 
+ilf_ref [sub(1, 1), 3557]
+ 
+ilf_formula [sub(1, 1), 3638]
+f(s(X_{1})) \cdot  (X_{1} \cdot  f(X_{1})) ^{\prime}  = f(s(X_{1}) ^{\prime} ) \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 379]
+,  
+ilf_ref [sub(1, 1), 380]
+, and by 
+ilf_ref [sub(1, 1), 3557]
+ 
+ilf_formula [sub(1, 1), 3645]
+f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  f(X_{1})) ^{\prime}  = f((X_{1} \cdot  X_{1}) ^{\prime} ) \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 347]
+, 
+ilf_ref [sub(1, 1), 411]
+,  
+ilf_ref [sub(1, 1), 1475]
+, and by 
+ilf_ref [sub(1, 1), 3629]
+ 
+ilf_formula [sub(1, 1), 3658]
+(f(X_{1}) \cdot  X_{1}) ^{\prime}  \cdot  f(X_{1}) = X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 393]
+, 
+ilf_ref [sub(1, 1), 419]
+,  
+ilf_ref [sub(1, 1), 1472]
+, and by 
+ilf_ref [sub(1, 1), 3629]
+ 
+ilf_formula [sub(1, 1), 3659]
+(f(X_{1}) \cdot  X_{1}) ^{\prime}  \cdot  (f(X_{1}) \cdot  X_{2}) = X_{1} ^{\prime}  \cdot  X_{2}.
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 5), 0]
+,  
+ilf_ref [ax(1, 6), 0]
+, and by 
+ilf_ref [sub(1, 1), 391]
+ 
+ilf_formula [sub(1, 1), 3698]
+(X_{1} \cdot  f(X_{1})) ^{\prime}  \cdot  X_{1} = f(X_{1} ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [sub(1, 1), 22]
+,  
+ilf_ref [sub(1, 1), 391]
+, and by 
+ilf_ref [sub(1, 1), 3658]
+ 
+ilf_formula [sub(1, 1), 3699]
+(X_{1} \cdot  f(X_{1})) ^{\prime}  \cdot  (X_{1} \cdot  X_{2}) = f(X_{1} ^{\prime} ) \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 22]
+ and by 
+ilf_ref [sub(1, 1), 221]
+ 
+ilf_formula [sub(1, 1), 3742]
+f(X_{1}) \cdot  (X_{2} \cdot  (f(X_{3}) \cdot  (X_{2} \cdot  f(X_{3})) ^{\prime} )) = f(X_{1} \cdot  X_{2}) \cdot  (X_{3} \cdot  (f(X_{2}) \cdot  X_{3}) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 23]
+,  
+ilf_ref [sub(1, 1), 221]
+, and by 
+ilf_ref [sub(1, 1), 454]
+ 
+ilf_formula [sub(1, 1), 3743]
+f(X_{1}) \cdot  (X_{2} \cdot  f(X_{3} \cdot  (X_{1} \cdot  (f(X_{2}) \cdot  X_{3})) ^{\prime} )) = X_{1} \cdot  (f(X_{2}) \cdot  (X_{3} \cdot  (X_{1} \cdot  (f(X_{2}) \cdot  X_{3})) ^{\prime} )).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 716]
+ and by 
+ilf_ref [sub(1, 1), 3634]
+ 
+ilf_formula [sub(1, 1), 3908]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  s(f(X_{1} ^{\prime} ) \cdot  X_{2})) = s(f(X_{1} ^{\prime} ) \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 165]
+,  
+ilf_ref [sub(1, 1), 3658]
+, and by 
+ilf_ref [sub(1, 1), 3659]
+ 
+ilf_formula [sub(1, 1), 4065]
+(X_{1} \cdot  X_{2}) ^{\prime}  \cdot  (X_{2} \cdot  X_{2} ^{\prime} ) = (X_{1} \cdot  X_{2}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 3557]
+ and by 
+ilf_ref [sub(1, 1), 3659]
+ 
+ilf_formula [sub(1, 1), 4095]
+(f(X_{1}) \cdot  X_{1}) ^{\prime}  \cdot  X_{1} ^{\prime}  = X_{1} ^{\prime}  \cdot  (X_{1} \cdot  f(X_{1})) ^{\prime} .
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 5), 0]
+,  
+ilf_ref [sub(1, 1), 106]
+, and by 
+ilf_ref [sub(1, 1), 380]
+ 
+ilf_formula [sub(1, 1), 4123]
+(X_{1} \cdot  f(X_{2})) ^{\prime}  \cdot  (X_{2} \cdot  X_{2} ^{\prime} ) = (X_{1} \cdot  f(X_{2})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [sub(1, 1), 49]
+, 
+ilf_ref [sub(1, 1), 323]
+,  
+ilf_ref [sub(1, 1), 330]
+, and by 
+ilf_ref [sub(1, 1), 4065]
+ 
+ilf_formula [sub(1, 1), 4125]
+s(X_{1} \cdot  X_{2}) ^{\prime}  \cdot  (X_{2} \cdot  X_{2} ^{\prime} ) = s(X_{1} \cdot  X_{2}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [sub(1, 1), 67]
+, 
+ilf_ref [sub(1, 1), 323]
+, 
+ilf_ref [sub(1, 1), 330]
+, 
+ilf_ref [sub(1, 1), 1174]
+,  
+ilf_ref [sub(1, 1), 1242]
+, and by 
+ilf_ref [sub(1, 1), 4065]
+ 
+ilf_formula [sub(1, 1), 4169]
+s(X_{1} \cdot  X_{2}) \cdot  (X_{2} \cdot  X_{2} ^{\prime} ) = s(X_{1} \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 49]
+, 
+ilf_ref [sub(1, 1), 200]
+, 
+ilf_ref [sub(1, 1), 573]
+,  
+ilf_ref [sub(1, 1), 1725]
+, and by 
+ilf_ref [sub(1, 1), 4065]
+ 
+ilf_formula [sub(1, 1), 4173]
+s(X_{1} \cdot  s(X_{1})) \cdot  (X_{1} \cdot  s(s(X_{1}))) ^{\prime}  = s(X_{1}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 200]
+, 
+ilf_ref [sub(1, 1), 726]
+,  
+ilf_ref [sub(1, 1), 2371]
+, and by 
+ilf_ref [sub(1, 1), 4065]
+ 
+ilf_formula [sub(1, 1), 4177]
+s(s(X_{1})) \cdot  (X_{1} \cdot  s(s(X_{1}))) ^{\prime}  = X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 2575]
+ and by 
+ilf_ref [sub(1, 1), 4123]
+ 
+ilf_formula [sub(1, 1), 4183]
+(X_{1} ^{\prime}  \cdot  f(X_{1})) ^{\prime}  = f(X_{1} ^{\prime} ) \cdot  X_{1}.
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 333]
+ 
+ilf_formula [sub(1, 1), 4215]
+s(X_{1} ^{\prime}  \cdot  f(X_{1})) ^{\prime}  = s(f(X_{1} ^{\prime} ) \cdot  X_{1}),
+ilf_formula_end
+ because of $ [hyper(333, a, 4183, a), flip(a)]. $
+Now by 
+ilf_ref [ax(1, 2), 0]
+ 
+ilf_formula [sub(1, 1), 4216]
+(f(X_{1} ^{\prime} ) \cdot  X_{1}) ^{\prime}  = X_{1} ^{\prime}  \cdot  f(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+ and by 
+ilf_ref [sub(1, 1), 4183]
+ 
+ilf_formula [sub(1, 1), 4217]
+(X_{1} \cdot  f(X_{1} ^{\prime} )) ^{\prime}  = f(X_{1}) \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 22]
+, 
+ilf_ref [sub(1, 1), 37]
+, 
+ilf_ref [sub(1, 1), 106]
+,  
+ilf_ref [sub(1, 1), 561]
+, and by 
+ilf_ref [sub(1, 1), 4183]
+ 
+ilf_formula [sub(1, 1), 4230]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  s(s(X_{1} ^{\prime}  \cdot  f(X_{1})))) = s(s(X_{1} ^{\prime}  \cdot  f(X_{1}))).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 1327]
+, and by 
+ilf_ref [sub(1, 1), 4183]
+ 
+ilf_formula [sub(1, 1), 4254]
+s(s(X_{1} ^{\prime}  \cdot  (f(X_{1}) \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1}))))) ^{\prime}  = s(f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(s(X_{1} ^{\prime}  \cdot  f(X_{1}))))).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 1309]
+,  
+ilf_ref [sub(1, 1), 1965]
+, and by 
+ilf_ref [sub(1, 1), 4215]
+ 
+ilf_formula [sub(1, 1), 4259]
+X_{1} \cdot  s(f(X_{1} ^{\prime} ) \cdot  X_{1}) ^{\prime}  = X_{1} \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1})).
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 1965]
+ 
+ilf_formula [sub(1, 1), 4309]
+f(X_{1}) \cdot  s(f(X_{1} ^{\prime} ) \cdot  X_{1}) = X_{1} \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 333]
+ and by 
+ilf_ref [sub(1, 1), 4216]
+ 
+ilf_formula [sub(1, 1), 4310]
+s(f(X_{1} ^{\prime} ) \cdot  X_{1}) ^{\prime}  = s(X_{1} ^{\prime}  \cdot  f(X_{1})),
+ilf_formula_end
+ because of $ [hyper(333, a, 4216, a), flip(a)]. $
+By 
+ilf_ref [ax(1, 2), 0]
+ and by 
+ilf_ref [sub(1, 1), 4216]
+ 
+ilf_formula [sub(1, 1), 4311]
+(f(X_{1}) \cdot  X_{1} ^{\prime} ) ^{\prime}  = X_{1} \cdot  f(X_{1} ^{\prime} ).
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 346]
+, and by 
+ilf_ref [sub(1, 1), 4216]
+ 
+ilf_formula [sub(1, 1), 4316]
+s(f(X_{1} ^{\prime} ) \cdot  X_{1}) \cdot  (X_{1} ^{\prime}  \cdot  (f(X_{1}) \cdot  X_{2})) = s(X_{1} ^{\prime}  \cdot  f(X_{1})) \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 572]
+, and by 
+ilf_ref [sub(1, 1), 4216]
+ 
+ilf_formula [sub(1, 1), 4318]
+s(f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(f(X_{1} ^{\prime} ) \cdot  X_{1}))) \cdot  (X_{1} ^{\prime}  \cdot  f(X_{1})) = s(s(f(X_{1} ^{\prime} ) \cdot  X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 1327]
+, and by 
+ilf_ref [sub(1, 1), 4216]
+ 
+ilf_formula [sub(1, 1), 4329]
+s(s(f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(f(X_{1} ^{\prime} ) \cdot  X_{1})))) ^{\prime}  = s(X_{1} ^{\prime}  \cdot  (f(X_{1}) \cdot  s(s(f(X_{1} ^{\prime} ) \cdot  X_{1})))).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 333]
+ and by 
+ilf_ref [sub(1, 1), 4217]
+ 
+ilf_formula [sub(1, 1), 4519]
+s(X_{1} \cdot  f(X_{1} ^{\prime} )) ^{\prime}  = s(f(X_{1}) \cdot  X_{1} ^{\prime} ),
+ilf_formula_end
+ because of $ [hyper(333, a, 4217, a), flip(a)]. $
+Hence by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [sub(1, 1), 22]
+, 
+ilf_ref [sub(1, 1), 106]
+, 
+ilf_ref [sub(1, 1), 200]
+, 
+ilf_ref [sub(1, 1), 347]
+,  
+ilf_ref [sub(1, 1), 411]
+, and by 
+ilf_ref [sub(1, 1), 4217]
+ 
+ilf_formula [sub(1, 1), 4521]
+s(X_{1} \cdot  f(X_{1} ^{\prime} )) \cdot  s(f(X_{1}) \cdot  X_{1} ^{\prime} ) = X_{1} \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [sub(1, 1), 22]
+, 
+ilf_ref [sub(1, 1), 106]
+, 
+ilf_ref [sub(1, 1), 317]
+, 
+ilf_ref [sub(1, 1), 393]
+,  
+ilf_ref [sub(1, 1), 419]
+, and by 
+ilf_ref [sub(1, 1), 4217]
+ 
+ilf_formula [sub(1, 1), 4546]
+s(X_{1} \cdot  f(X_{1} ^{\prime} )) \cdot  (s(f(X_{1}) \cdot  X_{1} ^{\prime} ) \cdot  X_{2}) = X_{1} \cdot  (X_{1} ^{\prime}  \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 2593]
+ and by 
+ilf_ref [sub(1, 1), 4519]
+ 
+ilf_formula [sub(1, 1), 4553]
+s(X_{1} \cdot  f(X_{1} ^{\prime} )) \cdot  (f(X_{1}) \cdot  X_{2}) = s(f(X_{1}) \cdot  X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 909]
+ and by 
+ilf_ref [sub(1, 1), 4519]
+ 
+ilf_formula [sub(1, 1), 4554]
+s(X_{1} \cdot  f(X_{1} ^{\prime} )) \cdot  f(X_{1}) = s(f(X_{1}) \cdot  X_{1} ^{\prime} ) \cdot  X_{1}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 333]
+ and by 
+ilf_ref [sub(1, 1), 4311]
+ 
+ilf_formula [sub(1, 1), 4561]
+s(f(X_{1}) \cdot  X_{1} ^{\prime} ) ^{\prime}  = s(X_{1} \cdot  f(X_{1} ^{\prime} )),
+ilf_formula_end
+ because of $ [hyper(333, a, 4311, a), flip(a)]. $
+Hence by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 106]
+, 
+ilf_ref [sub(1, 1), 132]
+,  
+ilf_ref [sub(1, 1), 200]
+, and by 
+ilf_ref [sub(1, 1), 4311]
+ 
+ilf_formula [sub(1, 1), 4562]
+s(f(X_{1}) \cdot  X_{1} ^{\prime} ) \cdot  s(X_{1} \cdot  f(X_{1} ^{\prime} )) = X_{1} \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 28]
+, and by 
+ilf_ref [sub(1, 1), 4177]
+ 
+ilf_formula [sub(1, 1), 4594]
+s(X_{1}) \cdot  (X_{1} \cdot  (X_{1} \cdot  s(X_{1}))) ^{\prime}  = (X_{1} \cdot  X_{1}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 25]
+,  
+ilf_ref [sub(1, 1), 569]
+, and by 
+ilf_ref [sub(1, 1), 4177]
+ 
+ilf_formula [sub(1, 1), 4595]
+s(X_{1}) \cdot  (X_{1} \cdot  s(s(X_{1}))) ^{\prime}  = X_{1} ^{\prime}  \cdot  s(s(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+,  
+ilf_ref [ax(1, 4), 0]
+, and by 
+ilf_ref [sub(1, 1), 4169]
+ 
+ilf_formula [sub(1, 1), 4745]
+s(X_{1} \cdot  X_{2} ^{\prime} ) \cdot  (X_{2} \cdot  X_{2} ^{\prime} ) = s(X_{1} \cdot  X_{2} ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 333]
+ and by 
+ilf_ref [sub(1, 1), 4215]
+ 
+ilf_formula [sub(1, 1), 4817]
+s(s(X_{1} ^{\prime}  \cdot  f(X_{1}))) ^{\prime}  = s(s(f(X_{1} ^{\prime} ) \cdot  X_{1})),
+ilf_formula_end
+ because of $ [hyper(333, a, 4215, a), flip(a)]. $
+Hence by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 218]
+, 
+ilf_ref [sub(1, 1), 1242]
+, 
+ilf_ref [sub(1, 1), 1328]
+,  
+ilf_ref [sub(1, 1), 4183]
+, and by 
+ilf_ref [sub(1, 1), 4215]
+ 
+ilf_formula [sub(1, 1), 4841]
+s(f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(f(X_{1} ^{\prime} ) \cdot  X_{1}))) = f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(s(X_{1} ^{\prime}  \cdot  f(X_{1})))).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 218]
+, 
+ilf_ref [sub(1, 1), 1252]
+,  
+ilf_ref [sub(1, 1), 4215]
+, and by 
+ilf_ref [sub(1, 1), 4254]
+ 
+ilf_formula [sub(1, 1), 4842]
+s(f(X_{1} ^{\prime} ) \cdot  X_{1}) \cdot  s(s(s(X_{1} ^{\prime}  \cdot  f(X_{1})))) = s(f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(s(X_{1} ^{\prime}  \cdot  f(X_{1}))))).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 218]
+,  
+ilf_ref [sub(1, 1), 1329]
+, and by 
+ilf_ref [sub(1, 1), 4215]
+ 
+ilf_formula [sub(1, 1), 4844]
+s(f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(s(X_{1} ^{\prime}  \cdot  f(X_{1}))))) ^{\prime}  = s(s(X_{1} ^{\prime}  \cdot  (f(X_{1}) \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1}))))).
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 4329]
+ and by 
+ilf_ref [sub(1, 1), 4841]
+ 
+ilf_formula [sub(1, 1), 4871]
+s(s(X_{1} ^{\prime}  \cdot  (f(X_{1}) \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1}))))) = s(X_{1} ^{\prime}  \cdot  (f(X_{1}) \cdot  s(s(f(X_{1} ^{\prime} ) \cdot  X_{1})))).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [sub(1, 1), 22]
+, 
+ilf_ref [sub(1, 1), 106]
+, 
+ilf_ref [sub(1, 1), 130]
+, 
+ilf_ref [sub(1, 1), 576]
+, 
+ilf_ref [sub(1, 1), 4230]
+,  
+ilf_ref [sub(1, 1), 4318]
+, and by 
+ilf_ref [sub(1, 1), 4841]
+ 
+ilf_formula [sub(1, 1), 4873]
+s(s(f(X_{1} ^{\prime} ) \cdot  X_{1})) ^{\prime}  = s(s(X_{1} ^{\prime}  \cdot  f(X_{1}))).
+ilf_formula_end
+
+Now by 
+ilf_ref [sub(1, 1), 4254]
+ 
+ilf_formula [sub(1, 1), 4879]
+s(X_{1} ^{\prime}  \cdot  (f(X_{1}) \cdot  s(s(f(X_{1} ^{\prime} ) \cdot  X_{1})))) ^{\prime}  = s(f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(s(X_{1} ^{\prime}  \cdot  f(X_{1}))))).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 606]
+ and by 
+ilf_ref [sub(1, 1), 4310]
+ 
+ilf_formula [sub(1, 1), 4900]
+s(s(s(f(X_{1} ^{\prime} ) \cdot  X_{1}))) ^{\prime}  \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1})) = s(X_{1} ^{\prime}  \cdot  f(X_{1})) \cdot  s(s(s(f(X_{1} ^{\prime} ) \cdot  X_{1}))) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 333]
+ and by 
+ilf_ref [sub(1, 1), 4519]
+ 
+ilf_formula [sub(1, 1), 4911]
+s(s(X_{1} \cdot  f(X_{1} ^{\prime} ))) ^{\prime}  = s(s(f(X_{1}) \cdot  X_{1} ^{\prime} )),
+ilf_formula_end
+ because of $ [hyper(333, a, 4519, a), flip(a)]. $
+Hence by 
+ilf_ref [sub(1, 1), 200]
+,  
+ilf_ref [sub(1, 1), 4519]
+, and by 
+ilf_ref [sub(1, 1), 4521]
+ 
+ilf_formula [sub(1, 1), 4914]
+s(s(X_{1} \cdot  f(X_{1} ^{\prime} ))) \cdot  s(s(f(X_{1}) \cdot  X_{1} ^{\prime} )) = X_{1} \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+Now by 
+ilf_ref [sub(1, 1), 318]
+ and by 
+ilf_ref [sub(1, 1), 4519]
+ 
+ilf_formula [sub(1, 1), 4915]
+s(f(X_{1}) \cdot  X_{1} ^{\prime} ) \cdot  s(s(X_{1} \cdot  f(X_{1} ^{\prime} ))) = s(s(f(X_{1}) \cdot  X_{1} ^{\prime} )).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 323]
+,  
+ilf_ref [sub(1, 1), 4519]
+, and by 
+ilf_ref [sub(1, 1), 4911]
+ 
+ilf_formula [sub(1, 1), 4916]
+s(s(X_{1} \cdot  f(X_{1} ^{\prime} ))) \cdot  s(f(X_{1}) \cdot  X_{1} ^{\prime} ) = s(s(f(X_{1}) \cdot  X_{1} ^{\prime} )).
+ilf_formula_end
+
+Now by 
+ilf_ref [sub(1, 1), 377]
+, 
+ilf_ref [sub(1, 1), 467]
+,  
+ilf_ref [sub(1, 1), 4519]
+, and by 
+ilf_ref [sub(1, 1), 4911]
+ 
+ilf_formula [sub(1, 1), 4933]
+s(X_{1} \cdot  f(X_{1} ^{\prime} )) \cdot  s(s(f(X_{1}) \cdot  X_{1} ^{\prime} )) = s(s(X_{1} \cdot  f(X_{1} ^{\prime} ))).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 557]
+, 
+ilf_ref [sub(1, 1), 960]
+,  
+ilf_ref [sub(1, 1), 1594]
+, and by 
+ilf_ref [sub(1, 1), 4519]
+ 
+ilf_formula [sub(1, 1), 4936]
+s(X_{1} \cdot  f(X_{1} ^{\prime} )) \cdot  s(f(X_{1}) \cdot  (X_{1} ^{\prime}  \cdot  s(s(f(X_{1}) \cdot  X_{1} ^{\prime} )))) = s(s(s(f(X_{1}) \cdot  X_{1} ^{\prime} ))).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 63]
+, 
+ilf_ref [sub(1, 1), 122]
+, 
+ilf_ref [sub(1, 1), 229]
+, 
+ilf_ref [sub(1, 1), 346]
+,  
+ilf_ref [sub(1, 1), 552]
+, and by 
+ilf_ref [sub(1, 1), 3742]
+ 
+ilf_formula [sub(1, 1), 4972]
+f(s(X_{1})) \cdot  (X_{1} \cdot  (f(s(X_{1}) ^{\prime} ) \cdot  X_{1}) ^{\prime} ) = f(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 2981]
+,  
+ilf_ref [sub(1, 1), 3230]
+, and by 
+ilf_ref [sub(1, 1), 4561]
+ 
+ilf_formula [sub(1, 1), 5083]
+s(s(s(s(f(X_{1}) \cdot  X_{1} ^{\prime} )))) \cdot  s(f(X_{1}) \cdot  (X_{1} ^{\prime}  \cdot  s(s(s(f(X_{1}) \cdot  X_{1} ^{\prime} ))))) ^{\prime}  = s(X_{1} \cdot  f(X_{1} ^{\prime} )).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 3631]
+ and by 
+ilf_ref [sub(1, 1), 3699]
+ 
+ilf_formula [sub(1, 1), 5174]
+(X_{1} \cdot  f(X_{1})) ^{\prime}  \cdot  f(X_{1} ^{\prime} ) = f(X_{1} ^{\prime} ) \cdot  (f(X_{1}) \cdot  X_{1}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 22]
+, 
+ilf_ref [sub(1, 1), 37]
+, 
+ilf_ref [sub(1, 1), 40]
+, 
+ilf_ref [sub(1, 1), 106]
+, 
+ilf_ref [sub(1, 1), 232]
+, 
+ilf_ref [sub(1, 1), 454]
+, 
+ilf_ref [sub(1, 1), 3634]
+,  
+ilf_ref [sub(1, 1), 3658]
+, and by 
+ilf_ref [sub(1, 1), 3743]
+ 
+ilf_formula [sub(1, 1), 5306]
+f(X_{1}) \cdot  (X_{1} \cdot  (X_{1} \cdot  (f(X_{1}) \cdot  X_{1})) ^{\prime} ) = X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 49]
+,  
+ilf_ref [sub(1, 1), 2019]
+, and by 
+ilf_ref [sub(1, 1), 4594]
+ 
+ilf_formula [sub(1, 1), 5404]
+s(s(X_{1})) \cdot  (X_{1} \cdot  (X_{1} \cdot  s(X_{1}))) ^{\prime}  = (X_{1} \cdot  (X_{1} \cdot  s(s(X_{1})))) ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 966]
+ and by 
+ilf_ref [sub(1, 1), 1781]
+ 
+ilf_formula [sub(1, 1), 5421]
+X_{1} ^{\prime}  \cdot  s(s(X_{1})) ^{\prime}  = (X_{1} \cdot  s(s(X_{1}))) ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 4216]
+, and by 
+ilf_ref [sub(1, 1), 4873]
+ 
+ilf_formula [sub(1, 1), 5511]
+(f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(s(f(X_{1} ^{\prime} ) \cdot  X_{1})))) ^{\prime}  = X_{1} ^{\prime}  \cdot  (f(X_{1}) \cdot  s(s(X_{1} ^{\prime}  \cdot  f(X_{1})))).
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 960]
+, and by 
+ilf_ref [sub(1, 1), 4310]
+ 
+ilf_formula [sub(1, 1), 5516]
+s(X_{1} ^{\prime}  \cdot  f(X_{1})) \cdot  s(s(s(f(X_{1} ^{\prime} ) \cdot  X_{1}))) ^{\prime}  = s(f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(s(f(X_{1} ^{\prime} ) \cdot  X_{1})))) ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 4900]
+ 
+ilf_formula [sub(1, 1), 5572]
+s(s(s(f(X_{1} ^{\prime} ) \cdot  X_{1}))) ^{\prime}  \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1})) = s(f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(s(f(X_{1} ^{\prime} ) \cdot  X_{1})))) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 22]
+, 
+ilf_ref [sub(1, 1), 40]
+, 
+ilf_ref [sub(1, 1), 106]
+, 
+ilf_ref [sub(1, 1), 3634]
+,  
+ilf_ref [sub(1, 1), 4095]
+, and by 
+ilf_ref [sub(1, 1), 5306]
+ 
+ilf_formula [sub(1, 1), 5746]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  (X_{1} \cdot  (f(X_{1}) \cdot  X_{1})) ^{\prime} ) = X_{1} ^{\prime}  \cdot  (X_{1} \cdot  f(X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 1496]
+,  
+ilf_ref [sub(1, 1), 4561]
+, and by 
+ilf_ref [sub(1, 1), 4562]
+ 
+ilf_formula [sub(1, 1), 9119]
+f((X_{1} \cdot  s(f(X_{2}) \cdot  X_{2} ^{\prime} )) ^{\prime} ) \cdot  (X_{2} \cdot  X_{2} ^{\prime} ) = f((X_{1} \cdot  s(f(X_{2}) \cdot  X_{2} ^{\prime} )) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 40]
+,  
+ilf_ref [sub(1, 1), 184]
+, and by 
+ilf_ref [sub(1, 1), 308]
+ 
+ilf_formula [sub(1, 1), 9289]
+X_{1} \cdot  (X_{2} \cdot  ((X_{1} \cdot  X_{2}) ^{\prime}  \cdot  X_{1})) = X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  (X_{2} \cdot  X_{1}) ^{\prime} )).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 1768]
+ 
+ilf_formula [sub(1, 1), 9787]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  (s(X_{1} ^{\prime}  \cdot  X_{2}) \cdot  X_{3})) = s(X_{1} ^{\prime}  \cdot  X_{2}) \cdot  X_{3}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 22]
+, 
+ilf_ref [sub(1, 1), 24]
+,  
+ilf_ref [sub(1, 1), 55]
+, and by 
+ilf_ref [sub(1, 1), 3633]
+ 
+ilf_formula [sub(1, 1), 10715]
+f(X_{1} \cdot  X_{2}) \cdot  (X_{3} \cdot  (X_{2} \cdot  (f(X_{3} \cdot  X_{2}) \cdot  X_{3})) ^{\prime} ) = f(X_{1}) \cdot  (X_{2} \cdot  f(X_{3})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 4125]
+,  
+ilf_ref [sub(1, 1), 4561]
+, and by 
+ilf_ref [sub(1, 1), 4562]
+ 
+ilf_formula [sub(1, 1), 11269]
+s(X_{1} \cdot  s(f(X_{2}) \cdot  X_{2} ^{\prime} )) ^{\prime}  \cdot  (X_{2} \cdot  X_{2} ^{\prime} ) = s(X_{1} \cdot  s(f(X_{2}) \cdot  X_{2} ^{\prime} )) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 106]
+, 
+ilf_ref [sub(1, 1), 330]
+, 
+ilf_ref [sub(1, 1), 380]
+, 
+ilf_ref [sub(1, 1), 1231]
+, 
+ilf_ref [sub(1, 1), 1315]
+, 
+ilf_ref [sub(1, 1), 1835]
+,  
+ilf_ref [sub(1, 1), 3742]
+, and by 
+ilf_ref [sub(1, 1), 4125]
+ 
+ilf_formula [sub(1, 1), 11302]
+(X_{1} \cdot  X_{1}) ^{\prime}  \cdot  (f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  X_{1}) ^{\prime} ) ^{\prime}  = f(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 218]
+, 
+ilf_ref [sub(1, 1), 4216]
+, 
+ilf_ref [sub(1, 1), 4316]
+,  
+ilf_ref [sub(1, 1), 4595]
+, and by 
+ilf_ref [sub(1, 1), 5511]
+ 
+ilf_formula [sub(1, 1), 11359]
+s(X_{1} ^{\prime}  \cdot  (f(X_{1}) \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1})))) = X_{1} ^{\prime}  \cdot  (f(X_{1}) \cdot  s(s(f(X_{1} ^{\prime} ) \cdot  X_{1}))).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 21]
+ and by 
+ilf_ref [sub(1, 1), 349]
+ 
+ilf_formula [sub(1, 1), 11628]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  (X_{2} \cdot  (X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  X_{2}))) ^{\prime} )) = X_{1} ^{\prime}  \cdot  (X_{1} \cdot  X_{2}) ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 37]
+ and by 
+ilf_ref [sub(1, 1), 349]
+ 
+ilf_formula [sub(1, 1), 11632]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  (X_{1} \cdot  X_{2}) ^{\prime} ) = (X_{1} \cdot  X_{2}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 40]
+ and by 
+ilf_ref [sub(1, 1), 349]
+ 
+ilf_formula [sub(1, 1), 11633]
+X_{1} \cdot  (X_{2} \cdot  ((X_{1} \cdot  X_{2}) ^{\prime}  \cdot  (X_{3} \cdot  (X_{2} \cdot  (X_{3} \cdot  (X_{2} \cdot  X_{3}))) ^{\prime} ))) = (X_{1} \cdot  X_{2}) ^{\prime}  \cdot  (X_{1} \cdot  (X_{2} \cdot  X_{3}) ^{\prime} ).
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 184]
+ and by 
+ilf_ref [sub(1, 1), 349]
+ 
+ilf_formula [sub(1, 1), 11661]
+X_{1} \cdot  (X_{2} \cdot  ((X_{1} \cdot  X_{2}) ^{\prime}  \cdot  (X_{1} \cdot  (X_{2} \cdot  X_{3}) ^{\prime} ))) = X_{1} \cdot  (X_{2} \cdot  X_{3}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 349]
+ and by 
+ilf_ref [sub(1, 1), 552]
+ 
+ilf_formula [sub(1, 1), 11691]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  (f(s(X_{1})) \cdot  X_{2}) ^{\prime} ) = (f(s(X_{1})) \cdot  X_{2}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 5746]
+ and by 
+ilf_ref [sub(1, 1), 11632]
+ 
+ilf_formula [sub(1, 1), 11728]
+X_{1} ^{\prime}  \cdot  (X_{1} \cdot  f(X_{1})) ^{\prime}  = (X_{1} \cdot  (f(X_{1}) \cdot  X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 7), 0]
+, 
+ilf_ref [sub(1, 1), 66]
+,  
+ilf_ref [sub(1, 1), 419]
+, and by 
+ilf_ref [sub(1, 1), 11632]
+ 
+ilf_formula [sub(1, 1), 11755]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  (s(X_{1}) \cdot  X_{2}) ^{\prime} ) = (s(X_{1}) \cdot  X_{2}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [sub(1, 1), 380]
+, 
+ilf_ref [sub(1, 1), 3634]
+,  
+ilf_ref [sub(1, 1), 3659]
+, and by 
+ilf_ref [sub(1, 1), 11632]
+ 
+ilf_formula [sub(1, 1), 11760]
+X_{1} \cdot  (X_{1} ^{\prime}  \cdot  (f(X_{1} ^{\prime} ) \cdot  X_{2}) ^{\prime} ) = (f(X_{1} ^{\prime} ) \cdot  X_{2}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 7), 0]
+, 
+ilf_ref [sub(1, 1), 467]
+,  
+ilf_ref [sub(1, 1), 484]
+, and by 
+ilf_ref [sub(1, 1), 4817]
+ 
+ilf_formula [sub(1, 1), 12012]
+s(s(s(f(X_{1} ^{\prime} ) \cdot  X_{1}))) ^{\prime}  = s(s(s(X_{1} ^{\prime}  \cdot  f(X_{1})))).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 576]
+,  
+ilf_ref [sub(1, 1), 960]
+, and by 
+ilf_ref [sub(1, 1), 5572]
+ 
+ilf_formula [sub(1, 1), 12019]
+s(f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(s(f(X_{1} ^{\prime} ) \cdot  X_{1})))) ^{\prime}  = s(X_{1} ^{\prime}  \cdot  (f(X_{1}) \cdot  s(s(X_{1} ^{\prime}  \cdot  f(X_{1}))))).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 218]
+, 
+ilf_ref [sub(1, 1), 960]
+, 
+ilf_ref [sub(1, 1), 4173]
+,  
+ilf_ref [sub(1, 1), 4841]
+, and by 
+ilf_ref [sub(1, 1), 4873]
+ 
+ilf_formula [sub(1, 1), 12073]
+s(f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(s(X_{1} ^{\prime}  \cdot  f(X_{1}))))) \cdot  s(X_{1} ^{\prime}  \cdot  (f(X_{1}) \cdot  s(s(X_{1} ^{\prime}  \cdot  f(X_{1}))))) = s(s(X_{1} ^{\prime}  \cdot  f(X_{1}))).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 37]
+, 
+ilf_ref [sub(1, 1), 42]
+, 
+ilf_ref [sub(1, 1), 106]
+, 
+ilf_ref [sub(1, 1), 200]
+, 
+ilf_ref [sub(1, 1), 221]
+, 
+ilf_ref [sub(1, 1), 380]
+,  
+ilf_ref [sub(1, 1), 3742]
+, and by 
+ilf_ref [sub(1, 1), 4972]
+ 
+ilf_formula [sub(1, 1), 12338]
+X_{1} \cdot  (f(s(X_{1}) ^{\prime} ) \cdot  X_{1}) ^{\prime}  = f(s(X_{1})).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [sub(1, 1), 21]
+,  
+ilf_ref [sub(1, 1), 330]
+, and by 
+ilf_ref [sub(1, 1), 11691]
+ 
+ilf_formula [sub(1, 1), 12381]
+(f(s(X_{1})) \cdot  X_{1} ^{\prime} ) ^{\prime}  = X_{1} \cdot  f(s(X_{1}) ^{\prime} ).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 2), 0]
+ 
+ilf_formula [sub(1, 1), 12703]
+(X_{1} \cdot  f(s(X_{1}) ^{\prime} )) ^{\prime}  = f(s(X_{1})) \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 28]
+ 
+ilf_formula [sub(1, 1), 12799]
+(X_{1} \cdot  (X_{1} \cdot  f(X_{1} ^{\prime} ))) ^{\prime}  = f(X_{1}) \cdot  (X_{1} \cdot  X_{1}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 38]
+, 
+ilf_ref [sub(1, 1), 84]
+, 
+ilf_ref [sub(1, 1), 317]
+,  
+ilf_ref [sub(1, 1), 398]
+, and by 
+ilf_ref [sub(1, 1), 9289]
+ 
+ilf_formula [sub(1, 1), 15101]
+X_{1} \cdot  (s(X_{2} \cdot  X_{1}) ^{\prime}  \cdot  X_{2}) = s(X_{1} \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 398]
+ and by 
+ilf_ref [sub(1, 1), 4745]
+ 
+ilf_formula [sub(1, 1), 15347]
+s(s(X_{1} \cdot  X_{2} ^{\prime} ) \cdot  X_{2}) ^{\prime}  \cdot  s(X_{1} \cdot  X_{2} ^{\prime} ) = s(s(X_{1} \cdot  X_{2} ^{\prime} ) \cdot  X_{2}) \cdot  X_{2} ^{\prime} .
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 40]
+, 
+ilf_ref [sub(1, 1), 107]
+, 
+ilf_ref [sub(1, 1), 397]
+, 
+ilf_ref [sub(1, 1), 824]
+,  
+ilf_ref [sub(1, 1), 9289]
+, and by 
+ilf_ref [sub(1, 1), 11661]
+ 
+ilf_formula [sub(1, 1), 15439]
+X_{1} \cdot  ((X_{2} \cdot  X_{1}) ^{\prime}  \cdot  X_{2}) = X_{1} \cdot  (X_{2} \cdot  (X_{1} \cdot  X_{2}) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 330]
+, 
+ilf_ref [sub(1, 1), 380]
+, 
+ilf_ref [sub(1, 1), 3638]
+,  
+ilf_ref [sub(1, 1), 3698]
+, and by 
+ilf_ref [sub(1, 1), 15101]
+ 
+ilf_formula [sub(1, 1), 15508]
+X_{1} \cdot  (f(s(X_{1}) ^{\prime} ) \cdot  X_{1} ^{\prime} ) = s(X_{1} \cdot  (X_{1} \cdot  f(X_{1})) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 4554]
+,  
+ilf_ref [sub(1, 1), 4561]
+, and by 
+ilf_ref [sub(1, 1), 15101]
+ 
+ilf_formula [sub(1, 1), 15535]
+X_{1} ^{\prime}  \cdot  (s(f(X_{1}) \cdot  X_{1} ^{\prime} ) \cdot  X_{1}) = s(X_{1} ^{\prime}  \cdot  f(X_{1})).
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 58]
+ and by 
+ilf_ref [sub(1, 1), 2934]
+ 
+ilf_formula [sub(1, 1), 15706]
+s(X_{1} \cdot  f(X_{1} ^{\prime} )) \cdot  X_{1} = X_{1} \cdot  s(f(X_{1} ^{\prime} ) \cdot  X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 5), 0]
+,  
+ilf_ref [sub(1, 1), 392]
+, and by 
+ilf_ref [sub(1, 1), 11728]
+ 
+ilf_formula [sub(1, 1), 15847]
+f(X_{1} ^{\prime} ) \cdot  (f(X_{1}) \cdot  X_{1}) ^{\prime}  = f((X_{1} \cdot  (f(X_{1}) \cdot  X_{1})) ^{\prime} ).
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 5174]
+ 
+ilf_formula [sub(1, 1), 15905]
+(X_{1} \cdot  f(X_{1})) ^{\prime}  \cdot  f(X_{1} ^{\prime} ) = f((X_{1} \cdot  (f(X_{1}) \cdot  X_{1})) ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [sub(1, 1), 22]
+, 
+ilf_ref [sub(1, 1), 106]
+, 
+ilf_ref [sub(1, 1), 200]
+, 
+ilf_ref [sub(1, 1), 347]
+, 
+ilf_ref [sub(1, 1), 428]
+, 
+ilf_ref [sub(1, 1), 1096]
+, 
+ilf_ref [sub(1, 1), 1276]
+,  
+ilf_ref [sub(1, 1), 12381]
+, and by 
+ilf_ref [sub(1, 1), 15508]
+ 
+ilf_formula [sub(1, 1), 16945]
+f(s(X_{1})) \cdot  (X_{1} ^{\prime}  \cdot  s(X_{1} \cdot  (X_{1} \cdot  f(X_{1})) ^{\prime} )) = X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 22]
+, and by 
+ilf_ref [sub(1, 1), 627]
+ 
+ilf_formula [sub(1, 1), 18684]
+f(X_{1}) \cdot  ((f(X_{2}) \cdot  X_{3}) ^{\prime}  \cdot  (f(X_{4}) \cdot  X_{5})) = f(X_{1} \cdot  ((X_{2} \cdot  f(X_{3})) ^{\prime}  \cdot  X_{4})) \cdot  X_{5}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 1677]
+, 
+ilf_ref [sub(1, 1), 4183]
+,  
+ilf_ref [sub(1, 1), 4879]
+, and by 
+ilf_ref [sub(1, 1), 11359]
+ 
+ilf_formula [sub(1, 1), 20114]
+f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(X_{1} ^{\prime}  \cdot  (f(X_{1}) \cdot  s(s(X_{1} ^{\prime}  \cdot  f(X_{1})))))) = s(f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(s(X_{1} ^{\prime}  \cdot  f(X_{1}))))).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 2016]
+, 
+ilf_ref [sub(1, 1), 4183]
+,  
+ilf_ref [sub(1, 1), 4879]
+, and by 
+ilf_ref [sub(1, 1), 11359]
+ 
+ilf_formula [sub(1, 1), 20358]
+s(X_{1} ^{\prime}  \cdot  (f(X_{1}) \cdot  s(s(X_{1} ^{\prime}  \cdot  f(X_{1}))))) \cdot  (f(X_{1} ^{\prime} ) \cdot  X_{1}) = s(f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(s(X_{1} ^{\prime}  \cdot  f(X_{1}))))).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 2), 0]
+,  
+ilf_ref [sub(1, 1), 411]
+, and by 
+ilf_ref [sub(1, 1), 11302]
+ 
+ilf_formula [sub(1, 1), 22595]
+X_{1} \cdot  (X_{1} \cdot  (f(X_{1}) \cdot  (X_{1} \cdot  X_{1})) ^{\prime} ) = f(X_{1} ^{\prime} ).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [ax(1, 7), 0]
+, 
+ilf_ref [sub(1, 1), 66]
+,  
+ilf_ref [sub(1, 1), 411]
+, and by 
+ilf_ref [sub(1, 1), 11760]
+ 
+ilf_formula [sub(1, 1), 22657]
+(f(s(X_{1}) ^{\prime} ) \cdot  X_{1} ^{\prime} ) ^{\prime}  = X_{1} \cdot  f(s(X_{1})).
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [ax(1, 7), 0]
+, 
+ilf_ref [sub(1, 1), 22]
+, 
+ilf_ref [sub(1, 1), 380]
+, 
+ilf_ref [sub(1, 1), 552]
+,  
+ilf_ref [sub(1, 1), 1062]
+, and by 
+ilf_ref [sub(1, 1), 1242]
+ 
+ilf_formula [sub(1, 1), 22676]
+f(X_{1}) \cdot  (s(X_{1}) \cdot  f(X_{1})) ^{\prime}  = s(X_{1}) ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 22]
+, 
+ilf_ref [sub(1, 1), 106]
+,  
+ilf_ref [sub(1, 1), 380]
+, and by 
+ilf_ref [sub(1, 1), 11755]
+ 
+ilf_formula [sub(1, 1), 22808]
+f(X_{1} ^{\prime} ) \cdot  s(X_{1}) ^{\prime}  = (s(X_{1}) \cdot  f(X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+ and by 
+ilf_ref [sub(1, 1), 22657]
+ 
+ilf_formula [sub(1, 1), 22977]
+f(s(X_{1}) ^{\prime} ) \cdot  X_{1} ^{\prime}  = (X_{1} \cdot  f(s(X_{1}))) ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 15508]
+ 
+ilf_formula [sub(1, 1), 23055]
+s(X_{1} \cdot  (X_{1} \cdot  f(X_{1})) ^{\prime} ) = X_{1} \cdot  (X_{1} \cdot  f(s(X_{1}))) ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 21]
+,  
+ilf_ref [sub(1, 1), 11632]
+, and by 
+ilf_ref [sub(1, 1), 16945]
+ 
+ilf_formula [sub(1, 1), 23060]
+f(s(X_{1})) \cdot  (X_{1} \cdot  f(s(X_{1}))) ^{\prime}  = X_{1} ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 5), 0]
+,  
+ilf_ref [ax(1, 6), 0]
+, and by 
+ilf_ref [sub(1, 1), 392]
+ 
+ilf_formula [sub(1, 1), 23066]
+s(X_{1}) \cdot  (f(X_{1}) \cdot  s(X_{1})) ^{\prime}  = f(X_{1} ^{\prime} ).
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 6), 0]
+,  
+ilf_ref [sub(1, 1), 22]
+, and by 
+ilf_ref [sub(1, 1), 392]
+ 
+ilf_formula [sub(1, 1), 23069]
+s(X_{1}) \cdot  ((f(X_{1}) \cdot  s(X_{1})) ^{\prime}  \cdot  X_{2}) = f(X_{1} ^{\prime} ) \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 28]
+ and by 
+ilf_ref [sub(1, 1), 22808]
+ 
+ilf_formula [sub(1, 1), 23244]
+f((X_{1} \cdot  X_{1}) ^{\prime} ) \cdot  X_{1} ^{\prime}  = (X_{1} \cdot  f(X_{1} \cdot  X_{1})) ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 3645]
+ 
+ilf_formula [sub(1, 1), 23278]
+f(X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  f(X_{1})) ^{\prime}  = (X_{1} \cdot  f(X_{1} \cdot  X_{1})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 15439]
+ 
+ilf_formula [sub(1, 1), 24052]
+X_{1} \cdot  ((X_{2} \cdot  X_{1}) ^{\prime}  \cdot  (X_{2} \cdot  X_{3})) = X_{1} \cdot  (X_{2} \cdot  ((X_{1} \cdot  X_{2}) ^{\prime}  \cdot  X_{3})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [sub(1, 1), 20]
+, 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 4519]
+,  
+ilf_ref [sub(1, 1), 4546]
+, and by 
+ilf_ref [sub(1, 1), 15706]
+ 
+ilf_formula [sub(1, 1), 24520]
+s(f(X_{1}) \cdot  X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(f(X_{1} ^{\prime} ) \cdot  X_{1})) = X_{1}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 326]
+, 
+ilf_ref [sub(1, 1), 3908]
+, 
+ilf_ref [sub(1, 1), 4217]
+, 
+ilf_ref [sub(1, 1), 4309]
+,  
+ilf_ref [sub(1, 1), 4519]
+, and by 
+ilf_ref [sub(1, 1), 15706]
+ 
+ilf_formula [sub(1, 1), 24526]
+s(f(X_{1}) \cdot  X_{1} ^{\prime} ) \cdot  X_{1} = X_{1} \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 58]
+, 
+ilf_ref [sub(1, 1), 469]
+,  
+ilf_ref [sub(1, 1), 3633]
+, and by 
+ilf_ref [sub(1, 1), 15706]
+ 
+ilf_formula [sub(1, 1), 24528]
+f(X_{1}) \cdot  (s(X_{1} ^{\prime}  \cdot  f(X_{1})) \cdot  (X_{1} \cdot  f(X_{1})) ^{\prime} ) = s(f(X_{1}) \cdot  X_{1} ^{\prime} ) \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 518]
+ and by 
+ilf_ref [sub(1, 1), 15101]
+ 
+ilf_formula [sub(1, 1), 24907]
+s(X_{1} \cdot  X_{2}) \cdot  X_{1} = X_{1} \cdot  s(X_{2} \cdot  X_{1}).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+ 
+ilf_formula [sub(1, 1), 25010]
+s(X_{1} \cdot  X_{2}) \cdot  (X_{1} \cdot  X_{3}) = X_{1} \cdot  (s(X_{2} \cdot  X_{1}) \cdot  X_{3}).
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 67]
+, and by 
+ilf_ref [sub(1, 1), 15101]
+ 
+ilf_formula [sub(1, 1), 25022]
+s(s(X_{1} \cdot  X_{2})) \cdot  X_{1} = X_{1} \cdot  s(s(X_{2} \cdot  X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [sub(1, 1), 40]
+, 
+ilf_ref [sub(1, 1), 107]
+, 
+ilf_ref [sub(1, 1), 349]
+, 
+ilf_ref [sub(1, 1), 411]
+, 
+ilf_ref [sub(1, 1), 419]
+, 
+ilf_ref [sub(1, 1), 814]
+, 
+ilf_ref [sub(1, 1), 15439]
+,  
+ilf_ref [sub(1, 1), 24052]
+, and by 
+ilf_ref [sub(1, 1), 24907]
+ 
+ilf_formula [sub(1, 1), 25196]
+(X_{1} \cdot  X_{2}) ^{\prime}  \cdot  X_{1} = X_{1} \cdot  (X_{2} \cdot  X_{1}) ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [sub(1, 1), 49]
+, 
+ilf_ref [sub(1, 1), 323]
+,  
+ilf_ref [sub(1, 1), 330]
+, and by 
+ilf_ref [sub(1, 1), 25010]
+ 
+ilf_formula [sub(1, 1), 25534]
+s(X_{1} \cdot  X_{2}) ^{\prime}  \cdot  X_{1} = X_{1} \cdot  s(X_{2} \cdot  X_{1}) ^{\prime} .
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 3629]
+, and by 
+ilf_ref [sub(1, 1), 10715]
+ 
+ilf_formula [sub(1, 1), 25574]
+f(X_{1}) \cdot  (X_{2} \cdot  f(X_{1})) ^{\prime}  = X_{1} \cdot  (X_{2} \cdot  X_{1}) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 347]
+,  
+ilf_ref [sub(1, 1), 12799]
+, and by 
+ilf_ref [sub(1, 1), 25196]
+ 
+ilf_formula [sub(1, 1), 25670]
+X_{1} \cdot  (X_{1} \cdot  (f(X_{1} ^{\prime} ) \cdot  X_{1})) ^{\prime}  = f(X_{1}) \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 15347]
+ and by 
+ilf_ref [sub(1, 1), 25534]
+ 
+ilf_formula [sub(1, 1), 26731]
+s(X_{1} \cdot  X_{2} ^{\prime} ) \cdot  s(X_{2} \cdot  s(X_{1} \cdot  X_{2} ^{\prime} )) ^{\prime}  = s(s(X_{1} \cdot  X_{2} ^{\prime} ) \cdot  X_{2}) \cdot  X_{2} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 54]
+ and by 
+ilf_ref [sub(1, 1), 25574]
+ 
+ilf_formula [sub(1, 1), 28918]
+s(f(X_{1}) \cdot  X_{2}) \cdot  (X_{3} \cdot  s(f(X_{1}) \cdot  X_{2})) ^{\prime}  = s(X_{1} \cdot  f(X_{2})) \cdot  (X_{3} \cdot  s(X_{1} \cdot  f(X_{2}))) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 21]
+,  
+ilf_ref [sub(1, 1), 11632]
+, and by 
+ilf_ref [sub(1, 1), 25670]
+ 
+ilf_formula [sub(1, 1), 29186]
+(X_{1} \cdot  (f(X_{1} ^{\prime} ) \cdot  X_{1})) ^{\prime}  = X_{1} ^{\prime}  \cdot  (f(X_{1}) \cdot  X_{1} ^{\prime} ).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [sub(1, 1), 154]
+,  
+ilf_ref [sub(1, 1), 25022]
+, and by 
+ilf_ref [sub(1, 1), 25670]
+ 
+ilf_formula [sub(1, 1), 29206]
+s(s(f(X_{1}) \cdot  X_{1} ^{\prime} )) \cdot  X_{1} = X_{1} \cdot  s(s(X_{1} ^{\prime}  \cdot  f(X_{1}))).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 419]
+, and by 
+ilf_ref [sub(1, 1), 23069]
+ 
+ilf_formula [sub(1, 1), 29972]
+s(X_{1}) \cdot  ((f(X_{1}) \cdot  (s(X_{1}) \cdot  (f(X_{1}) \cdot  s(X_{1})))) ^{\prime}  \cdot  X_{2}) = f(X_{1} ^{\prime} ) \cdot  ((f(X_{1}) \cdot  s(X_{1})) ^{\prime}  \cdot  X_{2}).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [sub(1, 1), 126]
+, 
+ilf_ref [sub(1, 1), 363]
+, 
+ilf_ref [sub(1, 1), 419]
+, 
+ilf_ref [sub(1, 1), 700]
+, 
+ilf_ref [sub(1, 1), 18684]
+, 
+ilf_ref [sub(1, 1), 23066]
+,  
+ilf_ref [sub(1, 1), 23069]
+, and by 
+ilf_ref [sub(1, 1), 25196]
+ 
+ilf_formula [sub(1, 1), 29993]
+X_{1} ^{\prime}  \cdot  ((X_{1} \cdot  f(s(X_{1}))) ^{\prime}  \cdot  (X_{1} ^{\prime}  \cdot  ((X_{1} \cdot  f(s(X_{1}))) ^{\prime}  \cdot  X_{1} ^{\prime} ) ^{\prime} )) = X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 330]
+, 
+ilf_ref [sub(1, 1), 15905]
+,  
+ilf_ref [sub(1, 1), 23278]
+, and by 
+ilf_ref [sub(1, 1), 24907]
+ 
+ilf_formula [sub(1, 1), 30048]
+f(X_{1} ^{\prime}  \cdot  s(X_{1} \cdot  (f(X_{1}) \cdot  X_{1})) ^{\prime} ) = s(X_{1} \cdot  f(X_{1} \cdot  X_{1})) ^{\prime}  \cdot  f(X_{1} ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 2), 0]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 330]
+, 
+ilf_ref [sub(1, 1), 380]
+, 
+ilf_ref [sub(1, 1), 15905]
+,  
+ilf_ref [sub(1, 1), 23278]
+, and by 
+ilf_ref [sub(1, 1), 25534]
+ 
+ilf_formula [sub(1, 1), 30053]
+f(s(X_{1} \cdot  (f(X_{1}) \cdot  X_{1}))) \cdot  (X_{1} \cdot  f(X_{1})) ^{\prime}  = (X_{1} \cdot  f(X_{1})) ^{\prime}  \cdot  s(X_{1} \cdot  f(X_{1} \cdot  X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 54]
+, 
+ilf_ref [sub(1, 1), 469]
+,  
+ilf_ref [sub(1, 1), 4553]
+, and by 
+ilf_ref [sub(1, 1), 24520]
+ 
+ilf_formula [sub(1, 1), 30064]
+s(f(X_{1}) \cdot  X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1}))) = f(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 22]
+, 
+ilf_ref [sub(1, 1), 54]
+, 
+ilf_ref [sub(1, 1), 469]
+,  
+ilf_ref [sub(1, 1), 4553]
+, and by 
+ilf_ref [sub(1, 1), 24520]
+ 
+ilf_formula [sub(1, 1), 30065]
+s(f(X_{1}) \cdot  X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  (s(X_{1} ^{\prime}  \cdot  f(X_{1})) \cdot  X_{2})) = f(X_{1}) \cdot  X_{2}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 4065]
+, 
+ilf_ref [sub(1, 1), 9787]
+,  
+ilf_ref [sub(1, 1), 24520]
+, and by 
+ilf_ref [sub(1, 1), 28918]
+ 
+ilf_formula [sub(1, 1), 30070]
+s(X_{1} ^{\prime}  \cdot  f(X_{1})) \cdot  (X_{1} \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1}))) ^{\prime}  = X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 24526]
+ 
+ilf_formula [sub(1, 1), 30073]
+s(f(X_{1}) \cdot  X_{1} ^{\prime} ) \cdot  (X_{1} \cdot  X_{2}) = X_{1} \cdot  (s(X_{1} ^{\prime}  \cdot  f(X_{1})) \cdot  X_{2}).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [sub(1, 1), 52]
+, 
+ilf_ref [sub(1, 1), 58]
+, 
+ilf_ref [sub(1, 1), 380]
+,  
+ilf_ref [sub(1, 1), 4309]
+, and by 
+ilf_ref [sub(1, 1), 24526]
+ 
+ilf_formula [sub(1, 1), 30077]
+X_{1} \cdot  (s(X_{1} ^{\prime}  \cdot  f(X_{1})) \cdot  (X_{1} \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1})))) = X_{1} \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1})),
+ilf_formula_end
+ because of $ [para(flapart(24526, a, 1), flapart(52, a, 2)), rewrite([flapart(13, 2), flapart(380, 2), flapart(58, 5), flapart(24526, 5), flapart(380, 8), flapart(13, 10), flapart(4309, 11), flapart(13, 13), flapart(380, 13), flapart(58, 16), flapart(13, 17), flapart(380, 17), flapart(58, 20), flapart(24526, 20), flapart(30073, 22), flapart(13, 24), flapart(380, 24), flapart(58, 27), flapart(24526, 27)]), xx(a)]. $
+Therefore by 
+ilf_ref [sub(1, 1), 210]
+ and by 
+ilf_ref [sub(1, 1), 24526]
+ 
+ilf_formula [sub(1, 1), 30085]
+s(X_{1} \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1}))) = X_{1} \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1})).
+ilf_formula_end
+
+Now by 
+ilf_ref [sub(1, 1), 349]
+, 
+ilf_ref [sub(1, 1), 24526]
+,  
+ilf_ref [sub(1, 1), 30070]
+, and by 
+ilf_ref [sub(1, 1), 30073]
+ 
+ilf_formula [sub(1, 1), 30090]
+(X_{1} \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1}))) ^{\prime}  = X_{1} \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 20]
+, 
+ilf_ref [sub(1, 1), 349]
+, 
+ilf_ref [sub(1, 1), 24526]
+,  
+ilf_ref [sub(1, 1), 30073]
+, and by 
+ilf_ref [sub(1, 1), 30077]
+ 
+ilf_formula [sub(1, 1), 30091]
+X_{1} \cdot  s(X_{1} ^{\prime}  \cdot  f(X_{1})) = X_{1} \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 37]
+, 
+ilf_ref [sub(1, 1), 85]
+, 
+ilf_ref [sub(1, 1), 332]
+, 
+ilf_ref [sub(1, 1), 518]
+,  
+ilf_ref [sub(1, 1), 24526]
+, and by 
+ilf_ref [sub(1, 1), 30073]
+ 
+ilf_formula [sub(1, 1), 30097]
+X_{1} \cdot  (s(X_{1} ^{\prime}  \cdot  f(X_{1})) \cdot  X_{2}) = X_{1} \cdot  (X_{1} ^{\prime}  \cdot  X_{2}).
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 85]
+, 
+ilf_ref [sub(1, 1), 1308]
+,  
+ilf_ref [sub(1, 1), 24526]
+, and by 
+ilf_ref [sub(1, 1), 25022]
+ 
+ilf_formula [sub(1, 1), 30100]
+s(f(X_{1}) \cdot  X_{1} ^{\prime} ) \cdot  s(s(X_{1} \cdot  s(f(X_{1}) \cdot  X_{1} ^{\prime} ))) = s(f(X_{1}) \cdot  X_{1} ^{\prime} ).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [sub(1, 1), 85]
+, 
+ilf_ref [sub(1, 1), 332]
+, 
+ilf_ref [sub(1, 1), 347]
+, 
+ilf_ref [sub(1, 1), 411]
+, 
+ilf_ref [sub(1, 1), 1308]
+, 
+ilf_ref [sub(1, 1), 24526]
+, 
+ilf_ref [sub(1, 1), 25534]
+,  
+ilf_ref [sub(1, 1), 26731]
+, and by 
+ilf_ref [sub(1, 1), 30091]
+ 
+ilf_formula [sub(1, 1), 30101]
+s(f(X_{1}) \cdot  X_{1} ^{\prime} ) = X_{1} ^{\prime} .
+ilf_formula_end
+
+Hence by 
+ilf_ref [sub(1, 1), 21]
+, 
+ilf_ref [sub(1, 1), 393]
+, 
+ilf_ref [sub(1, 1), 419]
+,  
+ilf_ref [sub(1, 1), 30065]
+, and by 
+ilf_ref [sub(1, 1), 30097]
+ 
+ilf_formula [sub(1, 1), 30104]
+X_{1} ^{\prime}  \cdot  X_{2} = f(X_{1}) \cdot  X_{2}.
+ilf_formula_end
+
+Therefore by 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 28]
+,  
+ilf_ref [sub(1, 1), 44]
+, and by 
+ilf_ref [sub(1, 1), 30064]
+ 
+ilf_formula [sub(1, 1), 30105]
+f(X_{1}) \cdot  (X_{1} \cdot  f(X_{1})) = f(X_{1}).
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 28]
+,  
+ilf_ref [sub(1, 1), 44]
+, and by 
+ilf_ref [sub(1, 1), 30090]
+ 
+ilf_formula [sub(1, 1), 30120]
+(X_{1} \cdot  f(X_{1})) ^{\prime}  = X_{1} \cdot  X_{1} ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+,  
+ilf_ref [sub(1, 1), 30085]
+, and by 
+ilf_ref [sub(1, 1), 30104]
+ 
+ilf_formula [sub(1, 1), 30123]
+s(X_{1} \cdot  f(X_{1})) = X_{1} \cdot  f(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 4), 0]
+, 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 24526]
+,  
+ilf_ref [sub(1, 1), 30101]
+, and by 
+ilf_ref [sub(1, 1), 30104]
+ 
+ilf_formula [sub(1, 1), 30129]
+X_{1} \cdot  X_{1} ^{\prime}  = X_{1} \cdot  f(X_{1}).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 24528]
+, 
+ilf_ref [sub(1, 1), 30101]
+, 
+ilf_ref [sub(1, 1), 30104]
+,  
+ilf_ref [sub(1, 1), 30105]
+, and by 
+ilf_ref [sub(1, 1), 30120]
+ 
+ilf_formula [sub(1, 1), 30134]
+f(X_{1}) \cdot  X_{1} ^{\prime}  = f(X_{1} \cdot  X_{1}).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+,  
+ilf_ref [sub(1, 1), 30073]
+, and by 
+ilf_ref [sub(1, 1), 30104]
+ 
+ilf_formula [sub(1, 1), 30136]
+f(X_{1}) \cdot  (X_{1} \cdot  X_{2}) = X_{1} \cdot  (f(X_{1}) \cdot  X_{2}).
+ilf_formula_end
+
+Therefore by 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+,  
+ilf_ref [sub(1, 1), 30100]
+, and by 
+ilf_ref [sub(1, 1), 30123]
+ 
+ilf_formula [sub(1, 1), 30139]
+X_{1} \cdot  f(X_{1} \cdot  X_{1}) = f(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 29206]
+,  
+ilf_ref [sub(1, 1), 30104]
+, and by 
+ilf_ref [sub(1, 1), 30134]
+ 
+ilf_formula [sub(1, 1), 30146]
+f(s(X_{1})) \cdot  X_{1} = X_{1} \cdot  f(s(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 58]
+, 
+ilf_ref [sub(1, 1), 11269]
+, 
+ilf_ref [sub(1, 1), 30104]
+,  
+ilf_ref [sub(1, 1), 30129]
+, and by 
+ilf_ref [sub(1, 1), 30134]
+ 
+ilf_formula [sub(1, 1), 30293]
+s(f(X_{1}) \cdot  X_{2}) \cdot  (X_{2} \cdot  f(X_{2})) = s(X_{1} \cdot  f(X_{2})) ^{\prime} .
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 23]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 392]
+, 
+ilf_ref [sub(1, 1), 9119]
+, 
+ilf_ref [sub(1, 1), 30104]
+, 
+ilf_ref [sub(1, 1), 30129]
+, 
+ilf_ref [sub(1, 1), 30134]
+,  
+ilf_ref [sub(1, 1), 30136]
+, and by 
+ilf_ref [sub(1, 1), 30139]
+ 
+ilf_formula [sub(1, 1), 30305]
+(f(X_{1}) \cdot  X_{2}) ^{\prime}  = X_{1} \cdot  f(X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 380]
+, 
+ilf_ref [sub(1, 1), 2089]
+, 
+ilf_ref [sub(1, 1), 2981]
+, 
+ilf_ref [sub(1, 1), 5083]
+,  
+ilf_ref [sub(1, 1), 30104]
+, and by 
+ilf_ref [sub(1, 1), 30134]
+ 
+ilf_formula [sub(1, 1), 30316]
+s(X_{1} \cdot  f(X_{1} ^{\prime} )) = f(X_{1} ^{\prime} ).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 51]
+, 
+ilf_ref [sub(1, 1), 598]
+, 
+ilf_ref [sub(1, 1), 4936]
+, 
+ilf_ref [sub(1, 1), 30104]
+,  
+ilf_ref [sub(1, 1), 30134]
+, and by 
+ilf_ref [sub(1, 1), 30136]
+ 
+ilf_formula [sub(1, 1), 30327]
+X_{1} \cdot  f(X_{1} \cdot  s(s(X_{1}))) = f(s(s(X_{1}))).
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 23]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 330]
+, 
+ilf_ref [sub(1, 1), 4933]
+,  
+ilf_ref [sub(1, 1), 30104]
+, and by 
+ilf_ref [sub(1, 1), 30134]
+ 
+ilf_formula [sub(1, 1), 30328]
+X_{1} \cdot  f(s(X_{1})) = f(s(X_{1}) ^{\prime} ).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 330]
+, 
+ilf_ref [sub(1, 1), 4916]
+, 
+ilf_ref [sub(1, 1), 30104]
+, 
+ilf_ref [sub(1, 1), 30134]
+,  
+ilf_ref [sub(1, 1), 30146]
+, and by 
+ilf_ref [sub(1, 1), 30316]
+ 
+ilf_formula [sub(1, 1), 30330]
+s(X_{1}) ^{\prime}  = f(s(X_{1})).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 330]
+, 
+ilf_ref [sub(1, 1), 4915]
+,  
+ilf_ref [sub(1, 1), 30134]
+, and by 
+ilf_ref [sub(1, 1), 30316]
+ 
+ilf_formula [sub(1, 1), 30331]
+f(X_{1}) \cdot  s(X_{1}) = f(s(X_{1})).
+ilf_formula_end
+
+Now by 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 330]
+, 
+ilf_ref [sub(1, 1), 4914]
+, 
+ilf_ref [sub(1, 1), 30129]
+,  
+ilf_ref [sub(1, 1), 30134]
+, and by 
+ilf_ref [sub(1, 1), 30316]
+ 
+ilf_formula [sub(1, 1), 30332]
+s(X_{1}) \cdot  f(s(X_{1})) = X_{1} \cdot  f(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 24]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 4562]
+, 
+ilf_ref [sub(1, 1), 30129]
+,  
+ilf_ref [sub(1, 1), 30134]
+, and by 
+ilf_ref [sub(1, 1), 30316]
+ 
+ilf_formula [sub(1, 1), 30337]
+f(X_{1}) \cdot  X_{1} = X_{1} \cdot  f(X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [sub(1, 1), 22]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 51]
+, 
+ilf_ref [sub(1, 1), 569]
+, 
+ilf_ref [sub(1, 1), 598]
+, 
+ilf_ref [sub(1, 1), 20358]
+, 
+ilf_ref [sub(1, 1), 30104]
+, 
+ilf_ref [sub(1, 1), 30136]
+, 
+ilf_ref [sub(1, 1), 30327]
+,  
+ilf_ref [sub(1, 1), 30328]
+, and by 
+ilf_ref [sub(1, 1), 30330]
+ 
+ilf_formula [sub(1, 1), 30345]
+s(f(X_{1} ^{\prime} ) \cdot  s(X_{1})) = f(s(s(X_{1}))) \cdot  X_{1}.
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [sub(1, 1), 23]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 598]
+, 
+ilf_ref [sub(1, 1), 20114]
+, 
+ilf_ref [sub(1, 1), 30104]
+, 
+ilf_ref [sub(1, 1), 30327]
+,  
+ilf_ref [sub(1, 1), 30328]
+, and by 
+ilf_ref [sub(1, 1), 30330]
+ 
+ilf_formula [sub(1, 1), 30351]
+f(s(s(X_{1}))) \cdot  X_{1} = X_{1} \cdot  f(s(s(X_{1}))).
+ilf_formula_end
+
+Therefore by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [ax(1, 7), 0]
+, 
+ilf_ref [sub(1, 1), 28]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 596]
+, 
+ilf_ref [sub(1, 1), 598]
+, 
+ilf_ref [sub(1, 1), 12073]
+, 
+ilf_ref [sub(1, 1), 30104]
+,  
+ilf_ref [sub(1, 1), 30328]
+, and by 
+ilf_ref [sub(1, 1), 30330]
+ 
+ilf_formula [sub(1, 1), 30360]
+X_{1} \cdot  f(X_{1} \cdot  s(X_{1})) = f(s(X_{1})).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 485]
+, 
+ilf_ref [sub(1, 1), 30053]
+, 
+ilf_ref [sub(1, 1), 30120]
+, 
+ilf_ref [sub(1, 1), 30129]
+, 
+ilf_ref [sub(1, 1), 30139]
+, 
+ilf_ref [sub(1, 1), 30293]
+,  
+ilf_ref [sub(1, 1), 30330]
+, and by 
+ilf_ref [sub(1, 1), 30337]
+ 
+ilf_formula [sub(1, 1), 30384]
+s(f(X_{1} \cdot  X_{1}) \cdot  X_{1}) = f(s(X_{1})).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [sub(1, 1), 44]
+, 
+ilf_ref [sub(1, 1), 380]
+, 
+ilf_ref [sub(1, 1), 485]
+, 
+ilf_ref [sub(1, 1), 30048]
+, 
+ilf_ref [sub(1, 1), 30104]
+, 
+ilf_ref [sub(1, 1), 30139]
+,  
+ilf_ref [sub(1, 1), 30330]
+, and by 
+ilf_ref [sub(1, 1), 30337]
+ 
+ilf_formula [sub(1, 1), 30386]
+s(X_{1}) \cdot  f(X_{1} ^{\prime} ) = X_{1} \cdot  s(X_{1}).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 5), 0]
+, 
+ilf_ref [ax(1, 6), 0]
+, 
+ilf_ref [sub(1, 1), 29993]
+, 
+ilf_ref [sub(1, 1), 30104]
+, 
+ilf_ref [sub(1, 1), 30136]
+, 
+ilf_ref [sub(1, 1), 30139]
+, 
+ilf_ref [sub(1, 1), 30305]
+, 
+ilf_ref [sub(1, 1), 30328]
+, 
+ilf_ref [sub(1, 1), 30330]
+, 
+ilf_ref [sub(1, 1), 30331]
+,  
+ilf_ref [sub(1, 1), 30332]
+, and by 
+ilf_ref [sub(1, 1), 30337]
+ 
+ilf_formula [sub(1, 1), 30420]
+X_{1} ^{\prime}  = f(X_{1}).
+ilf_formula_end
+
+Thus we have completed the proof of 
+ilf_ref [1, 1]
+.
+
+
+
+\end{ilfproof}

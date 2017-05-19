@@ -1,0 +1,94 @@
+otter_ax(1,ev_ax).
+otter_ax(2,odd_ax).
+otter_ax(3,even_or_odd).
+otter_ax(4,goal).
+?- io_module(axioms).
+ax_name(ev_ax,;(not(even(_504)), ;(not(even(_512)), even(+(_504, _512)))),true,[]).
+ax_name(odd_ax,;(not(odd(_504)), ;(not(odd(_512)), even(+(_504, _512)))),true,[]).
+ax_name(even_or_odd,;(even(_502), odd(_502)),true,[]).
+ax_name(goal,not(even(+(a, a))),true,[]).
+?- io_module(situation).
+proof([1, global], control, proved).
+proof([1, 1], contents, ;(not(even(_811)), ;(not(even(_821)), even(+(_811, _821))))).
+proof([1, 1], predecessors, []).
+proof([1, ax(1)], predecessors, []).
+proof([1, ax(1)], status, axiom(ev_ax)).
+proof([1, ax(1)], contents, ;(not(even(_1003)), ;(not(even(_1011)), even(+(_1003, _1011))))).
+proof([1, 1], status, [intro, [ax(1)]]).
+proof([1, 2], contents, ;(not(odd(_811)), ;(not(odd(_821)), even(+(_811, _821))))).
+proof([1, 2], predecessors, [[1, 1]]).
+proof([1, ax(2)], predecessors, []).
+proof([1, ax(2)], status, axiom(odd_ax)).
+proof([1, ax(2)], contents, ;(not(odd(_1034)), ;(not(odd(_1042)), even(+(_1034, _1042))))).
+proof([1, 2], status, [intro, [ax(2)]]).
+proof([1, 3], contents, not(even(+(a, a)))).
+proof([1, 3], predecessors, [[1, 2]]).
+proof([1, ax(4)], predecessors, []).
+proof([1, ax(4)], status, axiom(goal)).
+proof([1, ax(4)], contents, not(even(+(a, a)))).
+proof([1, 3], status, [intro, [ax(4)]]).
+proof([1, 4], contents, ;(not(even(_850)), even(+(_850, _850)))).
+proof([1, 4], predecessors, [[1, 3]]).
+proof([1, 4], status, [factor, [1, 1, 2]]).
+proof([1, 5], contents, ;(not(odd(_848)), even(+(_848, _848)))).
+proof([1, 5], predecessors, [[1, 4]]).
+proof([1, 5], status, [factor, [2, 1, 2]]).
+proof([1, 6], contents, ;(even(_724), odd(_724))).
+proof([1, 6], predecessors, [[1, 5]]).
+proof([1, ax(3)], predecessors, []).
+proof([1, ax(3)], status, axiom(even_or_odd)).
+proof([1, ax(3)], contents, ;(even(_889), odd(_889))).
+proof([1, 6], status, [intro, [ax(3)]]).
+proof([1, 7], contents, ;(even(_837), even(+(_837, _837)))).
+proof([1, 7], predecessors, [[1, 6]]).
+proof([1, 7], status, [hyper, 5, [6, 2]]).
+proof([1, 9], contents, even(+(_815, _815))).
+proof([1, 9], predecessors, [[1, 7]]).
+proof([1, 9], status, [hyper, 4, [7, 1], factor_simp]).
+proof([1, 10], contents, false).
+proof([1, 10], predecessors, [[1, 9]]).
+proof([1, 10], status, [binary, [9, 1], [3, 1]]).
+proof([1, po(1)], contents, ;(not(even(v0)), ;(not(even(v1)), even(+(v0, v1))))).
+proof([1, po(1)], control, proof_object).
+proof([1, po(1)], status, input).
+proof([1, po(1)], predecessors, []).
+proof([1, po(2)], contents, ;(not(odd(v0)), ;(not(odd(v1)), even(+(v0, v1))))).
+proof([1, po(2)], control, proof_object).
+proof([1, po(2)], status, input).
+proof([1, po(2)], predecessors, []).
+proof([1, po(3)], contents, not(even(+(a, a)))).
+proof([1, po(3)], control, proof_object).
+proof([1, po(3)], status, input).
+proof([1, po(3)], predecessors, []).
+proof([1, po(4)], contents, ;(not(even(v1)), ;(not(even(v1)), even(+(v1, v1))))).
+proof([1, po(4)], control, proof_object).
+proof([1, po(4)], status, instantiate(1, [[subst, v0, v1]])).
+proof([1, po(4)], predecessors, [[1, po(1)]]).
+proof([1, po(5)], contents, ;(not(even(v1)), even(+(v1, v1)))).
+proof([1, po(5)], control, proof_object).
+proof([1, po(5)], status, merge(4, [2])).
+proof([1, po(5)], predecessors, [[1, po(4)]]).
+proof([1, po(6)], contents, ;(not(even(v0)), even(+(v0, v0)))).
+proof([1, po(6)], control, proof_object).
+proof([1, po(6)], status, instantiate(5, [[subst, v1, v0]])).
+proof([1, po(6)], predecessors, [[1, po(5)]]).
+proof([1, po(7)], contents, ;(not(odd(v1)), ;(not(odd(v1)), even(+(v1, v1))))).
+proof([1, po(7)], control, proof_object).
+proof([1, po(7)], status, instantiate(2, [[subst, v0, v1]])).
+proof([1, po(7)], predecessors, [[1, po(2)]]).
+proof([1, po(8)], contents, ;(not(odd(v1)), even(+(v1, v1)))).
+proof([1, po(8)], control, proof_object).
+proof([1, po(8)], status, merge(7, [2])).
+proof([1, po(8)], predecessors, [[1, po(7)]]).
+proof([1, po(9)], contents, ;(not(odd(v0)), even(+(v0, v0)))).
+proof([1, po(9)], control, proof_object).
+proof([1, po(9)], status, instantiate(8, [[subst, v1, v0]])).
+proof([1, po(9)], predecessors, [[1, po(8)]]).
+proof([1, po(10)], contents, ;(even(v0), odd(v0))).
+proof([1, po(10)], control, proof_object).
+proof([1, po(10)], status, input).
+proof([1, po(10)], predecessors, []).
+proof([1, po(11)], contents, ;(not(odd(v64)), even(+(v64, v64)))).
+proof([1, po(11)], control, proof_object).
+proof([1, po(11)], status, instantiate(9, [[subst, v0, v64]])).
+proof([1, po(11)], predecessors, [[1, po(9)]]).

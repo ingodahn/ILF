@@ -1,0 +1,32 @@
+\expandafter\ifx\csname Axiom\endcsname\relax%
+\newtheorem{Axiom}{Axiom}[section]\fi
+\begin{Axiom}[{$ \ilfUpCase{a}x(8) $}]
+$ X_{1} \cdot  X_{1} = X_{2} -> X_{1} = s(X_{2}) $.
+\end{Axiom}
+\begin{Axiom}[{$ \ilfUpCase{a}x(9) $}]
+$ \ilfUpCase{f}(X_{1}) = X_{1} -> X_{1} \cdot  X_{1} = X_{1} $.
+\end{Axiom}
+\begin{Axiom}[{$ \ilfUpCase{a}x(10) $}]
+$ X_{1} \cdot  X_{1} = X_{1} -> f(X_{1}) = X_{1} $.
+\end{Axiom}
+\begin{Axiom}[{$ \ilfUpCase{a}x(1) $}]
+$ X_{1} \cdot  X_{2} \cdot  X_{3} = X_{1} \cdot  (X_{2} \cdot  X_{3}) $.
+\end{Axiom}
+\begin{Axiom}[{$ \ilfUpCase{a}x(2) $}]
+$ #(#(X_{1})) = X_{1} $.
+\end{Axiom}
+\begin{Axiom}[{$ \ilfUpCase{a}x(3) $}]
+$ X_{1} = X_{1} \cdot  (#(X_{1}) \cdot  X_{1}) $.
+\end{Axiom}
+\begin{Axiom}[{$ \ilfUpCase{a}x(4) $}]
+$ X_{1} \cdot  #(X_{1}) = #(X_{1}) \cdot  X_{1} $.
+\end{Axiom}
+\begin{Axiom}[{$ \ilfUpCase{a}x(5) $}]
+$ \ilfUpCase{f}(X_{1} \cdot  X_{2}) = f(X_{1}) \cdot  f(X_{2}) $.
+\end{Axiom}
+\begin{Axiom}[{$ \ilfUpCase{a}x(6) $}]
+$ \ilfUpCase{f}(f(X_{1})) = X_{1} $.
+\end{Axiom}
+\begin{Axiom}[{$ \ilfUpCase{a}x(7) $}]
+$ \ilfUpCase{s}(X_{1}) \cdot  s(X_{1}) = X_{1} $.
+\end{Axiom}

@@ -1,0 +1,91 @@
+[sub(1, 1), 53]
+[hdl2, hdl29]
+[hdl2, hdl28]
+[hdl2, hdl27]
+[hdl2, hdl26]
+[hdl2, hdl25]
+[hdl2, hdl24]
+[hdl2, hdl23]
+[hdl2, hdl19]
+[hdl2, hdl17]
+[hdl2, hdl16]
+[hdl2, hdl13]
+[hdl2, hdl11]
+[hdl2, hdl10]
+[hdl2, hdl5]
+
+[sub(1, 1), 53]
+(\ref{[sub(1, 1), 53]})
+(\ref{[sub(1, 1), 53]})
+[hdl2, hdl29]
+(\ref{[hdl2, hdl29]})
+(\ref{[hdl2, hdl29]})
+[hdl2, hdl28]
+(\ref{[hdl2, hdl28]})
+(\ref{[hdl2, hdl28]})
+[hdl2, hdl27]
+(\ref{[hdl2, hdl27]})
+(\ref{[hdl2, hdl27]})
+[hdl2, hdl26]
+(\ref{[hdl2, hdl26]})
+(\ref{[hdl2, hdl26]})
+[hdl2, hdl25]
+(\ref{[hdl2, hdl25]})
+(\ref{[hdl2, hdl25]})
+[hdl2, hdl24]
+(\ref{[hdl2, hdl24]})
+(\ref{[hdl2, hdl24]})
+[hdl2, hdl23]
+(\ref{[hdl2, hdl23]})
+(\ref{[hdl2, hdl23]})
+[hdl2, hdl19]
+(\ref{[hdl2, hdl19]})
+(\ref{[hdl2, hdl19]})
+[hdl2, hdl17]
+(\ref{[hdl2, hdl17]})
+(\ref{[hdl2, hdl17]})
+[hdl2, hdl16]
+(\ref{[hdl2, hdl16]})
+(\ref{[hdl2, hdl16]})
+[hdl2, hdl13]
+(\ref{[hdl2, hdl13]})
+(\ref{[hdl2, hdl13]})
+[hdl2, hdl11]
+(\ref{[hdl2, hdl11]})
+(\ref{[hdl2, hdl11]})
+[hdl2, hdl10]
+(\ref{[hdl2, hdl10]})
+(\ref{[hdl2, hdl10]})
+[hdl2, hdl5]
+(\ref{[hdl2, hdl5]})
+(\ref{[hdl2, hdl5]})
+[ax(1, 1), 0]
+$ $associativity$ $
+$ $\ilfUpCase{a}ssociativity$ $
+[ax(1, 3), 0]
+$ $left identity$ $
+$ $\ilfUpCase{l}eft identity$ $
+[ax(1, 4), 0]
+$ $right inverse$ $
+$ $\ilfUpCase{r}ight inverse$ $
+[ax(1, 9), 0]
+$ $2-commutativity$ $
+$ $2-commutativity$ $
+[ax(1, 2), 0]
+$ $right identitity$ $
+$ $\ilfUpCase{r}ight identitity$ $
+[ax(1, 5), 0]
+$ $left inverse$ $
+$ $\ilfUpCase{l}eft inverse$ $
+[ax(1, 6), 0]
+$ $involution$ $
+$ $\ilfUpCase{i}nvolution$ $
+[ax(1, 7), 0]
+$ $anti-morphism$ $
+$ $\ilfUpCase{a}nti-morphism$ $
+[ax(1, 10), 0]
+$ $cubes commute$ $
+$ $\ilfUpCase{c}ubes commute$ $
+[ax(1, 8), 0]
+$ $3-index free$ $
+$ $3-index free$ $

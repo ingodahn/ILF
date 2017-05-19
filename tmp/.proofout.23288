@@ -1,0 +1,497 @@
+
+ilf_include C:\Users\dahn\CloudStation\ILF\ilf16\tmp\.types.23288
+
+ilf_include C:\Users\dahn\CloudStation\ILF\ilf16\tmp\.theory.23288
+\expandafter\ifx\csname Theorem\endcsname\relax%
+\newtheorem{Theorem}{Theorem}[section]\fi
+\begin{Theorem}\label{[1, theorem]}
+$ \ilfUpCase{a} * b * (br1 * ar1) = l(a * b) $.
+\end{Theorem}
+
+\begin{ilfproof}{$ otter $ and $ ilf $} We  show indirectly that 
+ilf_formula [1, 1]
+a * b * (br1 * ar1) = l(a * b).
+ilf_formula_end
+
+Let us assume that 
+ilf_formula [sub(1, 1), ax(22)]
+a * b * (br1 * ar1) \neq l(a * b).
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 1), 0]
+ 
+ilf_formula [sub(1, 1), 1]
+X_{1} * X_{2} * X_{3} = X_{1} * (X_{2} * X_{3}),
+ilf_formula_end
+ because of $ [intro]. $
+Because of 
+ilf_ref [ax(1, 2), 0]
+ 
+ilf_formula [sub(1, 1), 2]
+l(X_{1}) * X_{1} = X_{1},
+ilf_formula_end
+ because of $ [intro]. $
+Because of 
+ilf_ref [ax(1, 3), 0]
+ 
+ilf_formula [sub(1, 1), 3]
+l(l(X_{1}) * l(X_{2})) = l(X_{1}) * l(X_{2}),
+ilf_formula_end
+ because of $ [intro]. $
+Because of 
+ilf_ref [ax(1, 4), 0]
+ 
+ilf_formula [sub(1, 1), 4]
+l(X_{1}) * l(X_{2}) = l(X_{2}) * l(X_{1}),
+ilf_formula_end
+ because of $ [intro]. $
+Because of 
+ilf_ref [ax(1, 5), 0]
+ 
+ilf_formula [sub(1, 1), 5]
+l(X_{1}) * l(X_{1} * X_{2}) = l(X_{1} * X_{2}),
+ilf_formula_end
+ because of $ [intro]. $
+Because of 
+ilf_ref [ax(1, 6), 0]
+ 
+ilf_formula [sub(1, 1), 6]
+l(X_{1} * X_{2}) = l(X_{1} * l(X_{2})),
+ilf_formula_end
+ because of $ [intro]. $
+Hence 
+ilf_formula [sub(1, 1), 7]
+l(X_{1} * l(X_{2})) = l(X_{1} * X_{2}),
+ilf_formula_end
+ because of $ [copy(6), flip(a)]. $
+Because of 
+ilf_ref [ax(1, 7), 0]
+ 
+ilf_formula [sub(1, 1), 8]
+X_{1} * r(X_{1}) = X_{1},
+ilf_formula_end
+ because of $ [intro]. $
+Because of 
+ilf_ref [ax(1, 8), 0]
+ 
+ilf_formula [sub(1, 1), 9]
+r(r(X_{1}) * r(X_{2})) = r(X_{1}) * r(X_{2}),
+ilf_formula_end
+ because of $ [intro]. $
+Because of 
+ilf_ref [ax(1, 9), 0]
+ 
+ilf_formula [sub(1, 1), 10]
+r(X_{1}) * r(X_{2}) = r(X_{2}) * r(X_{1}),
+ilf_formula_end
+ because of $ [intro]. $
+Because of 
+ilf_ref [ax(1, 11), 0]
+ 
+ilf_formula [sub(1, 1), 13]
+r(X_{1} * X_{2}) = r(r(X_{1}) * X_{2}),
+ilf_formula_end
+ because of $ [intro]. $
+Hence 
+ilf_formula [sub(1, 1), 14]
+r(r(X_{1}) * X_{2}) = r(X_{1} * X_{2}),
+ilf_formula_end
+ because of $ [copy(13), flip(a)]. $
+Because of 
+ilf_ref [ax(1, 12), 0]
+ 
+ilf_formula [sub(1, 1), 15]
+l(r(X_{1})) = r(X_{1}),
+ilf_formula_end
+ because of $ [intro]. $
+Because of 
+ilf_ref [ax(1, 13), 0]
+ 
+ilf_formula [sub(1, 1), 16]
+r(l(X_{1})) = l(X_{1}),
+ilf_formula_end
+ because of $ [intro]. $
+Because of 
+ilf_ref [ax(1, 14), 0]
+ 
+ilf_formula [sub(1, 1), 17]
+a * ar1 = l(a),
+ilf_formula_end
+ because of $ [intro]. $
+Hence 
+ilf_formula [sub(1, 1), 18]
+l(a) = a * ar1,
+ilf_formula_end
+ because of $ [copy(17), flip(a)]. $
+Because of 
+ilf_ref [ax(1, 15), 0]
+ 
+ilf_formula [sub(1, 1), 19]
+l(a) * ar2 = a,
+ilf_formula_end
+ because of $ [intro]. $
+Therefore by 
+ilf_ref [sub(1, 1), 1]
+ 
+ilf_formula [sub(1, 1), 20]
+a * (ar1 * ar2) = a.
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 16), 0]
+ 
+ilf_formula [sub(1, 1), 21]
+al1 * a = r(a),
+ilf_formula_end
+ because of $ [intro]. $
+Hence 
+ilf_formula [sub(1, 1), 22]
+r(a) = al1 * a,
+ilf_formula_end
+ because of $ [copy(21), flip(a)]. $
+Because of 
+ilf_ref [ax(1, 17), 0]
+ 
+ilf_formula [sub(1, 1), 23]
+al2 * r(a) = a,
+ilf_formula_end
+ because of $ [intro]. $
+Therefore 
+ilf_formula [sub(1, 1), 24]
+al2 * (al1 * a) = a.
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 18), 0]
+ 
+ilf_formula [sub(1, 1), 25]
+b * br1 = l(b),
+ilf_formula_end
+ because of $ [intro]. $
+Hence 
+ilf_formula [sub(1, 1), 26]
+l(b) = b * br1,
+ilf_formula_end
+ because of $ [copy(25), flip(a)]. $
+By 
+ilf_ref [sub(1, 1), ax(22)]
+ 
+ilf_formula [sub(1, 1), 33]
+a * b * (br1 * ar1) \neq l(a * b),
+ilf_formula_end
+ because of $ [intro]. $
+Hence by 
+ilf_ref [sub(1, 1), 1]
+ 
+ilf_formula [sub(1, 1), 34]
+l(a * b) \neq a * (b * (br1 * ar1)),
+ilf_formula_end
+ because of $ [copy(33), rewrite([flapart(1, 7)]), flip(a)]. $
+By 
+ilf_ref [sub(1, 1), 3]
+ and by 
+ilf_ref [sub(1, 1), 7]
+ 
+ilf_formula [sub(1, 1), 35]
+l(l(X_{1}) * X_{2}) = l(X_{1}) * l(X_{2}),
+ilf_formula_end
+ because of $ [back\_rewrite(3), rewrite([flapart(7, 4)])]. $
+By 
+ilf_ref [sub(1, 1), 9]
+ and by 
+ilf_ref [sub(1, 1), 14]
+ 
+ilf_formula [sub(1, 1), 36]
+r(X_{1} * r(X_{2})) = r(X_{1}) * r(X_{2}),
+ilf_formula_end
+ because of $ [back\_rewrite(9), rewrite([flapart(14, 4)])]. $
+By 
+ilf_ref [sub(1, 1), 1]
+ and by 
+ilf_ref [sub(1, 1), 4]
+ 
+ilf_formula [sub(1, 1), 38]
+l(X_{1}) * (l(X_{2}) * X_{3}) = l(X_{2}) * (l(X_{1}) * X_{3}),
+ilf_formula_end
+ because of $ [para(flapart(4, a, 1), flapart(1, a, 1, 1)), rewrite([flapart(1, 4)])]. $
+By 
+ilf_ref [sub(1, 1), 2]
+ and by 
+ilf_ref [sub(1, 1), 7]
+ 
+ilf_formula [sub(1, 1), 46]
+l(X_{1} * X_{2}) * (X_{1} * l(X_{2})) = X_{1} * l(X_{2}),
+ilf_formula_end
+ because of $ [para(flapart(7, a, 1), flapart(2, a, 1, 1))]. $
+By 
+ilf_ref [sub(1, 1), 1]
+ and by 
+ilf_ref [sub(1, 1), 8]
+ 
+ilf_formula [sub(1, 1), 51]
+X_{1} * (r(X_{1}) * X_{2}) = X_{1} * X_{2},
+ilf_formula_end
+ because of $ [para(flapart(8, a, 1), flapart(1, a, 1, 1)), flip(a)]. $
+By 
+ilf_ref [sub(1, 1), 1]
+ and by 
+ilf_ref [sub(1, 1), 8]
+ 
+ilf_formula [sub(1, 1), 52]
+X_{1} * (X_{2} * r(X_{1} * X_{2})) = X_{1} * X_{2},
+ilf_formula_end
+ because of $ [para(flapart(8, a, 1), flapart(1, a, 1)), flip(a)]. $
+By 
+ilf_ref [sub(1, 1), 1]
+,  
+ilf_ref [sub(1, 1), 5]
+, and by 
+ilf_ref [sub(1, 1), 18]
+ 
+ilf_formula [sub(1, 1), 76]
+a * (ar1 * l(a * X_{1})) = l(a * X_{1}),
+ilf_formula_end
+ because of $ [para(flapart(18, a, 1), flapart(5, a, 1, 1)), rewrite([flapart(1, 7)])]. $
+By 
+ilf_ref [sub(1, 1), 1]
+, 
+ilf_ref [sub(1, 1), 14]
+,  
+ilf_ref [sub(1, 1), 20]
+, and by 
+ilf_ref [sub(1, 1), 22]
+ 
+ilf_formula [sub(1, 1), 82]
+r(al1 * a) = al1 * a,
+ilf_formula_end
+ because of $ [para(flapart(20, a, 1), flapart(14, a, 2, 1)), rewrite([flapart(22, 2), flapart(1, 7), flapart(20, 6), flapart(22, 6)])]. $
+By 
+ilf_ref [sub(1, 1), 8]
+ and by 
+ilf_ref [sub(1, 1), 22]
+ 
+ilf_formula [sub(1, 1), 83]
+a * (al1 * a) = a,
+ilf_formula_end
+ because of $ [para(flapart(22, a, 1), flapart(8, a, 1, 2))]. $
+By 
+ilf_ref [sub(1, 1), 1]
+,  
+ilf_ref [sub(1, 1), 10]
+, and by 
+ilf_ref [sub(1, 1), 22]
+ 
+ilf_formula [sub(1, 1), 84]
+r(X_{1}) * (al1 * a) = al1 * (a * r(X_{1})),
+ilf_formula_end
+ because of $ [para(flapart(22, a, 1), flapart(10, a, 1, 1)), rewrite([flapart(1, 5), flapart(22, 8)]), flip(a)]. $
+By 
+ilf_ref [sub(1, 1), 15]
+ and by 
+ilf_ref [sub(1, 1), 22]
+ 
+ilf_formula [sub(1, 1), 87]
+l(al1 * a) = al1 * a,
+ilf_formula_end
+ because of $ [para(flapart(22, a, 1), flapart(15, a, 1, 1)), rewrite([flapart(22, 6)])]. $
+By 
+ilf_ref [sub(1, 1), 1]
+ and by 
+ilf_ref [sub(1, 1), 24]
+ 
+ilf_formula [sub(1, 1), 89]
+al2 * (al1 * (a * X_{1})) = a * X_{1},
+ilf_formula_end
+ because of $ [para(flapart(24, a, 1), flapart(1, a, 1, 1)), rewrite([flapart(1, 7)]), flip(a)]. $
+By 
+ilf_ref [sub(1, 1), 15]
+ and by 
+ilf_ref [sub(1, 1), 35]
+ 
+ilf_formula [sub(1, 1), 113]
+l(r(X_{1}) * X_{2}) = r(X_{1}) * l(X_{2}),
+ilf_formula_end
+ because of $ [para(flapart(15, a, 1), flapart(35, a, 1, 1, 1)), rewrite([flapart(15, 5)])]. $
+By 
+ilf_ref [sub(1, 1), 1]
+ and by 
+ilf_ref [sub(1, 1), 36]
+ 
+ilf_formula [sub(1, 1), 118]
+r(X_{1} * (X_{2} * r(X_{3}))) = r(X_{1} * X_{2}) * r(X_{3}),
+ilf_formula_end
+ because of $ [para(flapart(1, a, 1), flapart(36, a, 1, 1))]. $
+By 
+ilf_ref [sub(1, 1), 1]
+ and by 
+ilf_ref [sub(1, 1), 83]
+ 
+ilf_formula [sub(1, 1), 128]
+a * (al1 * (a * X_{1})) = a * X_{1},
+ilf_formula_end
+ because of $ [para(flapart(83, a, 1), flapart(1, a, 1, 1)), rewrite([flapart(1, 7)]), flip(a)]. $
+By 
+ilf_ref [sub(1, 1), 1]
+,  
+ilf_ref [sub(1, 1), 35]
+, and by 
+ilf_ref [sub(1, 1), 87]
+ 
+ilf_formula [sub(1, 1), 140]
+l(al1 * (a * X_{1})) = al1 * (a * l(X_{1})),
+ilf_formula_end
+ because of $ [para(flapart(87, a, 1), flapart(35, a, 1, 1, 1)), rewrite([flapart(1, 4), flapart(87, 9), flapart(1, 10)])]. $
+By 
+ilf_ref [sub(1, 1), 1]
+ and by 
+ilf_ref [sub(1, 1), 51]
+ 
+ilf_formula [sub(1, 1), 155]
+X_{1} * (X_{2} * (r(X_{1} * X_{2}) * X_{3})) = X_{1} * (X_{2} * X_{3}),
+ilf_formula_end
+ because of $ [para(flapart(51, a, 1), flapart(1, a, 1)), rewrite([flapart(1, 2)]), flip(a)]. $
+By 
+ilf_ref [sub(1, 1), 14]
+,  
+ilf_ref [sub(1, 1), 52]
+, and by 
+ilf_ref [sub(1, 1), 113]
+ 
+ilf_formula [sub(1, 1), 182]
+r(X_{1}) * l(X_{2} * r(X_{1} * X_{2})) = r(X_{1}) * l(X_{2}),
+ilf_formula_end
+ because of $ [para(flapart(52, a, 1), flapart(113, a, 1, 1)), rewrite([flapart(113, 3), flapart(14, 7)]), flip(a)]. $
+By 
+ilf_ref [sub(1, 1), 1]
+, 
+ilf_ref [sub(1, 1), 22]
+,  
+ilf_ref [sub(1, 1), 51]
+, and by 
+ilf_ref [sub(1, 1), 76]
+ 
+ilf_formula [sub(1, 1), 201]
+a * (al1 * l(a * X_{1})) = l(a * X_{1}),
+ilf_formula_end
+ because of $ [para(flapart(76, a, 1), flapart(51, a, 2)), rewrite([flapart(22, 3), flapart(1, 10), flapart(76, 9)])]. $
+By 
+ilf_ref [sub(1, 1), 76]
+ and by 
+ilf_ref [sub(1, 1), 89]
+ 
+ilf_formula [sub(1, 1), 202]
+al2 * (al1 * l(a * X_{1})) = l(a * X_{1}),
+ilf_formula_end
+ because of $ [para(flapart(76, a, 1), flapart(89, a, 1, 2, 2)), rewrite([flapart(76, 14)])]. $
+By 
+ilf_ref [sub(1, 1), 1]
+ and by 
+ilf_ref [sub(1, 1), 84]
+ 
+ilf_formula [sub(1, 1), 205]
+r(X_{1}) * (al1 * (a * X_{2})) = al1 * (a * (r(X_{1}) * X_{2})),
+ilf_formula_end
+ because of $ [para(flapart(84, a, 1), flapart(1, a, 1, 1)), rewrite([flapart(1, 6), flapart(1, 5), flapart(1, 11)]), flip(a)]. $
+By 
+ilf_ref [sub(1, 1), 1]
+,  
+ilf_ref [sub(1, 1), 46]
+, and by 
+ilf_ref [sub(1, 1), 140]
+ 
+ilf_formula [sub(1, 1), 332]
+al1 * (a * (l(X_{1}) * (al1 * l(a * X_{1})))) = al1 * l(a * X_{1}),
+ilf_formula_end
+ because of $ [para(flapart(140, a, 1), flapart(46, a, 1, 1)), rewrite([flapart(1, 11), flapart(1, 10)])]. $
+By 
+ilf_ref [sub(1, 1), 1]
+,  
+ilf_ref [sub(1, 1), 38]
+, and by 
+ilf_ref [sub(1, 1), 87]
+ 
+ilf_formula [sub(1, 1), 365]
+l(X_{1}) * (al1 * (a * X_{2})) = al1 * (a * (l(X_{1}) * X_{2})),
+ilf_formula_end
+ because of $ [para(flapart(87, a, 1), flapart(38, a, 1, 1)), rewrite([flapart(1, 6), flapart(87, 11), flapart(1, 11)]), flip(a)]. $
+By 
+ilf_ref [sub(1, 1), 1]
+,  
+ilf_ref [sub(1, 1), 155]
+, and by 
+ilf_ref [sub(1, 1), 182]
+ 
+ilf_formula [sub(1, 1), 675]
+X_{1} * (X_{2} * l(X_{3} * r(X_{1} * (X_{2} * X_{3})))) = X_{1} * (X_{2} * l(X_{3})),
+ilf_formula_end
+ because of $ [para(flapart(182, a, 1), flapart(155, a, 1, 2, 2)), rewrite([flapart(155, 6), flapart(1, 5)]), flip(a)]. $
+Now by 
+ilf_ref [sub(1, 1), 201]
+ and by 
+ilf_ref [sub(1, 1), 332]
+ 
+ilf_formula [sub(1, 1), 897]
+l(X_{1}) * (al1 * l(a * X_{1})) = al1 * l(a * X_{1}),
+ilf_formula_end
+ because of $ [para(flapart(332, a, 1), flapart(365, a, 2)), rewrite([flapart(201, 9)])]. $
+Hence by 
+ilf_ref [sub(1, 1), 15]
+ 
+ilf_formula [sub(1, 1), 899]
+r(X_{1}) * (al1 * l(a * r(X_{1}))) = al1 * l(a * r(X_{1})),
+ilf_formula_end
+ because of $ [para(flapart(15, a, 1), flapart(897, a, 1, 1))]. $
+Hence by 
+ilf_ref [sub(1, 1), 1]
+, 
+ilf_ref [sub(1, 1), 18]
+, 
+ilf_ref [sub(1, 1), 82]
+, 
+ilf_ref [sub(1, 1), 84]
+, 
+ilf_ref [sub(1, 1), 118]
+, 
+ilf_ref [sub(1, 1), 128]
+,  
+ilf_ref [sub(1, 1), 205]
+, and by 
+ilf_ref [sub(1, 1), 675]
+ 
+ilf_formula [sub(1, 1), 946]
+al1 * l(a * r(X_{1})) = al1 * (a * (r(X_{1}) * ar1)),
+ilf_formula_end
+ because of $ [para(flapart(84, a, 1), flapart(675, a, 1, 2, 2, 1, 2, 1)), rewrite([flapart(118, 9), flapart(82, 7), flapart(1, 8), flapart(128, 9), flapart(899, 8), flapart(18, 10), flapart(205, 13)])]. $
+Hence by 
+ilf_ref [sub(1, 1), 7]
+ and by 
+ilf_ref [sub(1, 1), 16]
+ 
+ilf_formula [sub(1, 1), 1057]
+al1 * l(a * X_{1}) = al1 * (a * (l(X_{1}) * ar1)),
+ilf_formula_end
+ because of $ [para(flapart(16, a, 1), flapart(946, a, 1, 2, 1, 2)), rewrite([flapart(7, 5), flapart(16, 9)])]. $
+Hence by 
+ilf_ref [sub(1, 1), 89]
+ and by 
+ilf_ref [sub(1, 1), 202]
+ 
+ilf_formula [sub(1, 1), 1059]
+l(a * X_{1}) = a * (l(X_{1}) * ar1),
+ilf_formula_end
+ because of $ [back\_rewrite(202), rewrite([flapart(1057, 6), flapart(89, 9)]), flip(a)]. $
+Hence by 
+ilf_ref [sub(1, 1), 1]
+,  
+ilf_ref [sub(1, 1), 26]
+, and by 
+ilf_ref [sub(1, 1), 34]
+  we have a contradiction.
+Thus we have completed the proof of 
+ilf_ref [1, 1]
+.
+
+
+
+\end{ilfproof}

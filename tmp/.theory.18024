@@ -1,0 +1,32 @@
+\expandafter\ifx\csname Axiom\endcsname\relax%
+\newtheorem{Axiom}{Axiom}[section]\fi
+\begin{Axiom}[{$ $\ilfUpCase{r}oot is $s $}]
+$ X_{1} \cdot  X_{1} = X_{2} -> X_{1} = s(X_{2}) $.
+\end{Axiom}
+\begin{Axiom}[{$ \ilfUpCase{f}-$fixpoint is self-square$ $}]
+$ \ilfUpCase{f}(X_{1}) = X_{1} -> X_{1} \cdot  X_{1} = X_{1} $.
+\end{Axiom}
+\begin{Axiom}[{$ $\ilfUpCase{s}elf-square is $f-$fixpoint$ $}]
+$ X_{1} \cdot  X_{1} = X_{1} -> f(X_{1}) = X_{1} $.
+\end{Axiom}
+\begin{Axiom}[{$ $\ilfUpCase{a}ssociativity$ $}]
+$ X_{1} \cdot  X_{2} \cdot  X_{3} = X_{1} \cdot  (X_{2} \cdot  X_{3}) $.
+\end{Axiom}
+\begin{Axiom}[{$ $'-involution$ $}]
+$ X_{1} \prime  \prime  = X_{1} $.
+\end{Axiom}
+\begin{Axiom}[{$ $'-annihilation$ $}]
+$ X_{1} = X_{1} \cdot  (X_{1} \prime  \cdot  X_{1}) $.
+\end{Axiom}
+\begin{Axiom}[{$ $'-commutativity$ $}]
+$ X_{1} \cdot  X_{1} \prime  = X_{1} \prime  \cdot  X_{1} $.
+\end{Axiom}
+\begin{Axiom}[{$ \ilfUpCase{f}-$distribution$ $}]
+$ \ilfUpCase{f}(X_{1} \cdot  X_{2}) = f(X_{1}) \cdot  f(X_{2}) $.
+\end{Axiom}
+\begin{Axiom}[{$ \ilfUpCase{f}-$involution$ $}]
+$ \ilfUpCase{f}(f(X_{1})) = X_{1} $.
+\end{Axiom}
+\begin{Axiom}[{$ \ilfUpCase{s}-$elimination$ $}]
+$ \ilfUpCase{s}(X_{1}) \cdot  s(X_{1}) = X_{1} $.
+\end{Axiom}

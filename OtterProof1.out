@@ -1,0 +1,269 @@
+otter_ax(1,ax(1)).
+otter_ax(2,ax(2)).
+otter_ax(3,ax(3)).
+otter_ax(4,ax(4)).
+otter_ax(5,ax(5)).
+otter_ax(6,ax(6)).
+otter_ax(7,ax(7)).
+otter_ax(8,ax(8)).
+otter_ax(9,ax(9)).
+otter_ax(10,ax(10)).
+otter_ax(11,ax(11)).
+otter_ax(12,ax(12)).
+otter_ax(13,ax(13)).
+otter_ax(14,ax(14)).
+otter_ax(15,ax(15)).
+otter_ax(16,ax(16)).
+otter_ax(17,ax(17)).
+otter_ax(18,ax(18)).
+otter_ax(19,ax(19)).
+otter_ax(20,ax(20)).
+otter_ax(21,ax(21)).
+otter_ax(22,goal).
+?- io_module(axioms).
+ax_name(ax(1),=(*(*(_574, _575), _572), *(_574, *(_575, _572))),true,[]).
+ax_name(ax(2),=(*(l(_574), _574), _574),true,[]).
+ax_name(ax(3),=(l(*(l(_576), l(_578))), *(l(_576), l(_578))),true,[]).
+ax_name(ax(4),=(*(l(_574), l(_576)), *(l(_576), l(_574))),true,[]).
+ax_name(ax(5),=(*(l(_574), l(*(_574, _579))), l(*(_574, _579))),true,[]).
+ax_name(ax(6),=(l(*(_573, _574)), l(*(_573, l(_574)))),true,[]).
+ax_name(ax(7),=(*(_571, r(_571)), _571),true,[]).
+ax_name(ax(8),=(r(*(r(_576), r(_578))), *(r(_576), r(_578))),true,[]).
+ax_name(ax(9),=(*(r(_574), r(_576)), *(r(_576), r(_574))),true,[]).
+ax_name(ax(10),=(*(r(*(_576, _577)), r(_577)), r(*(_576, _577))),true,[]).
+ax_name(ax(11),=(r(*(_573, _574)), r(*(r(_573), _574))),true,[]).
+ax_name(ax(12),=(l(r(_573)), r(_573)),true,[]).
+ax_name(ax(13),=(r(l(_573)), l(_573)),true,[]).
+ax_name(ax(14),=(*(a, ar1), l(a)),true,[]).
+ax_name(ax(15),=(*(l(a), ar2), a),true,[]).
+ax_name(ax(16),=(*(al1, a), r(a)),true,[]).
+ax_name(ax(17),=(*(al2, r(a)), a),true,[]).
+ax_name(ax(18),=(*(b, br1), l(b)),true,[]).
+ax_name(ax(19),=(*(l(b), br2), b),true,[]).
+ax_name(ax(20),=(*(bl1, b), r(b)),true,[]).
+ax_name(ax(21),=(*(bl2, r(b)), b),true,[]).
+ax_name(goal,not(=(*(*(a, b), *(br1, ar1)), l(*(a, b)))),true,[]).
+?- io_module(situation).
+proof([1, global], control, proved).
+proof([1, 1], contents, =(*(*(_1057, _1071), _1090), *(_1057, *(_1071, _1090)))).
+proof([1, 1], predecessors, []).
+proof([1, ax(1)], predecessors, []).
+proof([1, ax(1)], status, axiom(ax(1))).
+proof([1, ax(1)], contents, =(*(*(_1342, _1343), _1340), *(_1342, *(_1343, _1340)))).
+proof([1, 1], status, rule([intro], [[1, ax(1)]])).
+proof([1, 2], contents, =(*(l(_929), _929), _929)).
+proof([1, 2], predecessors, [[1, 1]]).
+proof([1, ax(2)], predecessors, []).
+proof([1, ax(2)], status, axiom(ax(2))).
+proof([1, ax(2)], contents, =(*(l(_1163), _1163), _1163)).
+proof([1, 2], status, rule([intro], [[1, ax(2)]])).
+proof([1, 3], contents, =(l(*(l(_1162), l(_1189))), *(l(_1162), l(_1189)))).
+proof([1, 3], predecessors, [[1, 2]]).
+proof([1, ax(3)], predecessors, []).
+proof([1, ax(3)], status, axiom(ax(3))).
+proof([1, ax(3)], contents, =(l(*(l(_1471), l(_1473))), *(l(_1471), l(_1473)))).
+proof([1, 3], status, rule([intro], [[1, ax(3)]])).
+proof([1, 4], contents, =(*(l(_1108), l(_1135)), *(l(_1135), l(_1108)))).
+proof([1, 4], predecessors, [[1, 3]]).
+proof([1, ax(4)], predecessors, []).
+proof([1, ax(4)], status, axiom(ax(4))).
+proof([1, ax(4)], contents, =(*(l(_1411), l(_1413)), *(l(_1413), l(_1411)))).
+proof([1, 4], status, rule([intro], [[1, ax(4)]])).
+proof([1, 5], contents, =(*(l(_1101), l(*(_1101, _1151))), l(*(_1101, _1151)))).
+proof([1, 5], predecessors, [[1, 4]]).
+proof([1, ax(5)], predecessors, []).
+proof([1, ax(5)], status, axiom(ax(5))).
+proof([1, ax(5)], contents, =(*(l(_1419), l(*(_1419, _1424))), l(*(_1419, _1424)))).
+proof([1, 5], status, rule([intro], [[1, ax(5)]])).
+proof([1, 6], contents, =(l(*(_1060, _1074)), l(*(_1060, l(_1074))))).
+proof([1, 6], predecessors, [[1, 5]]).
+proof([1, ax(6)], predecessors, []).
+proof([1, ax(6)], status, axiom(ax(6))).
+proof([1, ax(6)], contents, =(l(*(_1349, _1350)), l(*(_1349, l(_1350))))).
+proof([1, 6], status, rule([intro], [[1, ax(6)]])).
+proof([1, 7], contents, =(l(*(_1208, l(_1231))), l(*(_1208, _1231)))).
+proof([1, 7], predecessors, [[1, 6]]).
+proof([1, 7], status, rule([copy(6), flip(a)], [[1, 6]])).
+proof([1, 8], contents, =(*(_920, r(_920)), _920)).
+proof([1, 8], predecessors, [[1, 7]]).
+proof([1, ax(7)], predecessors, []).
+proof([1, ax(7)], status, axiom(ax(7))).
+proof([1, ax(7)], contents, =(*(_1160, r(_1160)), _1160)).
+proof([1, 8], status, rule([intro], [[1, ax(7)]])).
+proof([1, 9], contents, =(r(*(r(_1162), r(_1189))), *(r(_1162), r(_1189)))).
+proof([1, 9], predecessors, [[1, 8]]).
+proof([1, ax(8)], predecessors, []).
+proof([1, ax(8)], status, axiom(ax(8))).
+proof([1, ax(8)], contents, =(r(*(r(_1471), r(_1473))), *(r(_1471), r(_1473)))).
+proof([1, 9], status, rule([intro], [[1, ax(8)]])).
+proof([1, 10], contents, =(*(r(_1108), r(_1135)), *(r(_1135), r(_1108)))).
+proof([1, 10], predecessors, [[1, 9]]).
+proof([1, ax(9)], predecessors, []).
+proof([1, ax(9)], status, axiom(ax(9))).
+proof([1, ax(9)], contents, =(*(r(_1411), r(_1413)), *(r(_1413), r(_1411)))).
+proof([1, 10], status, rule([intro], [[1, ax(9)]])).
+proof([1, 13], contents, =(r(*(_1062, _1076)), r(*(r(_1062), _1076)))).
+proof([1, 13], predecessors, [[1, 10]]).
+proof([1, ax(11)], predecessors, []).
+proof([1, ax(11)], status, axiom(ax(11))).
+proof([1, ax(11)], contents, =(r(*(_1351, _1352)), r(*(r(_1351), _1352)))).
+proof([1, 13], status, rule([intro], [[1, ax(11)]])).
+proof([1, 14], contents, =(r(*(r(_1218), _1236)), r(*(_1218, _1236)))).
+proof([1, 14], predecessors, [[1, 13]]).
+proof([1, 14], status, rule([copy(13), flip(a)], [[1, 13]])).
+proof([1, 15], contents, =(l(r(_981)), r(_981))).
+proof([1, 15], predecessors, [[1, 14]]).
+proof([1, ax(12)], predecessors, []).
+proof([1, ax(12)], status, axiom(ax(12))).
+proof([1, ax(12)], contents, =(l(r(_1214)), r(_1214))).
+proof([1, 15], status, rule([intro], [[1, ax(12)]])).
+proof([1, 16], contents, =(r(l(_981)), l(_981))).
+proof([1, 16], predecessors, [[1, 15]]).
+proof([1, ax(13)], predecessors, []).
+proof([1, ax(13)], status, axiom(ax(13))).
+proof([1, ax(13)], contents, =(r(l(_1214)), l(_1214))).
+proof([1, 16], status, rule([intro], [[1, ax(13)]])).
+proof([1, 17], contents, =(*(a, ar1), l(a))).
+proof([1, 17], predecessors, [[1, 16]]).
+proof([1, ax(14)], predecessors, []).
+proof([1, ax(14)], status, axiom(ax(14))).
+proof([1, ax(14)], contents, =(*(a, ar1), l(a))).
+proof([1, 17], status, rule([intro], [[1, ax(14)]])).
+proof([1, 18], contents, =(l(a), *(a, ar1))).
+proof([1, 18], predecessors, [[1, 17]]).
+proof([1, 18], status, rule([copy(17), flip(a)], [[1, 17]])).
+proof([1, 19], contents, =(*(l(a), ar2), a)).
+proof([1, 19], predecessors, [[1, 18]]).
+proof([1, ax(15)], predecessors, []).
+proof([1, ax(15)], status, axiom(ax(15))).
+proof([1, ax(15)], contents, =(*(l(a), ar2), a)).
+proof([1, 19], status, rule([intro], [[1, ax(15)]])).
+proof([1, 20], contents, =(*(a, *(ar1, ar2)), a)).
+proof([1, 20], predecessors, [[1, 19]]).
+proof([1, 20], status, rule([copy(19), rewrite([flapart(18, 2), flapart(1, 5)])], [[1, 19], [1, 18], [1, 1]])).
+proof([1, 21], contents, =(*(al1, a), r(a))).
+proof([1, 21], predecessors, [[1, 20]]).
+proof([1, ax(16)], predecessors, []).
+proof([1, ax(16)], status, axiom(ax(16))).
+proof([1, ax(16)], contents, =(*(al1, a), r(a))).
+proof([1, 21], status, rule([intro], [[1, ax(16)]])).
+proof([1, 22], contents, =(r(a), *(al1, a))).
+proof([1, 22], predecessors, [[1, 21]]).
+proof([1, 22], status, rule([copy(21), flip(a)], [[1, 21]])).
+proof([1, 23], contents, =(*(al2, r(a)), a)).
+proof([1, 23], predecessors, [[1, 22]]).
+proof([1, ax(17)], predecessors, []).
+proof([1, ax(17)], status, axiom(ax(17))).
+proof([1, ax(17)], contents, =(*(al2, r(a)), a)).
+proof([1, 23], status, rule([intro], [[1, ax(17)]])).
+proof([1, 24], contents, =(*(al2, *(al1, a)), a)).
+proof([1, 24], predecessors, [[1, 23]]).
+proof([1, 24], status, rule([copy(23), rewrite([flapart(22, 3)])], [[1, 23], [1, 22]])).
+proof([1, 25], contents, =(*(b, br1), l(b))).
+proof([1, 25], predecessors, [[1, 24]]).
+proof([1, ax(18)], predecessors, []).
+proof([1, ax(18)], status, axiom(ax(18))).
+proof([1, ax(18)], contents, =(*(b, br1), l(b))).
+proof([1, 25], status, rule([intro], [[1, ax(18)]])).
+proof([1, 26], contents, =(l(b), *(b, br1))).
+proof([1, 26], predecessors, [[1, 25]]).
+proof([1, 26], status, rule([copy(25), flip(a)], [[1, 25]])).
+proof([1, 33], contents, not(=(*(*(a, b), *(br1, ar1)), l(*(a, b))))).
+proof([1, 33], predecessors, [[1, 26]]).
+proof([1, ax(22)], predecessors, []).
+proof([1, ax(22)], status, axiom(goal)).
+proof([1, ax(22)], contents, not(=(*(*(a, b), *(br1, ar1)), l(*(a, b))))).
+proof([1, 33], status, rule([intro], [[1, ax(22)]])).
+proof([1, 34], contents, not(=(l(*(a, b)), *(a, *(b, *(br1, ar1)))))).
+proof([1, 34], predecessors, [[1, 33]]).
+proof([1, 34], status, rule([copy(33), rewrite([flapart(1, 7)]), flip(a)], [[1, 33], [1, 1]])).
+proof([1, 35], contents, =(l(*(l(_1386), _1404)), *(l(_1386), l(_1404)))).
+proof([1, 35], predecessors, [[1, 34]]).
+proof([1, 35], status, rule([back_rewrite(3), rewrite([flapart(7, 4)])], [[1, 3], [1, 7]])).
+proof([1, 36], contents, =(r(*(_1377, r(_1400))), *(r(_1377), r(_1400)))).
+proof([1, 36], predecessors, [[1, 35]]).
+proof([1, 36], status, rule([back_rewrite(9), rewrite([flapart(14, 4)])], [[1, 9], [1, 14]])).
+proof([1, 38], contents, =(*(l(_1837), *(l(_1875), _1893)), *(l(_1875), *(l(_1837), _1893)))).
+proof([1, 38], predecessors, [[1, 36]]).
+proof([1, 38], status, rule([para(flapart(4, a, 1), flapart(1, a, 1, 1)), rewrite([flapart(1, 4)])], [[1, 4], [1, 1], [1, 1]])).
+proof([1, 46], contents, =(*(l(*(_1572, _1586)), *(_1572, l(_1586))), *(_1572, l(_1586)))).
+proof([1, 46], predecessors, [[1, 38]]).
+proof([1, 46], status, rule([para(flapart(7, a, 1), flapart(2, a, 1, 1))], [[1, 7], [1, 2]])).
+proof([1, 51], contents, =(*(_1505, *(r(_1505), _1555)), *(_1505, _1555))).
+proof([1, 51], predecessors, [[1, 46]]).
+proof([1, 51], status, rule([para(flapart(8, a, 1), flapart(1, a, 1, 1)), flip(a)], [[1, 8], [1, 1]])).
+proof([1, 52], contents, =(*(_1505, *(_1530, r(*(_1505, _1530)))), *(_1505, _1530))).
+proof([1, 52], predecessors, [[1, 51]]).
+proof([1, 52], status, rule([para(flapart(8, a, 1), flapart(1, a, 1)), flip(a)], [[1, 8], [1, 1]])).
+proof([1, 76], contents, =(*(a, *(ar1, l(*(a, _1768)))), l(*(a, _1768)))).
+proof([1, 76], predecessors, [[1, 52]]).
+proof([1, 76], status, rule([para(flapart(18, a, 1), flapart(5, a, 1, 1)), rewrite([flapart(1, 7)])], [[1, 18], [1, 5], [1, 1]])).
+proof([1, 82], contents, =(r(*(al1, a)), *(al1, a))).
+proof([1, 82], predecessors, [[1, 76]]).
+proof([1, 82], status, rule([para(flapart(20, a, 1), flapart(14, a, 2, 1)), rewrite([flapart(22, 2), flapart(1, 7), flapart(20, 6), flapart(22, 6)])], [[1, 20], [1, 14], [1, 22], [1, 1], [1, 20], [1, 22]])).
+proof([1, 83], contents, =(*(a, *(al1, a)), a)).
+proof([1, 83], predecessors, [[1, 82]]).
+proof([1, 83], status, rule([para(flapart(22, a, 1), flapart(8, a, 1, 2))], [[1, 22], [1, 8]])).
+proof([1, 84], contents, =(*(r(_1957), *(al1, a)), *(al1, *(a, r(_1957))))).
+proof([1, 84], predecessors, [[1, 83]]).
+proof([1, 84], status, rule([para(flapart(22, a, 1), flapart(10, a, 1, 1)), rewrite([flapart(1, 5), flapart(22, 8)]), flip(a)], [[1, 22], [1, 10], [1, 1], [1, 22]])).
+proof([1, 87], contents, =(l(*(al1, a)), *(al1, a))).
+proof([1, 87], predecessors, [[1, 84]]).
+proof([1, 87], status, rule([para(flapart(22, a, 1), flapart(15, a, 1, 1)), rewrite([flapart(22, 6)])], [[1, 22], [1, 15], [1, 22]])).
+proof([1, 89], contents, =(*(al2, *(al1, *(a, _1779))), *(a, _1779))).
+proof([1, 89], predecessors, [[1, 87]]).
+proof([1, 89], status, rule([para(flapart(24, a, 1), flapart(1, a, 1, 1)), rewrite([flapart(1, 7)]), flip(a)], [[1, 24], [1, 1], [1, 1]])).
+proof([1, 113], contents, =(l(*(r(_1755), _1773)), *(r(_1755), l(_1773)))).
+proof([1, 113], predecessors, [[1, 89]]).
+proof([1, 113], status, rule([para(flapart(15, a, 1), flapart(35, a, 1, 1, 1)), rewrite([flapart(15, 5)])], [[1, 15], [1, 35], [1, 15]])).
+proof([1, 118], contents, =(r(*(_1608, *(_1633, r(_1656)))), *(r(*(_1608, _1633)), r(_1656)))).
+proof([1, 118], predecessors, [[1, 113]]).
+proof([1, 118], status, rule([para(flapart(1, a, 1), flapart(36, a, 1, 1))], [[1, 1], [1, 36]])).
+proof([1, 128], contents, =(*(a, *(al1, *(a, _1778))), *(a, _1778))).
+proof([1, 128], predecessors, [[1, 118]]).
+proof([1, 128], status, rule([para(flapart(83, a, 1), flapart(1, a, 1, 1)), rewrite([flapart(1, 7)]), flip(a)], [[1, 83], [1, 1], [1, 1]])).
+proof([1, 140], contents, =(l(*(al1, *(a, _2066))), *(al1, *(a, l(_2066))))).
+proof([1, 140], predecessors, [[1, 128]]).
+proof([1, 140], status, rule([para(flapart(87, a, 1), flapart(35, a, 1, 1, 1)), rewrite([flapart(1, 4), flapart(87, 9), flapart(1, 10)])], [[1, 87], [1, 35], [1, 1], [1, 87], [1, 1]])).
+proof([1, 155], contents, =(*(_1841, *(_1866, *(r(*(_1841, _1866)), _1944))), *(_1841, *(_1866, _1944)))).
+proof([1, 155], predecessors, [[1, 140]]).
+proof([1, 155], status, rule([para(flapart(51, a, 1), flapart(1, a, 1)), rewrite([flapart(1, 2)]), flip(a)], [[1, 51], [1, 1], [1, 1]])).
+proof([1, 182], contents, =(*(r(_2042), l(*(_2080, r(*(_2042, _2080))))), *(r(_2042), l(_2080)))).
+proof([1, 182], predecessors, [[1, 155]]).
+proof([1, 182], status, rule([para(flapart(52, a, 1), flapart(113, a, 1, 1)), rewrite([flapart(113, 3), flapart(14, 7)]), flip(a)], [[1, 52], [1, 113], [1, 113], [1, 14]])).
+proof([1, 201], contents, =(*(a, *(al1, l(*(a, _1981)))), l(*(a, _1981)))).
+proof([1, 201], predecessors, [[1, 182]]).
+proof([1, 201], status, rule([para(flapart(76, a, 1), flapart(51, a, 2)), rewrite([flapart(22, 3), flapart(1, 10), flapart(76, 9)])], [[1, 76], [1, 51], [1, 22], [1, 1], [1, 76]])).
+proof([1, 202], contents, =(*(al2, *(al1, l(*(a, _1810)))), l(*(a, _1810)))).
+proof([1, 202], predecessors, [[1, 201]]).
+proof([1, 202], status, rule([para(flapart(76, a, 1), flapart(89, a, 1, 2, 2)), rewrite([flapart(76, 14)])], [[1, 76], [1, 89], [1, 76]])).
+proof([1, 205], contents, =(*(r(_2213), *(al1, *(a, _2271))), *(al1, *(a, *(r(_2213), _2271))))).
+proof([1, 205], predecessors, [[1, 202]]).
+proof([1, 205], status, rule([para(flapart(84, a, 1), flapart(1, a, 1, 1)), rewrite([flapart(1, 6), flapart(1, 5), flapart(1, 11)]), flip(a)], [[1, 84], [1, 1], [1, 1], [1, 1], [1, 1]])).
+proof([1, 332], contents, =(*(al1, *(a, *(l(_2106), *(al1, l(*(a, _2106)))))), *(al1, l(*(a, _2106))))).
+proof([1, 332], predecessors, [[1, 205]]).
+proof([1, 332], status, rule([para(flapart(140, a, 1), flapart(46, a, 1, 1)), rewrite([flapart(1, 11), flapart(1, 10)])], [[1, 140], [1, 46], [1, 1], [1, 1]])).
+proof([1, 365], contents, =(*(l(_2215), *(al1, *(a, _2273))), *(al1, *(a, *(l(_2215), _2273))))).
+proof([1, 365], predecessors, [[1, 332]]).
+proof([1, 365], status, rule([para(flapart(87, a, 1), flapart(38, a, 1, 1)), rewrite([flapart(1, 6), flapart(87, 11), flapart(1, 11)]), flip(a)], [[1, 87], [1, 38], [1, 1], [1, 87], [1, 1]])).
+proof([1, 675], contents, =(*(_2178, *(_2203, l(*(_2237, r(*(_2178, *(_2203, _2237))))))), *(_2178, *(_2203, l(_2237))))).
+proof([1, 675], predecessors, [[1, 365]]).
+proof([1, 675], status, rule([para(flapart(182, a, 1), flapart(155, a, 1, 2, 2)), rewrite([flapart(155, 6), flapart(1, 5)]), flip(a)], [[1, 182], [1, 155], [1, 155], [1, 1]])).
+proof([1, 897], contents, =(*(l(_1769), *(al1, l(*(a, _1769)))), *(al1, l(*(a, _1769))))).
+proof([1, 897], predecessors, [[1, 675]]).
+proof([1, 897], status, rule([para(flapart(332, a, 1), flapart(365, a, 2)), rewrite([flapart(201, 9)])], [[1, 332], [1, 365], [1, 201]])).
+proof([1, 899], contents, =(*(r(_1696), *(al1, l(*(a, r(_1696))))), *(al1, l(*(a, r(_1696)))))).
+proof([1, 899], predecessors, [[1, 897]]).
+proof([1, 899], status, rule([para(flapart(15, a, 1), flapart(897, a, 1, 1))], [[1, 15], [1, 897]])).
+proof([1, 946], contents, =(*(al1, l(*(a, r(_2782)))), *(al1, *(a, *(r(_2782), ar1))))).
+proof([1, 946], predecessors, [[1, 899]]).
+proof([1, 946], status, rule([para(flapart(84, a, 1), flapart(675, a, 1, 2, 2, 1, 2, 1)), rewrite([flapart(118, 9), flapart(82, 7), flapart(1, 8), flapart(128, 9), flapart(899, 8), flapart(18, 10), flapart(205, 13)])], [[1, 84], [1, 675], [1, 118], [1, 82], [1, 1], [1, 128], [1, 899], [1, 18], [1, 205]])).
+proof([1, 1057], contents, =(*(al1, l(*(a, _2020))), *(al1, *(a, *(l(_2020), ar1))))).
+proof([1, 1057], predecessors, [[1, 946]]).
+proof([1, 1057], status, rule([para(flapart(16, a, 1), flapart(946, a, 1, 2, 1, 2)), rewrite([flapart(7, 5), flapart(16, 9)])], [[1, 16], [1, 946], [1, 7], [1, 16]])).
+proof([1, 1059], contents, =(l(*(a, _1573)), *(a, *(l(_1573), ar1)))).
+proof([1, 1059], predecessors, [[1, 1057]]).
+proof([1, 1059], status, rule([back_rewrite(202), rewrite([flapart(1057, 6), flapart(89, 9)]), flip(a)], [[1, 202], [1, 1057], [1, 89]])).
+proof([1, 1077], contents, false).
+proof([1, 1077], predecessors, [[1, 1059]]).
+proof([1, 1077], status, rule([back_rewrite(34), rewrite([flapart(1059, 4), flapart(26, 3), flapart(1, 6)])], [[1, 34], [1, 1059], [1, 26], [1, 1]])).

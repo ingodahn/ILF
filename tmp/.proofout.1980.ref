@@ -1,0 +1,35 @@
+[hdl9, hdl33]
+
+[hdl9, hdl33]
+(\ref{[hdl9, hdl33]})
+(\ref{[hdl9, hdl33]})
+[ax(1, 3), 0]
+$ $'-annihilation$ $
+$ $'-annihilation$ $
+[ax(1, 4), 0]
+$ $'-commutativity$ $
+$ $'-commutativity$ $
+[ax(1, 1), 0]
+$ $associativity$ $
+$ $\ilfUpCase{a}ssociativity$ $
+[ax(1, 5), 0]
+$ f-$distribution$ $
+$ \ilfUpCase{f}-$distribution$ $
+[ax(1, 6), 0]
+$ f-$involution$ $
+$ \ilfUpCase{f}-$involution$ $
+[ax(1, 7), 0]
+$ s-$elimination$ $
+$ \ilfUpCase{s}-$elimination$ $
+[ax(1, 8), 0]
+$ s$ gets root of square $ $
+$ \ilfUpCase{s}$ gets root of square $ $
+[ax(1, 2), 0]
+$ $'-involution$ $
+$ $'-involution$ $
+[ax(1, 9), 0]
+$ f-$fixpoint is self-square$ $
+$ \ilfUpCase{f}-$fixpoint is self-square$ $
+[ax(1, 10), 0]
+$ $self-square is $f-$fixpoint$ $
+$ $\ilfUpCase{s}elf-square is $f-$fixpoint$ $

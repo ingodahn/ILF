@@ -1,0 +1,32 @@
+\expandafter\ifx\csname Axiom\endcsname\relax%
+\newtheorem{Axiom}{Axiom}[section]\fi
+\begin{Axiom}[{$ $3-index free$ $}]
+$ X_{1} \cdot  X_{1} \cdot  (X_{1} \cdot  X_{1}) = X_{1} -> X_{1} \cdot  X_{1} = X_{1} $.
+\end{Axiom}
+\begin{Axiom}[{$ $\ilfUpCase{a}ssociativity$ $}]
+$ X_{1} \cdot  X_{2} \cdot  X_{3} = X_{1} \cdot  (X_{2} \cdot  X_{3}) $.
+\end{Axiom}
+\begin{Axiom}[{$ $\ilfUpCase{r}ight identitity$ $}]
+$ X_{1} \cdot  0 = X_{1} $.
+\end{Axiom}
+\begin{Axiom}[{$ $\ilfUpCase{r}ight inverse$ $}]
+$ X_{1} \cdot  X_{1} ^{\prime}  = 0 $.
+\end{Axiom}
+\begin{Axiom}[{$ $\ilfUpCase{l}eft inverse$ $}]
+$ X_{1} ^{\prime}  \cdot  X_{1} = 0 $.
+\end{Axiom}
+\begin{Axiom}[{$ $\ilfUpCase{l}eft identity$ $}]
+$ 0 \cdot  X_{1} = X_{1} $.
+\end{Axiom}
+\begin{Axiom}[{$ $\ilfUpCase{i}nvolution$ $}]
+$ X_{1} ^{\prime}  ^{\prime}  = X_{1} $.
+\end{Axiom}
+\begin{Axiom}[{$ $\ilfUpCase{a}nti-morphism$ $}]
+$ (X_{1} \cdot  X_{2}) ^{\prime}  = X_{2} ^{\prime}  \cdot  X_{1} ^{\prime}  $.
+\end{Axiom}
+\begin{Axiom}[{$ $2-commutativity$ $}]
+$ X_{1} \cdot  X_{2} \cdot  (X_{1} \cdot  X_{2}) = X_{2} \cdot  X_{2} \cdot  (X_{1} \cdot  X_{1}) $.
+\end{Axiom}
+\begin{Axiom}[{$ $\ilfUpCase{c}ubes commute$ $}]
+$ X_{1} \cdot  X_{1} \cdot  X_{1} \cdot  X_{2} = X_{2} \cdot  (X_{1} \cdot  X_{1} \cdot  X_{1}) $.
+\end{Axiom}

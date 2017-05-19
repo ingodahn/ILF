@@ -1,0 +1,338 @@
+
+ilf_include C:\Users\dahn\CloudStation\ILF\ilf16\tmp\.types.21368
+
+ilf_include C:\Users\dahn\CloudStation\ILF\ilf16\tmp\.theory.21368
+\expandafter\ifx\csname Theorem\endcsname\relax%
+\newtheorem{Theorem}{Theorem}[section]\fi
+\begin{Theorem}\label{[1, theorem]}
+$ \ilfUpCase{a} \cdot  b \cdot  (br_{1} \cdot  ar_{1}) = l(a \cdot  b) $.
+\end{Theorem}
+
+\begin{ilfproof}{$ otter $ and $ ilf $} We  show indirectly that 
+ilf_formula [1, 1]
+a \cdot  b \cdot  (br_{1} \cdot  ar_{1}) = l(a \cdot  b).
+ilf_formula_end
+
+Let us assume that 
+ilf_formula [sub(1, 1), ax(22)]
+a \cdot  b \cdot  (br_{1} \cdot  ar_{1}) \neq l(a \cdot  b).
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [ax(1, 14), 0]
+, and by 
+ilf_ref [ax(1, 15), 0]
+ 
+ilf_formula [sub(1, 1), 20]
+a \cdot  (ar_{1} \cdot  ar_{2}) = a.
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 3), 0]
+ and by 
+ilf_ref [ax(1, 6), 0]
+ 
+ilf_formula [sub(1, 1), 35]
+l(l(X_{1}) \cdot  X_{2}) = l(X_{1}) \cdot  l(X_{2}).
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 8), 0]
+ and by 
+ilf_ref [ax(1, 11), 0]
+ 
+ilf_formula [sub(1, 1), 36]
+r(X_{1} \cdot  r(X_{2})) = r(X_{1}) \cdot  r(X_{2}).
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 2), 0]
+ and by 
+ilf_ref [ax(1, 6), 0]
+ 
+ilf_formula [sub(1, 1), 46]
+l(X_{1} \cdot  X_{2}) \cdot  (X_{1} \cdot  l(X_{2})) = X_{1} \cdot  l(X_{2}).
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [ax(1, 7), 0]
+ 
+ilf_formula [sub(1, 1), 51]
+X_{1} \cdot  (r(X_{1}) \cdot  X_{2}) = X_{1} \cdot  X_{2}.
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [ax(1, 5), 0]
+, and by 
+ilf_ref [ax(1, 14), 0]
+ 
+ilf_formula [sub(1, 1), 76]
+a \cdot  (ar_{1} \cdot  l(a \cdot  X_{1})) = l(a \cdot  X_{1}).
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 7), 0]
+ and by 
+ilf_ref [ax(1, 16), 0]
+ 
+ilf_formula [sub(1, 1), 83]
+a \cdot  A = a.
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [ax(1, 9), 0]
+, and by 
+ilf_ref [ax(1, 16), 0]
+ 
+ilf_formula [sub(1, 1), 84]
+r(X_{1}) \cdot  A = Adot r(X_{1})).
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 16), 0]
+ and by 
+ilf_ref [ax(1, 17), 0]
+ 
+ilf_formula [sub(1, 1), hdl14]
+al_{2} \cdot  A = a.
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+ 
+ilf_formula [sub(1, 1), 89]
+al_{2} \cdot  Adot X_{1}) = a \cdot  X_{1}.
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 12), 0]
+ and by 
+ilf_ref [ax(1, 16), 0]
+ 
+ilf_formula [sub(1, 1), hdl9]
+l(A) = A.
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 35]
+ 
+ilf_formula [sub(1, 1), 140]
+l(Adot X_{1})) = Adot l(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 51]
+ 
+ilf_formula [sub(1, 1), 155]
+X_{1} \cdot  (X_{2} \cdot  (r(X_{1} \cdot  X_{2}) \cdot  X_{3})) = X_{1} \cdot  (X_{2} \cdot  X_{3}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 12), 0]
+ and by 
+ilf_ref [sub(1, 1), 35]
+ 
+ilf_formula [sub(1, 1), hdl8]
+l(r(X_{1}) \cdot  X_{2}) = r(X_{1}) \cdot  l(X_{2}).
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [ax(1, 7), 0]
+ 
+ilf_formula [sub(1, 1), hdl11]
+X_{1} \cdot  (X_{2} \cdot  r(X_{1} \cdot  X_{2})) = X_{1} \cdot  X_{2}.
+ilf_formula_end
+
+Therefore by 
+ilf_ref [ax(1, 11), 0]
+ 
+ilf_formula [sub(1, 1), 182]
+r(X_{1}) \cdot  l(X_{2} \cdot  r(X_{1} \cdot  X_{2})) = r(X_{1}) \cdot  l(X_{2}).
+ilf_formula_end
+
+Because of 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [ax(1, 4), 0]
+ 
+ilf_formula [sub(1, 1), hdl12]
+l(X_{1}) \cdot  (l(X_{2}) \cdot  X_{3}) = l(X_{2}) \cdot  (l(X_{1}) \cdot  X_{3}).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), hdl9]
+ 
+ilf_formula [sub(1, 1), 365]
+l(X_{1}) \cdot  Adot X_{2}) = Adot l(X_{1}) \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 46]
+, and by 
+ilf_ref [sub(1, 1), 140]
+ 
+ilf_formula [sub(1, 1), hdl2]
+Adot l(X_{1}) \cdot  (al_{1} \cdot  l(a \cdot  X_{1}))) = al_{1} \cdot  l(a \cdot  X_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 16), 0]
+,  
+ilf_ref [sub(1, 1), 51]
+, and by 
+ilf_ref [sub(1, 1), 76]
+ 
+ilf_formula [sub(1, 1), hdl5]
+a \cdot  (al_{1} \cdot  l(a \cdot  X_{1})) = l(a \cdot  X_{1}).
+ilf_formula_end
+
+Therefore by 
+ilf_ref [sub(1, 1), 365]
+ 
+ilf_formula [sub(1, 1), 897]
+l(X_{1}) \cdot  (al_{1} \cdot  l(a \cdot  X_{1})) = al_{1} \cdot  l(a \cdot  X_{1}).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 12), 0]
+ 
+ilf_formula [sub(1, 1), 899]
+r(X_{1}) \cdot  (al_{1} \cdot  l(a \cdot  r(X_{1}))) = al_{1} \cdot  l(a \cdot  r(X_{1})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+,  
+ilf_ref [sub(1, 1), 155]
+, and by 
+ilf_ref [sub(1, 1), 182]
+ 
+ilf_formula [sub(1, 1), hdl1]
+X_{1} \cdot  (X_{2} \cdot  l(X_{3} \cdot  r(X_{1} \cdot  (X_{2} \cdot  X_{3})))) = X_{1} \cdot  (X_{2} \cdot  l(X_{3})).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 84]
+ 
+ilf_formula [sub(1, 1), hdl3]
+r(X_{1}) \cdot  Adot X_{2}) = Adot r(X_{1}) \cdot  X_{2}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 83]
+ 
+ilf_formula [sub(1, 1), hdl6]
+a \cdot  Adot X_{1}) = a \cdot  X_{1}.
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), 36]
+ 
+ilf_formula [sub(1, 1), hdl7]
+r(X_{1} \cdot  (X_{2} \cdot  r(X_{3}))) = r(X_{1} \cdot  X_{2}) \cdot  r(X_{3}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 11), 0]
+,  
+ilf_ref [ax(1, 16), 0]
+, and by 
+ilf_ref [sub(1, 1), 20]
+ 
+ilf_formula [sub(1, 1), hdl10]
+r(A) = A.
+ilf_formula_end
+
+Therefore by 
+ilf_ref [ax(1, 1), 0]
+, 
+ilf_ref [ax(1, 14), 0]
+, 
+ilf_ref [sub(1, 1), 84]
+, 
+ilf_ref [sub(1, 1), 899]
+, 
+ilf_ref [sub(1, 1), hdl1]
+,  
+ilf_ref [sub(1, 1), hdl3]
+, and by 
+ilf_ref [sub(1, 1), hdl6]
+ 
+ilf_formula [sub(1, 1), 946]
+al_{1} \cdot  l(a \cdot  r(X_{1})) = Adot r(X_{1}) \cdot  ar_{1}).
+ilf_formula_end
+
+Hence by 
+ilf_ref [ax(1, 6), 0]
+ and by 
+ilf_ref [ax(1, 13), 0]
+ 
+ilf_formula [sub(1, 1), 1057]
+al_{1} \cdot  l(a \cdot  X_{1}) = Adot l(X_{1}) \cdot  ar_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [sub(1, 1), 76]
+ and by 
+ilf_ref [sub(1, 1), 89]
+ 
+ilf_formula [sub(1, 1), hdl4]
+al_{2} \cdot  (al_{1} \cdot  l(a \cdot  X_{1})) = l(a \cdot  X_{1}).
+ilf_formula_end
+
+Therefore by 
+ilf_ref [sub(1, 1), 89]
+ 
+ilf_formula [sub(1, 1), 1059]
+l(a \cdot  X_{1}) = a \cdot  (l(X_{1}) \cdot  ar_{1}).
+ilf_formula_end
+
+By 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [sub(1, 1), ax(22)]
+ 
+ilf_formula [sub(1, 1), hdl13]
+l(a \cdot  b) \neq a \cdot  (b \cdot  (br_{1} \cdot  ar_{1})).
+ilf_formula_end
+
+Therefore by 
+ilf_ref [ax(1, 1), 0]
+ and by 
+ilf_ref [ax(1, 18), 0]
+  we have a contradiction.
+Thus we have completed the proof of 
+ilf_ref [1, 1]
+.
+
+
+
+\end{ilfproof}

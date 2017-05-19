@@ -1,0 +1,132 @@
+[1, 1]
+[sub(1, 1), ax(22)]
+[sub(1, 1), 20]
+[sub(1, 1), 35]
+[sub(1, 1), 36]
+[sub(1, 1), 46]
+[sub(1, 1), 51]
+[sub(1, 1), 76]
+[sub(1, 1), 83]
+[sub(1, 1), 84]
+[sub(1, 1), 89]
+[sub(1, 1), hdl9]
+[sub(1, 1), 140]
+[sub(1, 1), 155]
+[sub(1, 1), 182]
+[sub(1, 1), 365]
+[sub(1, 1), 899]
+[sub(1, 1), hdl1]
+[sub(1, 1), hdl3]
+[sub(1, 1), hdl6]
+
+[1, 1]
+(\ref{[1, 1]})
+(\ref{[1, 1]})
+[sub(1, 1), ax(22)]
+(\ref{[sub(1, 1), ax(22)]})
+(\ref{[sub(1, 1), ax(22)]})
+[sub(1, 1), 20]
+(\ref{[sub(1, 1), 20]})
+(\ref{[sub(1, 1), 20]})
+[sub(1, 1), 35]
+(\ref{[sub(1, 1), 35]})
+(\ref{[sub(1, 1), 35]})
+[sub(1, 1), 36]
+(\ref{[sub(1, 1), 36]})
+(\ref{[sub(1, 1), 36]})
+[sub(1, 1), 46]
+(\ref{[sub(1, 1), 46]})
+(\ref{[sub(1, 1), 46]})
+[sub(1, 1), 51]
+(\ref{[sub(1, 1), 51]})
+(\ref{[sub(1, 1), 51]})
+[sub(1, 1), 76]
+(\ref{[sub(1, 1), 76]})
+(\ref{[sub(1, 1), 76]})
+[sub(1, 1), 83]
+(\ref{[sub(1, 1), 83]})
+(\ref{[sub(1, 1), 83]})
+[sub(1, 1), 84]
+(\ref{[sub(1, 1), 84]})
+(\ref{[sub(1, 1), 84]})
+[sub(1, 1), 89]
+(\ref{[sub(1, 1), 89]})
+(\ref{[sub(1, 1), 89]})
+[sub(1, 1), hdl9]
+(\ref{[sub(1, 1), hdl9]})
+(\ref{[sub(1, 1), hdl9]})
+[sub(1, 1), 140]
+(\ref{[sub(1, 1), 140]})
+(\ref{[sub(1, 1), 140]})
+[sub(1, 1), 155]
+(\ref{[sub(1, 1), 155]})
+(\ref{[sub(1, 1), 155]})
+[sub(1, 1), 182]
+(\ref{[sub(1, 1), 182]})
+(\ref{[sub(1, 1), 182]})
+[sub(1, 1), 365]
+(\ref{[sub(1, 1), 365]})
+(\ref{[sub(1, 1), 365]})
+[sub(1, 1), 899]
+(\ref{[sub(1, 1), 899]})
+(\ref{[sub(1, 1), 899]})
+[sub(1, 1), hdl1]
+(\ref{[sub(1, 1), hdl1]})
+(\ref{[sub(1, 1), hdl1]})
+[sub(1, 1), hdl3]
+(\ref{[sub(1, 1), hdl3]})
+(\ref{[sub(1, 1), hdl3]})
+[sub(1, 1), hdl6]
+(\ref{[sub(1, 1), hdl6]})
+(\ref{[sub(1, 1), hdl6]})
+[ax(1, 1), 0]
+$ $associativity$ $
+$ $\ilfUpCase{a}ssociativity$ $
+[ax(1, 14), 0]
+$ ar_{1}$ right introduces $l$ for $a $
+$ \ilfUpCase{a}r_{1}$ right introduces $l$ for $a $
+[ax(1, 15), 0]
+$ ar_{2}$ right removes $l$ for $a $
+$ \ilfUpCase{a}r_{2}$ right removes $l$ for $a $
+[ax(1, 3), 0]
+$ l$ doesn't change product of $l-$terms$ $
+$ \ilfUpCase{l}$ doesn't change product of $l-$terms$ $
+[ax(1, 6), 0]
+$ $right factor inherits $l $
+$ $\ilfUpCase{r}ight factor inherits $l $
+[ax(1, 8), 0]
+$ r$ doesn't change product of $r-$terms$ $
+$ \ilfUpCase{r}$ doesn't change product of $r-$terms$ $
+[ax(1, 11), 0]
+$ $left factor inherits $r $
+$ $\ilfUpCase{l}eft factor inherits $r $
+[ax(1, 2), 0]
+$ l-$identity$ $
+$ \ilfUpCase{l}-$identity$ $
+[ax(1, 7), 0]
+$ r-$identity$ $
+$ \ilfUpCase{r}-$identity$ $
+[ax(1, 5), 0]
+$ l$ of left factor doesn't change $l$-product$ $
+$ \ilfUpCase{l}$ of left factor doesn't change $l$-product$ $
+[ax(1, 16), 0]
+$ al_{1}$ left introduces $r$ for $a $
+$ \ilfUpCase{a}l_{1}$ left introduces $r$ for $a $
+[ax(1, 9), 0]
+$ r-$factors commute$ $
+$ \ilfUpCase{r}-$factors commute$ $
+[ax(1, 17), 0]
+$ al_{2}$ left removes $r$ for $a $
+$ \ilfUpCase{a}l_{2}$ left removes $r$ for $a $
+[ax(1, 12), 0]
+$ l$ doesn't change $r-$terms$ $
+$ \ilfUpCase{l}$ doesn't change $r-$terms$ $
+[ax(1, 4), 0]
+$ l-$factors commute$ $
+$ \ilfUpCase{l}-$factors commute$ $
+[ax(1, 13), 0]
+$ r$ doesn't change $l-$terms$ $
+$ \ilfUpCase{r}$ doesn't change $l-$terms$ $
+[ax(1, 18), 0]
+$ br_{1}$ right introduces $l$ for $b $
+$ \ilfUpCase{b}r_{1}$ right introduces $l$ for $b $
