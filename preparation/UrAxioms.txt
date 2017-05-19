@@ -1,0 +1,19 @@
+(x * y) * z = x * (y * z).
+x'' = x.
+x = x * (x' * x).
+x * x' = x' * x.
+%F is an automorphism such that F^2 = 1.
+F(x * y) = F(x) * F(y).
+F(F(x)) = x.
+
+%2-divisible
+s(x) * s(x) = x. 
+y * y = x -> y = s(x).
+
+%F fixes a point if and only if it is idempotent: Fix(F)=E 
+F(x) = x -> x * x = x.
+x * x = x -> F(x) = x. 
+end_of_list.
+
+formulas(goals).
+F(x) = x'.

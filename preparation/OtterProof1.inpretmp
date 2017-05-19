@@ -1,0 +1,18 @@
+op(400, xfy, +).  % infix operators
+set(build_proof_object).
+set(auto).
+set(prolog_style_variables).
+clear(build_proof_object).
+assign(max_given,0).
+assign(max_proofs,100).
+set(formula_history).
+formula_list(usable).
+% NAME: ev_ax
+- even(X) | - even(Y) | even(X + Y).
+% NAME: odd_ax
+- odd(X) | - odd(Y) | even(X + Y).
+% NAME: even_or_odd
+even(X) | odd(X).
+% NAME: goal
+- even(a + a).
+end_of_list.

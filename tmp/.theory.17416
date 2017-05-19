@@ -1,5 +1,0 @@
-\expandafter\ifx\csname Axiom\endcsname\relax%
-\newtheorem{Axiom}{Axiom}[section]\fi
-\begin{Axiom}[{$ \ilfUpCase{a}ssociativity $}]
-$ X_{1} \cdot  X_{2} \cdot  X_{3} = X_{1} \cdot  (X_{2} \cdot  X_{3}) $.
-\end{Axiom}

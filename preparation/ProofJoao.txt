@@ -1,0 +1,117 @@
+ILF_STATE
+	proof_title	"A Complex Proof"
+END_ILF_STATE
+
+TEXOP
+END_TEXOP
+
+FILE .opf
+%%%%%%%%%%%%%%%%%%%%%  Basic options
+%%%%%%%%%%%%%%%%%%%%%  Clauses
+list(usable).
+% NAME: ax_1
+(x * y) * z = x * (y * z).
+% NAME: ax_2
+l(x) * x = x. l(l(x) * l(y)) = l(x) * l(y).
+% NAME: ax_3
+l(x) * l(y) = l(y) * l(x). l(x) * l(x * y) = l(x * y).
+% NAME: ax_4
+l(x * y) = l(x * l(y)).
+% NAME: ax_5
+x * r(x) = x. r(r(x) * r(y)) = r(x) * r(y).
+% NAME: ax_6
+r(x) * r(y) = r(y) * r(x). r(x * y) * r(y) = r(x * y).
+% NAME: ax_7
+r(x * y) = r(r(x) * y).
+% NAME: ax_8
+l(r(x)) = r(x). r(l(x)) = l(x).
+
+% l(a) R a L r(a)
+% NAME: ax_9
+a * ar1 = l(a). l(a) * ar2 = a. al1 * a = r(a). al2 * r(a) = a.
+
+% l(b) R b L r(b)
+% NAME: ax_10
+b * br1 = l(b). l(b) * br2 = b. bl1 * b = r(b). bl2 * r(b) = b.
+% NAME: goal
+(a * b) * (br1 * ar1) != l(a * b).
+end_of_list.
+END_FILE
+
+============================== prooftrans ============================
+Prover9 (32) version Dec-2007, Dec 2007.
+Process 61290 was started by mjoao on imacdejoaraujo2.fc.ul.pt,
+Thu Mar 17 13:30:16 2016
+The command was "/Users/mjoao/Desktop/Prover9-Mace4-v05B.app/Contents/Resources/bin-mac-intel/prover9".
+============================== end of head ===========================
+
+============================== end of input ==========================
+
+============================== PROOF =================================
+
+% -------- Comments from original proof --------
+% Proof 1 at 0.49 (+ 0.03) seconds.
+% Length of proof is 56.
+% Level of proof is 10.
+% Maximum clause weight is 20.
+% Given clauses 184.
+
+1 (x * y) * z = x * (y * z).  [assumption].
+2 l(x) * x = x.  [assumption].
+3 l(l(x) * l(y)) = l(x) * l(y).  [assumption].
+4 l(x) * l(y) = l(y) * l(x).  [assumption].
+5 l(x) * l(x * y) = l(x * y).  [assumption].
+6 l(x * y) = l(x * l(y)).  [assumption].
+7 l(x * l(y)) = l(x * y).  [copy(6),flip(a)].
+8 x * r(x) = x.  [assumption].
+9 r(r(x) * r(y)) = r(x) * r(y).  [assumption].
+10 r(x) * r(y) = r(y) * r(x).  [assumption].
+13 r(x * y) = r(r(x) * y).  [assumption].
+14 r(r(x) * y) = r(x * y).  [copy(13),flip(a)].
+15 l(r(x)) = r(x).  [assumption].
+16 r(l(x)) = l(x).  [assumption].
+17 a * ar1 = l(a).  [assumption].
+18 l(a) = a * ar1.  [copy(17),flip(a)].
+19 l(a) * ar2 = a.  [assumption].
+20 a * (ar1 * ar2) = a.  [copy(19),rewrite([18(2),1(5)])].
+21 al1 * a = r(a).  [assumption].
+22 r(a) = al1 * a.  [copy(21),flip(a)].
+23 al2 * r(a) = a.  [assumption].
+24 al2 * (al1 * a) = a.  [copy(23),rewrite([22(3)])].
+25 b * br1 = l(b).  [assumption].
+26 l(b) = b * br1.  [copy(25),flip(a)].
+33 (a * b) * (br1 * ar1) != l(a * b).  [assumption].
+34 l(a * b) != a * (b * (br1 * ar1)).  [copy(33),rewrite([1(7)]),flip(a)].
+35 l(l(x) * y) = l(x) * l(y).  [back_rewrite(3),rewrite([7(4)])].
+36 r(x * r(y)) = r(x) * r(y).  [back_rewrite(9),rewrite([14(4)])].
+38 l(x) * (l(y) * z) = l(y) * (l(x) * z).  [para(4(a,1),1(a,1,1)),rewrite([1(4)])].
+46 l(x * y) * (x * l(y)) = x * l(y).  [para(7(a,1),2(a,1,1))].
+51 x * (r(x) * y) = x * y.  [para(8(a,1),1(a,1,1)),flip(a)].
+52 x * (y * r(x * y)) = x * y.  [para(8(a,1),1(a,1)),flip(a)].
+76 a * (ar1 * l(a * x)) = l(a * x).  [para(18(a,1),5(a,1,1)),rewrite([1(7)])].
+82 r(al1 * a) = al1 * a.  [para(20(a,1),14(a,2,1)),rewrite([22(2),1(7),20(6),22(6)])].
+83 a * (al1 * a) = a.  [para(22(a,1),8(a,1,2))].
+84 r(x) * (al1 * a) = al1 * (a * r(x)).  [para(22(a,1),10(a,1,1)),rewrite([1(5),22(8)]),flip(a)].
+87 l(al1 * a) = al1 * a.  [para(22(a,1),15(a,1,1)),rewrite([22(6)])].
+89 al2 * (al1 * (a * x)) = a * x.  [para(24(a,1),1(a,1,1)),rewrite([1(7)]),flip(a)].
+113 l(r(x) * y) = r(x) * l(y).  [para(15(a,1),35(a,1,1,1)),rewrite([15(5)])].
+118 r(x * (y * r(z))) = r(x * y) * r(z).  [para(1(a,1),36(a,1,1))].
+128 a * (al1 * (a * x)) = a * x.  [para(83(a,1),1(a,1,1)),rewrite([1(7)]),flip(a)].
+140 l(al1 * (a * x)) = al1 * (a * l(x)).  [para(87(a,1),35(a,1,1,1)),rewrite([1(4),87(9),1(10)])].
+155 x * (y * (r(x * y) * z)) = x * (y * z).  [para(51(a,1),1(a,1)),rewrite([1(2)]),flip(a)].
+182 r(x) * l(y * r(x * y)) = r(x) * l(y).  [para(52(a,1),113(a,1,1)),rewrite([113(3),14(7)]),flip(a)].
+201 a * (al1 * l(a * x)) = l(a * x).  [para(76(a,1),51(a,2)),rewrite([22(3),1(10),76(9)])].
+202 al2 * (al1 * l(a * x)) = l(a * x).  [para(76(a,1),89(a,1,2,2)),rewrite([76(14)])].
+205 r(x) * (al1 * (a * y)) = al1 * (a * (r(x) * y)).  [para(84(a,1),1(a,1,1)),rewrite([1(6),1(5),1(11)]),flip(a)].
+332 al1 * (a * (l(x) * (al1 * l(a * x)))) = al1 * l(a * x).  [para(140(a,1),46(a,1,1)),rewrite([1(11),1(10)])].
+365 l(x) * (al1 * (a * y)) = al1 * (a * (l(x) * y)).  [para(87(a,1),38(a,1,1)),rewrite([1(6),87(11),1(11)]),flip(a)].
+675 x * (y * l(z * r(x * (y * z)))) = x * (y * l(z)).  [para(182(a,1),155(a,1,2,2)),rewrite([155(6),1(5)]),flip(a)].
+897 l(x) * (al1 * l(a * x)) = al1 * l(a * x).  [para(332(a,1),365(a,2)),rewrite([201(9)])].
+899 r(x) * (al1 * l(a * r(x))) = al1 * l(a * r(x)).  [para(15(a,1),897(a,1,1))].
+946 al1 * l(a * r(x)) = al1 * (a * (r(x) * ar1)).  [para(84(a,1),675(a,1,2,2,1,2,1)),rewrite([118(9),82(7),1(8),128(9),899(8),18(10),205(13)])].
+1057 al1 * l(a * x) = al1 * (a * (l(x) * ar1)).  [para(16(a,1),946(a,1,2,1,2)),rewrite([7(5),16(9)])].
+1059 l(a * x) = a * (l(x) * ar1).  [back_rewrite(202),rewrite([1057(6),89(9)]),flip(a)].
+1077 $F.  [back_rewrite(34),rewrite([1059(4),26(3),1(6)]),xx(a)].
+
+============================== end of proof ==========================
+

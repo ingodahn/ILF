@@ -1,0 +1,10 @@
+ILF_STATE
+	proof_title	"A Proof from Joao on the ILF Server"
+END_ILF_STATE
+
+TEXOP
+END_TEXOP
+
+%NONPROLOG: "!="
+FILE .opf
+END_FILE
